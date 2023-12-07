@@ -1,0 +1,295 @@
+LOCUS       BBF10K_003492           5437 bp    DNA        linear       14-JUN-2022
+DEFINITION  synthetic linear DNA
+ACCESSION   .
+VERSION     .
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+REFERENCE   1  (bases 1 to 2001)
+  AUTHORS   Keoni Gandall
+  TITLE     Direct Submission
+  JOURNAL   Exported from Poly.
+COMMENT     
+COMMENT     ApEinfo:methylated:1
+FEATURES             Location/Qualifiers
+     terminator      1..2726
+                     /note="transcription terminator for bacteriophage T7 RNA 
+                     /locus_tag="T7 terminator"
+                     /label="T7 terminator"
+                     /ApEinfo_label="T7 terminator"
+                     /ApEinfo_fwdcolor="#9d1b1c"
+                     /ApEinfo_revcolor="#9d1b1c"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     terminator      2727..5437
+                     /note="transcription terminator for bacteriophage T7 RNA 
+                     /locus_tag="T7 terminator(1)"
+                     /label="T7 terminator(1)"
+                     /ApEinfo_label="T7 terminator"
+                     /ApEinfo_fwdcolor="#9d1b1c"
+                     /ApEinfo_revcolor="#9d1b1c"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     terminator      763..810
+                     /note="transcription terminator for bacteriophage T7 RNA
+                     polymerase"
+                     /locus_tag="T7 terminator(2)"
+                     /label="T7 terminator(2)"
+                     /ApEinfo_label="T7 terminator"
+                     /ApEinfo_fwdcolor="#9d1b1c"
+                     /ApEinfo_revcolor="#9d1b1c"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     terminator      3489..3536
+                     /note="transcription terminator for bacteriophage T7 RNA
+                     polymerase"
+                     /locus_tag="T7 terminator(3)"
+                     /label="T7 terminator(3)"
+                     /ApEinfo_label="T7 terminator"
+                     /ApEinfo_fwdcolor="#9d1b1c"
+                     /ApEinfo_revcolor="#9d1b1c"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     primer_bind     2658..2674
+                     /note="common sequencing primer, one of multiple similar
+                     variants"
+                     /locus_tag="M13 for"
+                     /label="M13 for"
+                     /ApEinfo_label="M13 for"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     primer_bind     5369..5385
+                     /note="common sequencing primer, one of multiple similar
+                     variants"
+                     /locus_tag="M13 for(1)"
+                     /label="M13 for(1)"
+                     /ApEinfo_label="M13 for"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     terminator      2675..2706
+                     /note="bidirectional E. coli tonB-P14 transcription
+                     terminator"
+                     /locus_tag="tonB terminator"
+                     /label="tonB terminator"
+                     /ApEinfo_label="tonB terminator"
+                     /ApEinfo_fwdcolor="#9d1b1c"
+                     /ApEinfo_revcolor="#9d1b1c"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     terminator      5386..5417
+                     /note="bidirectional E. coli tonB-P14 transcription
+                     terminator"
+                     /locus_tag="tonB terminator(1)"
+                     /label="tonB terminator(1)"
+                     /ApEinfo_label="tonB terminator"
+                     /ApEinfo_fwdcolor="#9d1b1c"
+                     /ApEinfo_revcolor="#9d1b1c"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     primer_bind     complement(3541..3557)
+                     /note="common sequencing primer, one of multiple similar
+                     variants"
+                     /locus_tag="M13 rev"
+                     /label="M13 rev"
+                     /ApEinfo_label="M13 rev"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     primer_bind     complement(815..831)
+                     /note="common sequencing primer, one of multiple similar
+                     variants"
+                     /locus_tag="M13 rev(1)"
+                     /label="M13 rev(1)"
+                     /ApEinfo_label="M13 rev"
+                     /ApEinfo_fwdcolor="#14c0bd"
+                     /ApEinfo_revcolor="#4ec02b"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     rep_origin      complement(3624..4212)
+                     /note="high-copy-number ColE1/pMB1/pBR322/pUC origin of
+                     replication"
+                     /locus_tag="ori"
+                     /label="ori"
+                     /ApEinfo_label="ori"
+                     /ApEinfo_fwdcolor="#999999"
+                     /ApEinfo_revcolor="#999999"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     rep_origin      complement(898..1486)
+                     /note="high-copy-number ColE1/pMB1/pBR322/pUC origin of
+                     replication"
+                     /locus_tag="ori(1)"
+                     /label="ori(1)"
+                     /ApEinfo_label="ori"
+                     /ApEinfo_fwdcolor="#999999"
+                     /ApEinfo_revcolor="#999999"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     CDS             complement(4403..5248)
+                     /note="confers resistance to ampicillin, carbenicillin,
+                     and related antibiotics"
+                     /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGY
+                     IELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRIDAGQEQLGRRIHYSQNDLVE
+                     YSPVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRL
+                     DRWEPELNEAIPNDERDTTMPVAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPL
+                     LRSALPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIA
+                     EIGASLIKHW*"
+                     /locus_tag="bla"
+                     /label="bla"
+                     /ApEinfo_label="bla"
+                     /ApEinfo_fwdcolor="#e9d024"
+                     /ApEinfo_revcolor="#e9d024"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     CDS             complement(1677..2537)
+                     /note="confers resistance to ampicillin, carbenicillin,
+                     and related antibiotics"
+                     /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGY
+                     IELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRIDAGQEQLGRRIHYSQNDLVE
+                     YSPVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRL
+                     DRWEPELNEAIPNDERDTTMPVAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPL
+                     LRSALPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIA
+                     EIGASLIKHW*"
+                     /locus_tag="bla(1)"
+                     /label="bla(1)"
+                     /ApEinfo_label="bla"
+                     /ApEinfo_fwdcolor="#e9d024"
+                     /ApEinfo_revcolor="#e9d024"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     promoter        complement(5249..5353)
+                     /note="ampicillin resistance gene promoter"
+                     /locus_tag="bla promoter"
+                     /label="bla promoter"
+                     /ApEinfo_label="bla promoter"
+                     /ApEinfo_fwdcolor="#346ee0"
+                     /ApEinfo_revcolor="#346ee0"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     promoter        complement(2538..2642)
+                     /note="ampicillin resistance gene promoter"
+                     /locus_tag="bla promoter(1)"
+                     /label="bla promoter(1)"
+                     /ApEinfo_label="bla promoter"
+                     /ApEinfo_fwdcolor="#346ee0"
+                     /ApEinfo_revcolor="#346ee0"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    3392..3451
+                     /note="FreeGenes Barcode. Defined as I-SceI site flanked
+                     by 21 base pair random sequences."
+                     /locus_tag="FreeGenes Barcode"
+                     /label="FreeGenes Barcode"
+                     /ApEinfo_label="FreeGenes Barcode"
+                     /ApEinfo_fwdcolor="#7eff74"
+                     /ApEinfo_revcolor="#7eff74"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    666..725
+                     /note="FreeGenes Barcode. Defined as I-SceI site flanked
+                     by 21 base pair random sequences."
+                     /locus_tag="FreeGenes Barcode(1)"
+                     /label="FreeGenes Barcode(1)"
+                     /ApEinfo_label="FreeGenes Barcode"
+                     /ApEinfo_fwdcolor="#7eff74"
+                     /ApEinfo_revcolor="#7eff74"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+ORIGIN
+        1 AACGATGATG CTCACTCTCG GGTACCCAAT CCAACACTCG AATCCCCACC CGTTGGACCA
+       61 AACCCGGCTC ATTAAGCGTC GGTTCAGATT TATTTCCTTT ATTTAAAAAA AAGGAAAGGG
+      121 TAAAAAATAG AAAATTGGAA ACAGTTAAAG CCCAAAATTG TAATTTACCG AGAATTGTAA
+      181 ATTTACCTGA AAACCCTACG CTATAGTTTC GACTATAAAT ACCAAACTTA GGACCTCACT
+      241 TCAGAATCCC CTCGTCGCTG CGTCTCTCTC CCGCAACCTT CGATTTTCGT TTATTCGCAT
+      301 CCATCGGAGA GAGAAAACAA TCAATAAGCG ACAATGGGAG ACCGTAACTA ACTTAAGTAA
+      361 GGTCTCAGCT TCAAGAGCTC AGATATGAAG ATGAAGATGA AATATTTGGT GTGTCAAATA
+      421 AAAAGCTTGT GTGCTTAAGT TTGTGTTTTT TTCTTGGCTT GTTGTGTTAT GAATTTGTGG
+      481 CTTTTTCTAA TATTAAATGA ATGTAAGATC TCATTATAAT GAATAAACAA ATGTTTCTAT
+      541 AATCCATTGT GAATGTTTTG TTGGATCTCT TCTGCAGCAT ATAACTACTG TATGTGCTAT
+      601 GGTATGGACT ATGGAATATG ATTAAAGATA AGGATCAATG GATCCCAGTC CTTGCCAATC
+      661 GAAGTCTCGT CCAGTATGTT AGTCGCTAGG GATAACAGGG TAATGAAGAT GGTTTCCTCT
+      721 TCGTGCGCTG AGGTGTCAAT CGTCGGAGCC GCTGAGCAAT AACTAGCATA ACCCCTTGGG
+      781 GCCTCTAAAC GGGTCTTGAG GGGTTTTTTG CATGGTCATA GCTGTTTCCT GAGAGCTTGG
+      841 CAGGTGATGA CACACATTAA CAAATTTCGT GAGGAGTCTC CAGAAGAATG CCATTAATTT
+      901 CCATAGGCTC CGCCCCCCTG ACGAGCATCA CAAAAATCGA CGCTCAAGTC AGAGGTGGCG
+      961 AAACCCGACA GGACTATAAA GATACCAGGC GTTTCCCCCT GGAAGCTCCC TCGTGCGCTC
+     1021 TCCTGTTCCG ACCCTGCCGC TTACCGGATA CCTGTCCGCC TTTCTCCCTT CGGGAAGCGT
+     1081 GGCGCTTTCT CATAGCTCAC GCTGTAGGTA TCTCAGTTCG GTGTAGGTCG TTCGCTCCAA
+     1141 GCTGGGCTGT GTGCACGAAC CCCCCGTTCA GCCCGACCGC TGCGCCTTAT CCGGTAACTA
+     1201 TCGTCTTGAG TCCAACCCGG TAAGACACGA CTTATCGCCA CTGGCAGCAG CCACTGGTAA
+     1261 CAGGATTAGC AGAGCGAGGT ATGTAGGCGG TGCTACAGAG TTCTTGAAGT GGTGGCCTAA
+     1321 CTACGGCTAC ACTAGAAGAA CAGTATTTGG TATCTGCGCT CTGCTGAAGC CAGTTACCTT
+     1381 CGGAAAAAGA GTTGGTAGCT CTTGATCCGG CAAACAAACC ACCGCTGGTA GCGGTGGTTT
+     1441 TTTTGTTTGC AAGCAGCAGA TTACGCGCAG AAAAAAAGGA TCTCAAGAAG GCCTACTATT
+     1501 AGCAACAACG ATCCTTTGAT CTTTTCTACG GGGTCTGACG CTCAGTGGAA CGAAAACTCA
+     1561 CGTTAAGGGA TTTTGGTCAT GAGATTATCA AAAAGGATCT TCACCTAGAT CCTTTTAAAT
+     1621 TAAAAATGAA GTTTTAAATC AATCTAAAGT ATATATGAGT AAACTTGGTC TGACAGTTAC
+     1681 CAATGCTTAA TCAGTGAGGC ACCTATCTCA GCGATCTGTC TATTTCGTTC ATCCATAGTT
+     1741 GCCTGACTCC CCGTCGTGTA GATAACTACG ATACGGGAGG GCTTACCATC TGGCCCCAGT
+     1801 GCTGCAATGA TACCGCGAGA ACCACGCTCA CCGGCTCCAG ATTTATCAGC AATAAACCAG
+     1861 CCAGCCGGAA GGGCCGAGCG CAGAAGTGGT CCTGCAACTT TATCCGCCTC CATCCAGTCT
+     1921 ATTAATTGTT GCCGGGAAGC TAGAGTAAGT AGTTCGCCAG TTAATAGTTT GCGCAACGTT
+     1981 GTTGCCATTG CTACAGGCAT CGTGGTGTCA CGCTCGTCGT TTGGTATGGC TTCATTCAGC
+     2041 TCCGGTTCCC AACGATCAAG GCGAGTTACA TGATCCCCCA TGTTGTGCAA AAAAGCGGTT
+     2101 AGCTCCTTCG GTCCTCCGAT CGTTGTCAGA AGTAAGTTGG CCGCAGTGTT ATCACTCATG
+     2161 GTTATGGCAG CACTGCATAA TTCTCTTACT GTCATGCCAT CCGTAAGATG CTTTTCTGTG
+     2221 ACTGGTGAGT ACTCAACCAA GTCATTCTGA GAATAGTGTA TGCGGCGACC GAGTTGCTCT
+     2281 TGCCCGGCGT CAATACGGGA TAATACCGCG CCACATAGCA GAACTTTAAA AGTGCTCATC
+     2341 ATTGGAAAAC GTTCTTCGGG GCGAAAACTC TCAAGGATCT TACCGCTGTT GAGATCCAGT
+     2401 TCGATGTAAC CCACTCGTGC ACCCAACTGA TCTTCAGCAT CTTTTACTTT CACCAGCGTT
+     2461 TCTGGGTGAG CAAAAACAGG AAGGCAAAAT GCCGCAAAAA AGGGAATAAG GGCGACACGG
+     2521 AAATGTTGAA TACTCATACT CTTCCTTTTT CAATATTATT GAAGCATTTA TCAGGGTTAT
+     2581 TGTCTCATGA GCGGATACAT ATTTGAATGT ATTTAGAAAA ATAAACAAAT AGGGGTTCCG
+     2641 CGCACCTGCA CCAGTCAGTA AAACGACGGC CAGTAGTCAA AAGCCTCCGA CCGGAGGCTT
+     2701 TTGACTTGGT TCAGGTGGAG TGGGAGAACG ATGATGCTCA CTCTCGGGTA CCCAATCCAA
+     2761 CACTCGAATC CCCACCCGTT GGACCAAACC CGGCTCATTA AGCGTCGGTT CAGATTTATT
+     2821 TCCTTTATTT AAAAAAAAGG AAAGGGTAAA AAATAGAAAA TTGGAAACAG TTAAAGCCCA
+     2881 AAATTGTAAT TTACCGAGAA TTGTAAATTT ACCTGAAAAC CCTACGCTAT AGTTTCGACT
+     2941 ATAAATACCA AACTTAGGAC CTCACTTCAG AATCCCCTCG TCGCTGCGTC TCTCTCCCGC
+     3001 AACCTTCGAT TTTCGTTTAT TCGCATCCAT CGGAGAGAGA AAACAATCAA TAAGCGACAA
+     3061 TGGGAGACCG TAACTAACTT AAGTAAGGTC TCAGCTTCAA GAGCTCAGAT ATGAAGATGA
+     3121 AGATGAAATA TTTGGTGTGT CAAATAAAAA GCTTGTGTGC TTAAGTTTGT GTTTTTTTCT
+     3181 TGGCTTGTTG TGTTATGAAT TTGTGGCTTT TTCTAATATT AAATGAATGT AAGATCTCAT
+     3241 TATAATGAAT AAACAAATGT TTCTATAATC CATTGTGAAT GTTTTGTTGG ATCTCTTCTG
+     3301 CAGCATATAA CTACTGTATG TGCTATGGTA TGGACTATGG AATATGATTA AAGATAAGGA
+     3361 TCAATGGATC CCAGTCCTTG CCAATCGAAG TCTCGTCCAG TATGTTAGTC GCTAGGGATA
+     3421 ACAGGGTAAT GAAGATGGTT TCCTCTTCGT GCGCTGAGGT GTCAATCGTC GGAGCCGCTG
+     3481 AGCAATAACT AGCATAACCC CTTGGGGCCT CTAAACGGGT CTTGAGGGGT TTTTTGCATG
+     3541 GTCATAGCTG TTTCCTGAGA GCTTGGCAGG TGATGACACA CATTAACAAA TTTCGTGAGG
+     3601 AGTCTCCAGA AGAATGCCAT TAATTTCCAT AGGCTCCGCC CCCCTGACGA GCATCACAAA
+     3661 AATCGACGCT CAAGTCAGAG GTGGCGAAAC CCGACAGGAC TATAAAGATA CCAGGCGTTT
+     3721 CCCCCTGGAA GCTCCCTCGT GCGCTCTCCT GTTCCGACCC TGCCGCTTAC CGGATACCTG
+     3781 TCCGCCTTTC TCCCTTCGGG AAGCGTGGCG CTTTCTCATA GCTCACGCTG TAGGTATCTC
+     3841 AGTTCGGTGT AGGTCGTTCG CTCCAAGCTG GGCTGTGTGC ACGAACCCCC CGTTCAGCCC
+     3901 GACCGCTGCG CCTTATCCGG TAACTATCGT CTTGAGTCCA ACCCGGTAAG ACACGACTTA
+     3961 TCGCCACTGG CAGCAGCCAC TGGTAACAGG ATTAGCAGAG CGAGGTATGT AGGCGGTGCT
+     4021 ACAGAGTTCT TGAAGTGGTG GCCTAACTAC GGCTACACTA GAAGAACAGT ATTTGGTATC
+     4081 TGCGCTCTGC TGAAGCCAGT TACCTTCGGA AAAAGAGTTG GTAGCTCTTG ATCCGGCAAA
+     4141 CAAACCACCG CTGGTAGCGG TGGTTTTTTT GTTTGCAAGC AGCAGATTAC GCGCAGAAAA
+     4201 AAAGGATCTC AAGAAGGCCT ACTATTAGCA ACAACGATCC TTTGATCTTT TCTACGGGGT
+     4261 CTGACGCTCA GTGGAACGAA AACTCACGTT AAGGGATTTT GGTCATGAGA TTATCAAAAA
+     4321 GGATCTTCAC CTAGATCCTT TTAAATTAAA AATGAAGTTT TAAATCAATC TAAAGTATAT
+     4381 ATGAGTAAAC TTGGTCTGAC AGTTACCAAT GCTTAATCAG TGAGGCACCT ATCTCAGCGA
+     4441 TCTGTCTATT TCGTTCATCC ATAGTTGCCT GACTCCCCGT CGTGTAGATA ACTACGATAC
+     4501 GGGAGGGCTT ACCATCTGGC CCCAGTGCTG CAATGATACC GCGAGAACCA CGCTCACCGG
+     4561 CTCCAGATTT ATCAGCAATA AACCAGCCAG CCGGAAGGGC CGAGCGCAGA AGTGGTCCTG
+     4621 CAACTTTATC CGCCTCCATC CAGTCTATTA ATTGTTGCCG GGAAGCTAGA GTAAGTAGTT
+     4681 CGCCAGTTAA TAGTTTGCGC AACGTTGTTG CCATTGCTAC AGGCATCGTG GTGTCACGCT
+     4741 CGTCGTTTGG TATGGCTTCA TTCAGCTCCG GTTCCCAACG ATCAAGGCGA GTTACATGAT
+     4801 CCCCCATGTT GTGCAAAAAA GCGGTTAGCT CCTTCGGTCC TCCGATCGTT GTCAGAAGTA
+     4861 AGTTGGCCGC AGTGTTATCA CTACTGCATA ATTCTCTTAC TGTCATGCCA TCCGTAAGAT
+     4921 GCTTTTCTGT GACTGGTGAG TACTCAACCA AGTCATTCTG AGAATAGTGT ATGCGGCGAC
+     4981 CGAGTTGCTC TTGCCCGGCG TCAATACGGG ATAATACCGC GCCACATAGC AGAACTTTAA
+     5041 AAGTGCTCAT CATTGGAAAA CGTTCTTCGG GGCGAAAACT CTCAAGGATC TTACCGCTGT
+     5101 TGAGATCCAG TTCGATGTAA CCCACTCGTG CACCCAACTG ATCTTCAGCA TCTTTTACTT
+     5161 TCACCAGCGT TTCTGGGTGA GCAAAAACAG GAAGGCAAAA TGCCGCAAAA AAGGGAATAA
+     5221 GGGCGACACG GAAATGTTGA ATACTCATAC TCTTCCTTTT TCAATATTAT TGAAGCATTT
+     5281 ATCAGGGTTA TTGTCTCATG AGCGGATACA TATTTGAATG TATTTAGAAA AATAAACAAA
+     5341 TAGGGGTTCC GCGCACCTGC ACCAGTCAGT AAAACGACGG CCAGTAGTCA AAAGCCTCCG
+     5401 ACCGGAGGCT TTTGACTTGG TTCAGGTGGA GTGGGAG  
+//

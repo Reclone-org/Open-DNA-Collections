@@ -1,0 +1,6 @@
+*.pyc
+*token.json
+*.pickle
+*.old
+*.csv
+credentials*

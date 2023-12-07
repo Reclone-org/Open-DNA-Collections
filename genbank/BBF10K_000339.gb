@@ -1,0 +1,89 @@
+LOCUS       Exported     2504 bp     DNA     circular     SYN     24-JUL-2020
+DEFINITION  synthetic linear DNA
+ACCESSION   .
+VERSION     .
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+REFERENCE   1  (bases 1 to 2001)
+  AUTHORS   Keoni Gandall
+  TITLE     Direct Submission
+  JOURNAL   Exported from Poly.
+FEATURES             Location/Qualifiers
+     terminator      1..2504
+                     /label="T7 terminator"
+                     /note="transcription terminator for bacteriophage T7 RNA  polymerase"
+     terminator      517..564
+                     /label="T7 terminator"
+                     /note="transcription terminator for bacteriophage T7 RNA polymerase"
+     primer_bind     2392..2408
+                     /label="M13 for"
+                     /note="common sequencing primer, one of multiple similar variants"
+     terminator      2409..2440
+                     /label="tonB terminator"
+                     /note="bidirectional E. coli tonB-P14 transcription terminator"
+     CDS             1..0
+                     /label="MMSYN1_0776"
+                     /note="Required for rescue of stalled ribosomes mediated by trans-translation. Binds to transfer-messenger RNA (tmRNA), required for stable association of tmRNA with ribosomes. tmRNA and SmpB together mimic tRNA shape, replacing the anticodon stem-loop with SmpB. tmRNA is encoded by the ssrA gene; the 2 termini fold to resemble tRNA(Ala) and it encodes a 'tag peptide', a short internal open reading frame. During trans-translation Ala-aminoacylated tmRNA acts like a tRNA, entering the A-site of stalled ribosomes, displacing the stalled mRNA. The ribosome then switches to translate the ORF on the tmRNA; the nascent peptide is terminated with the 'tag peptide' encoded by the tmRNA and targeted for degradation. The ribosome is freed to recommence translation, which seems to be the essential function of trans-translation."
+                     /translation="MSEHLIVKNKKAYFNYEIIQTYQAGIVLNGPEIKSIRNHDVSINEAFVLIRKKEIYILNMNVKKYQFANYIKGLEETRTRKLLLHKKEIIKILNKIKQENLTIIPVKLYFKNDYVKLEIALAKGKKLHDKRQTIKKRDTERKELKDYK"
+     primer_bind     complement(569..585)
+                     /label="M13 rev"
+                     /note="common sequencing primer, one of multiple similar variants"
+     rep_origin      complement(652..1240)
+                     /label="ori"
+                     /note="high-copy-number ColE1/pMB1/pBR322/pUC origin of replication"
+     CDS             complement(1411..2271)
+                     /label="bla"
+                     /note="confers resistance to ampicillin, carbenicillin, and related antibiotics"
+                     /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYIELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRIDAGQEQLGRRIHYSQNDLVEYSPVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRWEPELNEAIPNDERDTTMPVAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSALPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGASLIKHW*"
+     promoter        complement(2272..2376)
+                     /label="bla promoter"
+                     /note="ampicillin resistance gene promoter"
+     CDS             complement(1..0)
+                     /label="MMSYN1_0776"
+                     /note="Required for rescue of stalled ribosomes mediated by trans-translation. Binds to transfer-messenger RNA (tmRNA), required for stable association of tmRNA with ribosomes. tmRNA and SmpB together mimic tRNA shape, replacing the anticodon stem-loop with SmpB. tmRNA is encoded by the ssrA gene; the 2 termini fold to resemble tRNA(Ala) and it encodes a 'tag peptide', a short internal open reading frame. During trans-translation Ala-aminoacylated tmRNA acts like a tRNA, entering the A-site of stalled ribosomes, displacing the stalled mRNA. The ribosome then switches to translate the ORF on the tmRNA; the nascent peptide is terminated with the 'tag peptide' encoded by the tmRNA and targeted for degradation. The ribosome is freed to recommence translation, which seems to be the essential function of trans-translation."
+                     /translation="MSEHLIVKNKKAYFNYEIIQTYQAGIVLNGPEIKSIRNHDVSINEAFVLIRKKEIYILNMNVKKYQFANYIKGLEETRTRKLLLHKKEIIKILNKIKQENLTIIPVKLYFKNDYVKLEIALAKGKKLHDKRQTIKKRDTERKELKDYK"
+ORIGIN
+        1 ATGTCTGAGC ATTTAATTGT GAAGAATAAA AAGGCGTACT TTAATTACGA GATTATCCAA
+       61 ACCTATCAGG CTGGAATTGT TCTTAATGGC CCGGAGATTA AATCAATTCG TAATCATGAC
+      121 GTGAGCATTA ACGAAGCCTT CGTACTGATC CGTAAAAAGG AGATTTATAT CCTTAATATG
+      181 AATGTGAAGA AGTATCAGTT CGCAAATTAT ATCAAGGGAC TGGAAGAAAC ACGTACTCGC
+      241 AAGTTGTTGT TACATAAGAA GGAGATCATT AAGATCCTGA ACAAAATTAA ACAGGAAAAC
+      301 TTGACAATCA TCCCAGTAAA ACTTTATTTC AAAAATGATT ATGTCAAGTT GGAGATTGCG
+      361 TTAGCCAAGG GGAAGAAATT GCATGACAAA CGCCAGACTA TCAAGAAGCG TGACACTGAA
+      421 CGCAAAGAAC TGAAGGACTA CAAGTGAAGA GCTTAGAGAC CGGTACTAGT TCCTGCAGGG
+      481 CTCGAGGTGT CAATCGTCGG AGCCGCTGAG CAATAACTAG CATAACCCCT TGGGGCCTCT
+      541 AAACGGGTCT TGAGGGGTTT TTTGCATGGT CATAGCTGTT TCCTGAGAGC TTGGCAGGTG
+      601 ATGACACACA TTAACAAATT TCGTGAGGAG TCTCCAGAAG AATGCCATTA ATTTCCATAG
+      661 GCTCCGCCCC CCTGACGAGC ATCACAAAAA TCGACGCTCA AGTCAGAGGT GGCGAAACCC
+      721 GACAGGACTA TAAAGATACC AGGCGTTTCC CCCTGGAAGC TCCCTCGTGC GCTCTCCTGT
+      781 TCCGACCCTG CCGCTTACCG GATACCTGTC CGCCTTTCTC CCTTCGGGAA GCGTGGCGCT
+      841 TTCTCATAGC TCACGCTGTA GGTATCTCAG TTCGGTGTAG GTCGTTCGCT CCAAGCTGGG
+      901 CTGTGTGCAC GAACCCCCCG TTCAGCCCGA CCGCTGCGCC TTATCCGGTA ACTATCGTCT
+      961 TGAGTCCAAC CCGGTAAGAC ACGACTTATC GCCACTGGCA GCAGCCACTG GTAACAGGAT
+     1021 TAGCAGAGCG AGGTATGTAG GCGGTGCTAC AGAGTTCTTG AAGTGGTGGC CTAACTACGG
+     1081 CTACACTAGA AGAACAGTAT TTGGTATCTG CGCTCTGCTG AAGCCAGTTA CCTTCGGAAA
+     1141 AAGAGTTGGT AGCTCTTGAT CCGGCAAACA AACCACCGCT GGTAGCGGTG GTTTTTTTGT
+     1201 TTGCAAGCAG CAGATTACGC GCAGAAAAAA AGGATCTCAA GAAGATCCTT TGATCTTTTC
+     1261 TACGGGGTCT GACGCTCAGT GGAACGAAAA CTCACGTTAA GGGATTTTGG TCATGAGATT
+     1321 ATCAAAAAGG ATCTTCACCT AGATCCTTTT AAATTAAAAA TGAAGTTTTA AATCAATCTA
+     1381 AAGTATATAT GAGTAAACTT GGTCTGACAG TTACCAATGC TTAATCAGTG AGGCACCTAT
+     1441 CTCAGCGATC TGTCTATTTC GTTCATCCAT AGTTGCCTGA CTCCCCGTCG TGTAGATAAC
+     1501 TACGATACGG GAGGGCTTAC CATCTGGCCC CAGTGCTGCA ATGATACCGC GAGAACCACG
+     1561 CTCACCGGCT CCAGATTTAT CAGCAATAAA CCAGCCAGCC GGAAGGGCCG AGCGCAGAAG
+     1621 TGGTCCTGCA ACTTTATCCG CCTCCATCCA GTCTATTAAT TGTTGCCGGG AAGCTAGAGT
+     1681 AAGTAGTTCG CCAGTTAATA GTTTGCGCAA CGTTGTTGCC ATTGCTACAG GCATCGTGGT
+     1741 GTCACGCTCG TCGTTTGGTA TGGCTTCATT CAGCTCCGGT TCCCAACGAT CAAGGCGAGT
+     1801 TACATGATCC CCCATGTTGT GCAAAAAAGC GGTTAGCTCC TTCGGTCCTC CGATCGTTGT
+     1861 CAGAAGTAAG TTGGCCGCAG TGTTATCACT CATGGTTATG GCAGCACTGC ATAATTCTCT
+     1921 TACTGTCATG CCATCCGTAA GATGCTTTTC TGTGACTGGT GAGTACTCAA CCAAGTCATT
+     1981 CTGAGAATAG TGTATGCGGC GACCGAGTTG CTCTTGCCCG GCGTCAATAC GGGATAATAC
+     2041 CGCGCCACAT AGCAGAACTT TAAAAGTGCT CATCATTGGA AAACGTTCTT CGGGGCGAAA
+     2101 ACTCTCAAGG ATCTTACCGC TGTTGAGATC CAGTTCGATG TAACCCACTC GTGCACCCAA
+     2161 CTGATCTTCA GCATCTTTTA CTTTCACCAG CGTTTCTGGG TGAGCAAAAA CAGGAAGGCA
+     2221 AAATGCCGCA AAAAAGGGAA TAAGGGCGAC ACGGAAATGT TGAATACTCA TACTCTTCCT
+     2281 TTTTCAATAT TATTGAAGCA TTTATCAGGG TTATTGTCTC ATGAGCGGAT ACATATTTGA
+     2341 ATGTATTTAG AAAAATAAAC AAATAGGGGT TCCGCGCACC TGCACCAGTC AGTAAAACGA
+     2401 CGGCCAGTAG TCAAAAGCCT CCGACCGGAG GCTTTTGACT TGGTCAGGTG GAGTGAATTC
+     2461 GCGGCCGCTT CTAGAGGCTC TTCGTAATTA CGAAGAGGTC TCTA
+//
