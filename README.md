@@ -10,6 +10,7 @@ Here you can find the genbank files and metadata for the plasmids in different c
 - Open Reporters Collection
 - Open Yeast Collection
 - Open Plasmids
+- E.coli Protein Expression Toolkit
 - Molecular Diagnostics Toolkit
 
 ## Sheets Backend
