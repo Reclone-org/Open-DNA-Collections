@@ -46,13 +46,10 @@ Some or all of these items are for use only as permitted by a research exemption
 | KTHEAQpol | KlenTaq1 polymerase  | BBF10K_003251 |
 | KODpol | KOD DNA polymerase | BBF10K_003252 |
 | Pwopol | Pwo DNA Polymerase | BBF10K_003254 |
-| GBDpol (exo) | Pyrococcus Sp. Heat-Stable (exo–) DNA Polymerase
-(Deep Vent™ (exo–) DNA Polymerase at NEB) | BBF10K_003255 |
-| GBDpol | Pyrococcus Sp. Heat-Stable DNA Polymerase 
-(Deep Vent™ at NEB) | BBF10K_003256 |
+| GBDpol (exo) | Pyrococcus Sp. Heat-Stable (exo–) DNA Polymerase (Deep Vent™ (exo–) DNA Polymerase at NEB) | BBF10K_003255 |
+| GBDpol | Pyrococcus Sp. Heat-Stable DNA Polymerase (Deep Vent™ at NEB) | BBF10K_003256 |
 | THEAQpolA | Taq DNA Polymerase | BBF10K_003257 |
-| Tlipol (exo) | Tli DNA polymerase (exo-)
-(available from NEB as VentR® (exo-) DNA Polymerase) | BBF10K_003259 |
+| Tlipol (exo) | Tli DNA polymerase (exo-) (available from NEB as VentR® (exo-) DNA Polymerase) | BBF10K_003259 |
 | TthpolA | Tth DNA polymerase | BBF10K_003260 |
 | Bstpol | Bst DNA Polymerase, Full Length | BBF10K_003261 |
 | BstpolLF | Bst DNA Polymerase, Large Fragment | BBF10K_003262 |
