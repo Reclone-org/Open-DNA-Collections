@@ -1,3 +1,5 @@
+# Open Enzyme Collection
+
 The Open Enzyme Collection consists of 81 genes for enzymes that are "workhorses" of molecular biology, including DNA polymerases, RNA polymerases,
 DNA ligases, reverse transcriptases and restriction enzymes. The enzymes are useful in both basic and applied fields as diverse as genomics, diagnostics,
 biodiversity, synthetic biology, DNA origami, immunology, biochemistry and more.
