@@ -26,7 +26,7 @@ The collection is compatible with all the CDSs present in the Open Enzyme collec
 
 |Version|Name|Platemap|
 |---|---|---|
-||Freegenes Limited Distribution|[Plate 1](https://github.com/Reclone-org/Open-DNA-Collections/tree/main/Ecoli%20Protein%20Expression%20Toolkit/Platemaps/EPET-v1_0-1.csv) and [Plate 2](https://github.com/Reclone-org/Open-DNA-Collections/tree/main/Ecoli%20Protein%20Expression%20Toolkit/Platemaps/EPET-v1_0-2.csv)|
+|1.0|Freegenes Limited Distribution|[Plate 1](https://github.com/Reclone-org/Open-DNA-Collections/tree/main/Ecoli%20Protein%20Expression%20Toolkit/Platemaps/EPET-v1_0-1.csv) and [Plate 2](https://github.com/Reclone-org/Open-DNA-Collections/tree/main/Ecoli%20Protein%20Expression%20Toolkit/Platemaps/EPET-v1_0-2.csv)|
 ||iGEM 2022 Distribution Plate 2|[here](https://cdn.shopify.com/s/files/1/0368/2444/9068/files/iGEM_2022_distribution_kit_plate_2_FreeGenes_parts_plate_map.csv?v=1656608514)|
 
 ---
