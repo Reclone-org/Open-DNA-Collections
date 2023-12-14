@@ -33,7 +33,7 @@ Some or all of these items are for use only as permitted by a research exemption
 |---|---|---|
 ||Freegenes Current Distribution|here|
 ||iGEM 2022 Distribution Plate 2|here|
-||Freegenes Limited Distribution|Plate 1 and Plate 2|
+||Freegenes Limited Distribution|[Plate 1](https://github.com/Reclone-org/Open-DNA-Collections/tree/main/Open%20Enzyme%20Collection/Platemaps/OEC_v0-1_1.csv) and [Plate 2](https://github.com/Reclone-org/Open-DNA-Collections/tree/main/Open%20Enzyme%20Collection/Platemaps/OEC_v0-1_2.csv)|
 
 ---
 
