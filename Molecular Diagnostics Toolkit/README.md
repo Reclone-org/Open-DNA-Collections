@@ -30,6 +30,7 @@ Some or all of these items are for use only as permitted by a research exemption
 
 |Version|Name|Platemap|
 |---|---|---|
+|1.1|OBL early 2024 Distribution|[here](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Molecular%20Diagnostics%20Toolkit/Platemaps/MDT-v1_1.csv)
 |1.0|Freegenes Current Distribution|[here](https://github.com/Reclone-org/Open-DNA-Collections/tree/main/Molecular%20Diagnostics%20Toolkit/Platemaps/MDT-v1_0.csv)|
 |0.1|Freegenes Limited Distribution|[Plate 1](https://github.com/Reclone-org/Open-DNA-Collections/tree/main/Molecular%20Diagnostics%20Toolkit/Platemaps/MDT-v0_1-1.csv) and [Plate 2](https://github.com/Reclone-org/Open-DNA-Collections/tree/main/Molecular%20Diagnostics%20Toolkit/Platemaps/MDT-v0_1-2.csv)|
 
