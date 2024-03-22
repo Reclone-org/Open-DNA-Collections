@@ -20,12 +20,12 @@ Open Reporters are not provided in expression vectors. In order to see a color, 
 
 ### Versions and Platemaps
 
-|Version|Name|Platemap|
-|---|---|---|
-|1.1|OBL early 2024 Distribution|[here](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Platemaps/ORC-v1_1.csv)|
-|1.0|Freegenes current distribution|[here](https://github.com/Reclone-org/Open-DNA-Collections/tree/main/Open%20Reporters%20Collection/Platemaps/ORC-v1_0.csv)|
-|0.1|Open Enzymes 2 Open Reporters|[here](https://github.com/Reclone-org/Open-DNA-Collections/tree/main/Open%20Reporters%20Collection/Platemaps/ORC-v0_1.csv)|
-||iGEM 2022 Distribution Plate 2|[here](https://cdn.shopify.com/s/files/1/0368/2444/9068/files/iGEM_2022_distribution_kit_plate_2_FreeGenes_parts_plate_map.csv?v=1656608514)|
+|Version|Name|Platemap|Distribution Period|
+|---|---|---|---|
+|1.1|OBL early 2024 Distribution|[here](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Platemaps/ORC-v1_1.csv)| 03/2024 - current|
+|1.0|Freegenes current distribution|[here](https://github.com/Reclone-org/Open-DNA-Collections/tree/main/Open%20Reporters%20Collection/Platemaps/ORC-v1_0.csv)||
+|0.1|Open Enzymes 2 Open Reporters|[here](https://github.com/Reclone-org/Open-DNA-Collections/tree/main/Open%20Reporters%20Collection/Platemaps/ORC-v0_1.csv)||
+||iGEM 2022 Distribution Plate 2|[here](https://cdn.shopify.com/s/files/1/0368/2444/9068/files/iGEM_2022_distribution_kit_plate_2_FreeGenes_parts_plate_map.csv?v=1656608514)||
 
 ---
 
