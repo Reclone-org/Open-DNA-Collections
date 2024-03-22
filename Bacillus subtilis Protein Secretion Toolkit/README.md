@@ -37,9 +37,9 @@ starting from only six or fewer SecTag variant plasmids.
 
 |Gene|Name|Freegenes ID|
 |---|---|---|
-| BsubSecTagLP_1 | Bacillus subtilis Secretion Tag Library Plasmid 1 of 6 | [BBF10K_000485](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Bacillus%20subtilis%20Protein%20Secretion%20Toolkit/Plasmids_Genbank/BBF10K_000485) |
-| BsubSecTagLP_2 | Bacillus subtilis Secretion Tag Library Plasmid 2 of 6 | [BBF10K_000486](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Bacillus%20subtilis%20Protein%20Secretion%20Toolkit/Plasmids_Genbank/BBF10K_000486) |
-| BsubSecTagLP_3 | Bacillus subtilis Secretion Tag Library Plasmid 3 of 6 | [BBF10K_000487](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Bacillus%20subtilis%20Protein%20Secretion%20Toolkit/Plasmids_Genbank/BBF10K_000487) |
-| BsubSecTagLP_4 | Bacillus subtilis Secretion Tag Library Plasmid 4 of 6 | [BBF10K_000488](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Bacillus%20subtilis%20Protein%20Secretion%20Toolkit/Plasmids_Genbank/BBF10K_000488) |
-| BsubSecTagLP_5 | Bacillus subtilis Secretion Tag Library Plasmid 5 of 6 | [BBF10K_000489](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Bacillus%20subtilis%20Protein%20Secretion%20Toolkit/Plasmids_Genbank/BBF10K_000489) |
-| BsubSecTagLP_6 | Bacillus subtilis Secretion Tag Library Plasmid 6 of 6 | [BBF10K_000490](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Bacillus%20subtilis%20Protein%20Secretion%20Toolkit/Plasmids_Genbank/BBF10K_000490) |
+| BsubSecTagLP_1 | Bacillus subtilis Secretion Tag Library Plasmid 1 of 6 | [BBF10K_000485](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Bacillus subtilis Protein Secretion Toolkit/Plasmids_Genbank/BBF10K_000485.gb) |
+| BsubSecTagLP_2 | Bacillus subtilis Secretion Tag Library Plasmid 2 of 6 | [BBF10K_000486](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Bacillus subtilis Protein Secretion Toolkit/Plasmids_Genbank/BBF10K_000486.gb) |
+| BsubSecTagLP_3 | Bacillus subtilis Secretion Tag Library Plasmid 3 of 6 | [BBF10K_000487](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Bacillus subtilis Protein Secretion Toolkit/Plasmids_Genbank/BBF10K_000487.gb) |
+| BsubSecTagLP_4 | Bacillus subtilis Secretion Tag Library Plasmid 4 of 6 | [BBF10K_000488](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Bacillus subtilis Protein Secretion Toolkit/Plasmids_Genbank/BBF10K_000488.gb) |
+| BsubSecTagLP_5 | Bacillus subtilis Secretion Tag Library Plasmid 5 of 6 | [BBF10K_000489](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Bacillus subtilis Protein Secretion Toolkit/Plasmids_Genbank/BBF10K_000489.gb) |
+| BsubSecTagLP_6 | Bacillus subtilis Secretion Tag Library Plasmid 6 of 6 | [BBF10K_000490](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Bacillus subtilis Protein Secretion Toolkit/Plasmids_Genbank/BBF10K_000490.gb) |
