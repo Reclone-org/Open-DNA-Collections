@@ -39,10 +39,10 @@ each in the standard FreeGenes level 0 pOpen-v3 plasmid and are all AmpR.
 
 ### Versions and Platemaps
 
-|Version|Name|Platemap|
-|---|---|---|
-|1.0|Freegenes Current Distribution|[here](https://github.com/Reclone-org/Open-DNA-Collections/tree/main/Open%20Yeast%20Collection/Platemaps/OYC-v1_0.csv)|
-||iGEM 2022 Distribution Plate 2|[here](https://cdn.shopify.com/s/files/1/0368/2444/9068/files/iGEM_2022_distribution_kit_plate_2_FreeGenes_parts_plate_map.csv?v=1656608514)|
+|Version|Name|Platemap|Distribution Period|
+|---|---|---|---|
+|1.0|Freegenes Current Distribution|[here](https://github.com/Reclone-org/Open-DNA-Collections/tree/main/Open%20Yeast%20Collection/Platemaps/OYC-v1_0.csv)||
+||iGEM 2022 Distribution Plate 2|[here](https://cdn.shopify.com/s/files/1/0368/2444/9068/files/iGEM_2022_distribution_kit_plate_2_FreeGenes_parts_plate_map.csv?v=1656608514)||
 
 ---
 
