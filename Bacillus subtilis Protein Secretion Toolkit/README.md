@@ -27,9 +27,9 @@ starting from only six or fewer SecTag variant plasmids.
 
 ### Versions and Platemaps
 
-|Version|Name|Platemap|
-|---|---|---|
-|1.0|Freegenes Current Distribution|[here](https://github.com/Reclone-org/Open-DNA-Collections/tree/main/Bacillus%20subtilis%20Protein%20Secretion%20Toolkit/Platemaps/BPST-v1_0.csv)|
+|Version|Name|Platemap|Distribution Period|
+|---|---|---|---|
+|1.0|Freegenes Current Distribution|[Plate 1](https://github.com/Reclone-org/Open-DNA-Collections/tree/main/Bacillus%20subtilis%20Protein%20Secretion%20Toolkit/Platemaps/BPST-v1_0.csv)||
 
 ---
 
