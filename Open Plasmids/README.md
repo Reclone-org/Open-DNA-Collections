@@ -32,6 +32,7 @@ an inducible-copy vector based on iGEM plasmid pSB2K3, and intended for cloning 
 
 |Gene|Name|Freegenes ID|
 |---|---|---|
-|pBuild|pOpen_v3|BBF10K_003498|
-|pYeast|pOpen_yeast|BBF10K_003499|
-|pInducible|pOpen_v4|BBF10K_000589|
+| pBuild | pOpen_v3 | [BBF10K_003498](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Plasmids/Plasmids_Genbank/BBF10K_003498.gb) |
+| pYeast | pOpen_yeast | [BBF10K_003499](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Plasmids/Plasmids_Genbank/BBF10K_003499.gb) |
+| pInducible | pOpen_v4 | [BBF10K_000589](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Plasmids/Plasmids_Genbank/BBF10K_000589.gb) |
+
