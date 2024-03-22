@@ -22,9 +22,9 @@ an inducible-copy vector based on iGEM plasmid pSB2K3, and intended for cloning 
 
 ### Versions and Platemaps
 
-|Version|Name|Platemap|
-|---|---|---|
-|1.0|Freegenes Current Distribution|[here](https://github.com/Reclone-org/Open-DNA-Collections/tree/main/Open%20Plasmids/Platemaps/OP-v1_0.csv)|
+|Version|Name|Platemap|Distribution Period|
+|---|---|---|---|
+|1.0|Freegenes Current Distribution|[here](https://github.com/Reclone-org/Open-DNA-Collections/tree/main/Open%20Plasmids/Platemaps/OP-v1_0.csv)||
 
 ---
 
