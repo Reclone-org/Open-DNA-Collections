@@ -10,7 +10,7 @@ assignees: ''
 Thank you for taking the time to file an issue report. To help with addressing this issue, please provide as much of the following information as possible. 
 
 ### **Naming the Issue**
-To help with pinpointing which of the Open DNA Collections that the issue is about, please use these codes in the Issue Name as follows, before adding a short description of the issue: 
+To help with pinpointing which of the Open DNA Collections that the issue is about, please use these codes in the "Issue Title" as follows, before adding a short description of the issue: 
 - [OEC] = Open Enzyme Collection (parts in vector pOpen_v3). 
 - [ORC] = Open Reporters Collection (parts in vector pOpen_v3). 
 - [MDT] = Molecular Diagnostics Toolkit (ready-to-express constructs in vector pOpen_v3). 
@@ -18,6 +18,7 @@ To help with pinpointing which of the Open DNA Collections that the issue is abo
 - [ePET] = E. coli Protein Expression Toolkit (parts in vector pOpen_v3).  
 - [bPST] = Bacillus subtilis Protein Secretion Toolkit (parts in vector pOpen_v3). 
 - [OYC] = Open Yeast Collection (parts in vector pOpen_v3). 
+- [PURE] = PUREiodic Table Construction Kit (parts in pET28a). 
 - [OP] = Open Plasmids. 
 - [ODC] = Open DNA Collections - if the issue is related to all the above collections in general. 
 e.g. [OP] pOpen backbones not available 
@@ -49,14 +50,14 @@ If applicable, add steps to reproduce the behaviour. Please indicate at which st
 4. Upon analysing sequencing results - e.g. the sequencing data does not match the sequence associated with the part (see above sections on "Sequence Data" and "Expected State/Behaviour"). 
 5. When expressing/purifying/using protein - e.g. able to express all RiDC constructs and can visualise proteins on 10% SDS-PAGE (see "Screenshots/Images"), but low activity from the HIV-RT construct despite following the [expression and purification protocol](https://www.protocols.io/view/recombinant-expression-and-purification-of-hiv-1-r-ck8vuzw6). 
 6. Documentation - e.g. could not find any information regarding the parts from https://github.com/Reclone-org/Open-DNA-Collections/ or https://stanford.freegenes.org/ . Nor were there any information of best practices for protein expression on https://www.protocols.io/workspaces/recloneorg-the-reagent-collaboration-network/
-6. Generating issues - e.g. posted issue to discuss on https://forum.reclone.org/c/open-dna-collections/26 but had no feedback as of yet. 
+7. Generating issues - e.g. posted issue to discuss on https://forum.reclone.org/c/open-dna-collections/26 but had no feedback as of yet. 
 
 ### **Additional Context**
 Add any other context about the problem here.
 
 ### **Follow-Up Actions (Assignees, Labels)**
-Each issue will also be given a label to indicate what it refers to. For now, we are mainly using labels: sequence, part function, plasmid recovery, part proposal, documentation. 
+Each issue will also be given a label to indicate what it refers to. For now, we are mainly using labels: sequence, part function, plasmid recovery, part proposal, enhancement, documentation. 
 
 We welcome contributors to assign themselves to help with addressing these issues. Please let us know if you wish to do so. We're a small team, so any issues raised and support you can provide is greatly appreciated! 
 
-Thanks for taking the time to fill out this issue report and for contributing to improving the Open DNA Collections!
+Thanks for taking the time to fill out this Issue Report and for contributing to improving the Open DNA Collections!
