@@ -1,0 +1,274 @@
+LOCUS       pTIR_O1_EfoR            5528 bp ds-DNA     circular     24-MAY-2024
+DEFINITION  .
+COMMENT     Created by D+I+T LacI and EforRed cassettes verified by sequencing
+            This plasmid works as Golden Gate Level1 acceptor plasmid. It
+            includes E. coli pBR322 origin of replication and Kanamycin
+            resistance cassette as a selection marker. Moreover, it has LacI
+            constitutive expression (it allow pLac regulated protein expression
+            production and helps pT7_lac0 regulation). It also includes
+            constitutive expression of LacI repressor to perform pLac like
+            promoters inducible expression. Moreover, it drives constitutive
+            EforRed expression as a negative golden gate assembly reporter.
+            (negative assembly colonies are Red) --> after cloning white
+            colonies are positive: they have lost the EforRed gene in place of
+            your construct of choice. ** It has extra non-desired SapI sites
+            with overhangs TAA and GCT, which doesn´t correspond to any uLoop
+            syntax overhang --> It's possible to use it for SapI uLoop assembly
+            but could reduce a bit the efficiency or generate some
+            miss-assembly. Alfa = ATG  Beta = GCA  Gama = TAC  Epsilon = CAG
+            Omega = GGT Acceptor schema: EforRed cassette is flanked by uLoop
+            assembly downstream and upstream schemas. Assembly is performed
+            with BsaI golden gate reaction between A and F sites. The whole
+            insert is surrounded by Alpha and Beta syntax sequences,  SapI
+            recognition sites and UNSes  SapI: for  next level uLoop Assembly
+            UNS1/UNSX : To perform sequencing with standardized primers and to
+            perform linear DNA gene expression. standardized primer sequences:
+            UNS https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4899833/ backbone
+            sequence was derived from pJT plasmid series.
+FEATURES             Location/Qualifiers
+     misc_feature    1..22
+                     /label="PJF"
+     source          1..42
+                     /label="source:synthetic DNA construct"
+     re_site         complement(18..24)
+                     /label="SapI"
+     misc_feature    18..42
+                     /label="PJR"
+     source          43..1032
+                     /label="source:synthetic DNA construct"
+     CDS             complement(270..461)
+                     /label="ROP"
+     primer          344..370
+                     /label="pETm_F"
+                     /note="sequence: ATTCACAGATGTCTGCCTGTTCATCCG"
+     ORI regulato... complement(366..461)
+                     /label="ROP"
+     primer          complement(371..394)
+                     /label="pETm_R"
+                     /note="sequence: TGGAGAAACTCAACGAGCTGGACG"
+     re_site         771..776
+                     /label="BbsI"
+     CDS             complement(1033..1992)
+                     /label="Translation 1992-1033"
+                     /translation="MAELNYIPNRVAQQLAGKQSLLIGVATSSLALHAPSQIVAAIKSRADQLGASVVVSMVERSGVEACKAAVHNLLAQRVSGLIINYPLDDQDAIAVEAACTNVPALFLDVSDQTPINSIIFSHEDGTRLGVEHLVALGHQQIALLAGPLSSVSARLRLAGWHKYLTRNQIQPIAEREGDWSAMSGFQQTMQMLNEGIVPTAMLVANDQMALGAMRAITESGLRVGADISVVGYDDTEDSSCYIPPLTTIKQDFRLLGQTSVDRLLQLSQGQAVKGNQLLPVSLVKRKTTLAPNTQTASPRALADSLMQLARQVSRLESGQ*"
+     CDS             complement(1033..2115)
+                     /label="LacI"
+     misc_feature    1282..1287
+                     /label="BbsI"
+     re_site         1621..1626
+                     /label="BbsI"
+     source          2116..2124
+                     /label="source:synthetic DNA construct"
+     misc_feature    2116..2124
+                     /label="lacI with gtg start codon"
+     misc_feature    2227..2252
+                     /label="VUNF"
+     re_site         2294..2300
+                     /label="SapI"
+     misc_feature    2300..2305
+                     /label="AfIII"
+     misc_feature    2306..2345
+                     /label="UNS1"
+     primer          2316..2335
+                     /label="FB009_pTi_UNS1_FWD"
+                     /note="sequence: ATCCATTCTCAGGCTGTCTC"
+     re_site         2349..2355
+                     /label="SapI"
+     sticky_end      2357..2359
+                     /label="Alpha"
+     sticky_end      2361..2364
+                     /label="A"
+     re_site         complement(2366..2371)
+                     /label="BsaI"
+     misc_feature    2381..2386
+                     /label=-35
+     promoter        2381..2415
+                     /label="BBa_J23101"
+     gene            2381..3271
+                     /label="eforR cassette"
+     misc_feature    2404..2409
+                     /label=-10
+     assembly_scar   2416..2419
+                     /label="B"
+     RBS             2424..2436
+                     /label="BBa_B0032"
+     assembly_scar   2442..2445
+                     /label="C"
+     CDS             2443..2445
+                     /label="Translation 2443-2445"
+                     /translation="M"
+     CDS             2443..3138
+                     /label="eforRed"
+     CDS             2446..3123
+                     /label="Translation 2446-3123"
+                     /translation="SVIKQVMKTKLHLEGTVNGHDFTIEGKGEGKPYEGLQHMKMTVTKGAPLPFSVHILTPSHMYGSKPFNKYPADIPDYHKQSFPEGMSWERSMIFEDGGVCTASNHSSINLQENCFIYDVKFHGVNLPPDGPVMQKTIAGWEPSVETLYVRDGMLKSDTAMVFKLKGGGHHRVDFKTTYKAKKPVKLPEFHFVEHRLELTKHDKDFTTWDQQEAAEGHFSPLPKALP"
+     misc_feature    3124..3125
+                     /label="form Gly codon"
+     CDS             3124..3129
+                     /label="Translation 3124-3129"
+                     /translation="GG"
+     assembly_scar   3126..3129
+                     /label="D"
+     misc_feature    3130..3138
+                     /label="3xSTOP"
+     CDS             3130..3138
+                     /label="Translation 3130-3138"
+                     /translation="***"
+     assembly_scar   3139..3142
+                     /label="E"
+     terminator      3143..3271
+                     /label="BBa_B0015"
+     terminator      3154..3197
+                     /label="rrnB_T1_terminator"
+     re_site         3284..3289
+                     /label="BsaI"
+     sticky_end      3291..3294
+                     /label="F"
+     sticky_end      3296..3298
+                     /label="Beta"
+     re_site         complement(3300..3306)
+                     /label="SapI"
+     misc_feature    3310..3349
+                     /label="UNSX"
+     misc_feature    3357..3358
+                     /label="BsaI Golden recognition"
+     source          3359..3359
+                     /label="source:synthetic DNA construct"
+     source          3360..3360
+                     /label="source:synthetic DNA construct"
+     misc_feature    3361..3362
+                     /label="BsaI mutated"
+     source          3363..3703
+                     /label="source:synthetic DNA construct"
+     misc_feature    3398..3417
+                     /label="VunsXR"
+     source          3704..3704
+                     /label="source:synthetic DNA construct"
+     misc_feature    3705..3710
+                     /label="SpeI NheI (spe en antib BBa)"
+     misc_feature    complement(3705..3711)
+                     /label="BBa_G0005"
+     CDS             complement(3712..4530)
+                     /label="BBa_G0005"
+     CDS             complement(3712..4530)
+                     /label="KAN gene"
+     misc_feature    3712..4678
+                     /label="BBa_P1003"
+     misc_feature    complement(3712..4678)
+                     /label="BBa_P1007"
+     primer          complement(3724..3743)
+                     /label="FB006_pTi_KanR_REV"
+                     /note="sequence: TTCATTTGATGCTCGATGAG"
+     misc_difference 4498..4498
+                     /label="Silent Mut: G to C mutation to eliminateXhoI site"
+     promoter        complement(4531..4678)
+                     /label="BBa_P1007 cm_prom"
+     misc_feature    complement(4635..4678)
+                     /label="DNA: repeat region"
+     misc_feature    complement(4679..4679)
+                     /label="BBa_G0001"
+     source          4680..5528
+                     /label="source:synthetic DNA construct"
+     ori             4704..5386
+                     /label="ColE1 origin"
+     Replicon        4704..5467
+                     /label="pBR322"
+     rep_origin      5367..5367
+                     /label="ColE1, pBR322 ori"
+     ORI             5369..5467
+                     /label="pBR322 ORI"
+ORIGIN
+        1 cagtgagcga ggaagcggaa gagcgcctga tgcggtattt tctccttacg catctgtgcg
+       61 gtatttcaca ccgcatatat ggtgcactct cagtacaatc tgctctgatg ccgcatagtt
+      121 aagccagtat acactccgct atcgctacgt gactgggtca tggctgcgcc ccgacacccg
+      181 ccaacacccg ctgacgcgcc ctgacgggct tgtctgctcc cggcatccgc ttacagacaa
+      241 gctgtgaccg tctccgggag ctgcatgtgt cagaggtttt caccgtcatc accgaaacgc
+      301 gcgaggcagc tgcggtaaag ctcatcagcg tggtcgtgaa gcgattcaca gatgtctgcc
+      361 tgttcatccg cgtccagctc gttgagtttc tccagaagcg ttaatgtctg gcttctgata
+      421 aagcgggcca tgttaagggc ggttttttcc tgtttggtca ctgatgcctc cgtgtaaggg
+      481 ggatttctgt tcatgggggt aatgataccg atgaaacgag agaggatgct cacgatacgg
+      541 gttactgatg atgaacatgc ccggttactg gaacgttgtg agggtaaaca actggcggta
+      601 tggatgcggc gggaccagag aaaaatcact cagggtcaat gccagcgctt cgttaataca
+      661 gatgtaggtg ttccacaggg tagccagcag catcctgcga tgcagatccg gaacataatg
+      721 gtgcagggcg ctgacttccg cgtttccaga ctttacgaaa cacggaaacc gaagaccatt
+      781 catgttgttg ctcaggtcgc agacgttttg cagcagcagt cgcttcacgt tcgctcgcgt
+      841 atcggtgatt cattctgcta accagtaagg caaccccgcc agcctagccg ggtcctcaac
+      901 gacaggagca cgatcatgct agtcatgccc cgcgcccacc ggaaggagct gactgggttg
+      961 aaggctctca agggcatcgg tcgagatccc ggtgcctaat gagtgagcta acttacatta
+     1021 attgcgttgc gctcactgcc cgctttccag tcgggaaacc tgtcgtgcca gctgcattaa
+     1081 tgaatcggcc aacgcgcggg gagaggcggt ttgcgtattg ggcgccaggg tggtttttct
+     1141 tttcaccagt gagacgggca acagctgatt gcccttcacc gcctggccct gagagagttg
+     1201 cagcaagcgg tccacgctgg tttgccccag caggcgaaaa tcctgtttga tggtggttaa
+     1261 cggcgggata taacatgagc tgtcttcggt atcgtcgtat cccactaccg agatgtccgc
+     1321 accaacgcgc agcccggact cggtaatggc gcgcattgcg cccagcgcca tctgatcgtt
+     1381 ggcaaccagc atcgcagtgg gaacgatgcc ctcattcagc atttgcatgg tttgttgaaa
+     1441 accggacatg gcactccagt cgccttcccg ttccgctatc ggctgaattt gattgcgagt
+     1501 gagatattta tgccagccag ccagacgcag acgcgccgag acagaactta atgggcccgc
+     1561 taacagcgcg atttgctggt gacccaatgc gaccagatgc tccacgccca gtcgcgtacc
+     1621 gtcttcatgg gagaaaataa tactgttgat gggtgtctgg tcagagacat caagaaataa
+     1681 cgccggaaca ttagtgcagg cagcttccac agcaatggca tcctggtcat ccagcggata
+     1741 gttaatgatc agcccactga cgcgttgcgc gagaagattg tgcaccgccg ctttacaggc
+     1801 ttcgacgccg cttcgttcta ccatcgacac caccacgctg gcacccagtt gatcggcgcg
+     1861 agatttaatc gccgcgacaa tttgcgacgg cgcgtgcagg gccagactgg aggtggcaac
+     1921 gccaatcagc aacgactgtt tgcccgccag ttgttgtgcc acgcggttgg gaatgtaatt
+     1981 cagctccgcc atcgccgctt ccactttttc ccgcgttttc gcagaaacgt ggctggcctg
+     2041 gttcaccacg cgggaaacgg tctgataaga gacaccggca tactctgcga catcgtataa
+     2101 cgttactggt ttcacATTCA CCACcctgaa ttgactctct tccgggcgct atcatgccat
+     2161 accgcgaaag gttttgcgcc attcgatggt gtccgggatc tcgacgctct cccttatgcg
+     2221 actcctgcat taggaagcag cccagtagta ggttgaggcc gttgagcacc gccgccgcaa
+     2281 ggaatggtga attGCTCTTC ttaagCATTA CTCGCATCCA TTCTCAGGCT GTCTCGTCTC
+     2341 GTCTCCGagc tcttcaatga ggagtgagac cattgacagc tttacagcta gctcagtcct
+     2401 aggtattatg ctagcTACTa gagtcacaca ggaaagtact aAATGtcagt gattaagcag
+     2461 gtaatgaaga ccaagttgca ccttgagggc actgtcaatg gccatgattt tacgatcgag
+     2521 ggtaaaggtg aaggcaagcc gtacgaaggg ttacagcaca tgaaaatgac agtcaccaaa
+     2581 ggcgcgcctc tgccgttttc cgttcatatt cttacaccta gccacatgta tggaagcaaa
+     2641 ccgtttaata agtatccagc ggatatccca gactaccaca aacagtcttt tcccgaaggt
+     2701 atgtcttggg agcggtcgat gatttttgaa gatggtggcg tatgcaccgc cagtaatcac
+     2761 tccagcataa acttgcaaga gaactgtttc atctatgatg ttaaatttca tggtgtgaac
+     2821 ctgcctccgg atgggcccgt aatgcaaaaa accattgctg gatgggagcc gagcgtggaa
+     2881 acactgtacg tgcgtgacgg gatgttaaaa agtgacactg caatggtttt taaactgaaa
+     2941 ggaggcggtc atcatcgtgt tgatttcaaa acgacgtata aagccaaaaa acctgtcaag
+     3001 ctgccagaat ttcatttcgt tgaacatcgc ctggaactga ccaaacacga taaagatttc
+     3061 acaacttggg accagcagga ggcagccgaa ggccatttct caccgctgcc gaaggctctc
+     3121 ccaggAGGTT AATGATAGGC TTccaggcat caaataaaac gaaaggctca gtcgaaagac
+     3181 tgggcctttc gttttatctg ttgtttgtcg gtgaacgctc tctactagag tcacactggc
+     3241 tcaccttcgg gtgggccttt ctgcgtttat aactagtgag cacggtctca cgctagcatg
+     3301 aagagcaCCC CAGGATACAT AGATTACCAC AACTCCGAGC CCTTCCACCc gccggcgagg
+     3361 cccacgtagt gggccatcgc cctgatagac ggtttttcgc cctttgacgt tggagtccac
+     3421 gttctttaat agtggactct tgttccaaac tggaacaaca ctcaacccta tctcggtcta
+     3481 ttcttttgat ttataaggga ttttgccgat ttcggcctat tggttaaaaa atgagctgat
+     3541 ttaacaaaaa tttaacgcga attttaacaa aatattaacg tttacaattt ctggcggcac
+     3601 gatggcatga gattatcaaa aaggatcttc acctagatcc ttttaaatta aaaatgaagt
+     3661 tttaaatcaa tctaaagtat atatgagtaa acttggtctg acagGCTAGT ATTATTAGAA
+     3721 AAACTCATCG AGCATCAAAT GAAACTGCAA TTTATTCATA TCAGGATTAT CAATACCATA
+     3781 TTTTTGAAAA AGCCGTTTCT GTAATGAAGG AGAAAACTCA CCGAGGCAGT TCCAAAGAAT
+     3841 GGCAAGGTCC TGGTAACGGT CTGCGATTCC GACCCGTCCA ACATCAATAC AACCTATTAA
+     3901 TTTCCCCTCG TCAAAAATAA GGTTATCAAG TGAGAAATCA CCATGAGTGA CGACTGAATC
+     3961 CGGTGAGAAT GGCAAGAGCT TGTGCATTTC TTTCCAGACT TGTTCAACAG GCCAGCCATT
+     4021 ACGCTCGTCA TCAAAATCAC TCGCATCAAC CAAACCGTTA TTCATGCGTG ATTGCGCCTG
+     4081 AGCAAGACGA AATACACGAT CGCTGTTAAA AGGACAATTA CAAACAGGAA TCGAATGTAA
+     4141 CCGGCGCAGG AACACGGCCA GCGCATCAAC AATATTTTCA CCTGAATCAG GATATTCTTC
+     4201 TAATACCTGG AAGGCTGTTT TCCCAGGAAT CGCGGTGGTG AGTAACCACG CATCATCAGG
+     4261 AGTACGGATA AAATGCTTGA TGGTCGGGAG AGGCATAAAC TCCGTCAGCC AGTTGAGACG
+     4321 GACCATCTCA TCTGTAACAT CATTGGCAAC GCTACCTTTG CCATGTTTCA GAAACAACTC
+     4381 TGGCGCATCG GGCTTCCCAT ACAAGCGATA GATTGTCGCA CCTGATTGCC CGACATTATC
+     4441 GCGAGCCCAT TTATACCCAT ATAAATCAGC GTCCATGTTG GAGTTTAAGC GCGGACGGGA
+     4501 GCAAGACGTT TCCCGTTGAA TATGGCTCAT AACACCCCTT GTATTACTGT TTATGTAAGC
+     4561 AGACAGTTTT ATTGTTCATG ATGATATATT TTTATCTTGT GCAATGTAAC ATCAGAGATT
+     4621 TTGAGACACA ACGTGGCTTT GTTGAATAAA TCGAACTTTT GCTGAGTTGA AGGATCAGCt
+     4681 atttagaaaa ataaacaaat aggtcatgaC CAAAATCCCT TAACGTGAGT TTTCGTTCCA
+     4741 CTGAGCGTCA GACCCCGTAG AAAAGATCAA AGGATCTTCT TGAGATCCTT TTTTTCTGCG
+     4801 CGTAATCTGC TGCTTGCAAA CAAAAAAACC ACCGCTACCA GCGGTGGTTT GTTTGCCGGA
+     4861 TCAAGAGCTA CCAACTCTTT TTCCGAAGGT AACTGGCTTC AGCAGAGCGC AGATACCAAA
+     4921 TACTGTCCTT CTAGTGTAGC CGTAGTTAGG CCACCACTTC AAGAACTCTG TAGCACCGCC
+     4981 TACATACCTC GCTCTGCTAA TCCTGTTACC AGTGGCTGCT GCCAGTGGCG ATAAGTCGTG
+     5041 TCTTACCGGG TTGGACTCAA GACGATAGTT ACCGGATAAG GCGCAGCGGT CGGGCTGAAC
+     5101 GGGGGGTTCG TGCACACAGC CCAGCTTGGA GCGAACGACC TACACCGAAC TGAGATACCT
+     5161 ACAGCGTGAG CTATGAGAAA GCGCCACGCT TCCCGAAGGG AGAAAGGCGG ACAGGTATCC
+     5221 GGTAAGCGGC AGGGTCGGAA CAGGAGAGCG CACGAGGGAG CTTCCAGGGG GAAACGCCTG
+     5281 GTATCTTTAT AGTCCTGTCG GGTTTCGCCA CCTCTGACTT GAGCGTCGAT TTTTGTGATG
+     5341 CTCGTCAGGG GGGCGGAGCC TATGGAAAAA CGCCAGCAAC GCGGCCTTTT TACGGTTCCT
+     5401 GGCCTTTTGC TGGCCTTTTG CTCACATGtt ctttcctgcg ttatcccctg attctgtgga
+     5461 taaccgtatt accgcctttg agtgagctga taccgctcgc cgcagccgaa cgaccgagcg
+     5521 cagcgagt
+//
