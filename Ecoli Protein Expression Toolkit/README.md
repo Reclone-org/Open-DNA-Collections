@@ -20,6 +20,8 @@ The collection is compatible with all the CDSs present in the Open Enzyme collec
 
 **Assembly Scheme**
 
+The assembly syntax for this collection is compatible with MoClo and follows [this syntax](https://docs.google.com/document/d/1AGktWgKOa8muK_qF8nNmS7r1IquKgKPZy6E_SiTU2aY/edit?usp=sharing).
+
 ---
 
 # Versions and Platemaps
