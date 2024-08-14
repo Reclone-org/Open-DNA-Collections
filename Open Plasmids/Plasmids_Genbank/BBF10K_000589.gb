@@ -1,36 +1,33 @@
-LOCUS       Exported                6238 bp ds-DNA     circular SYN 03-FEB-2021
-DEFINITION  synthetic circular DNA
-ACCESSION   .
-VERSION     .
+LOCUS       pInducible              6238 bp    ds-DNA  circular SYN 03-FEB-2021
+DEFINITION  synthetic circular DNA.
+ACCESSION   ODC_0003
+VERSION     ODC_0003
 KEYWORDS    .
 SOURCE      synthetic DNA construct
   ORGANISM  synthetic DNA construct
+            .
 REFERENCE   1  (bases 1 to 6238)
   AUTHORS   Keoni Gandall
   TITLE     Direct Submission
-  JOURNAL   
 FEATURES             Location/Qualifiers
-     source          1..6238
-                     /organism="synthetic DNA construct"
-                     /mol_type="other DNA"
      primer_bind     16..32
-                     /label=M13 fwd
-                     /note="common sequencing primer, one of multiple similar 
+                     /label="M13 fwd"
+                     /note="common sequencing primer, one of multiple similar
                      variants"
      terminator      33..64
-                     /label=tonB terminator
-                     /note="bidirectional E. coli tonB-P14 transcription 
+                     /label="tonB terminator"
+                     /note="bidirectional E. coli tonB-P14 transcription
                      terminator"
      rep_origin      complement(163..751)
                      /direction=LEFT
-                     /label=ori
-                     /note="high-copy-number ColE1/pMB1/pBR322/pUC origin of 
+                     /label="ori"
+                     /note="high-copy-number ColE1/pMB1/pBR322/pUC origin of
                      replication"
      CDS             complement(942..1802)
                      /codon_start=1
                      /gene="bla"
                      /product="beta-lactamase"
-                     /label=AmpR
+                     /label="AmpR"
                      /note="confers resistance to ampicillin, carbenicillin, and
                      related antibiotics"
                      /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYI
@@ -41,58 +38,58 @@ FEATURES             Location/Qualifiers
                      LIKHW"
      promoter        complement(1803..1907)
                      /gene="bla"
-                     /label=AmpR promoter
+                     /label="AmpR promoter"
      terminator      1972..2019
-                     /label=T7 terminator
-                     /note="transcription terminator for bacteriophage T7 RNA 
+                     /label="T7 terminator"
+                     /note="transcription terminator for bacteriophage T7 RNA
                      polymerase"
      primer_bind     complement(2024..2040)
-                     /label=M13 rev
-                     /note="common sequencing primer, one of multiple similar 
+                     /label="M13 rev"
+                     /note="common sequencing primer, one of multiple similar
                      variants"
      misc_feature    2199..2449
                      /gene="incC"
-                     /label=incC
+                     /label="incC"
                      /note="incompatibility region of the bacterial F plasmid"
      CDS             complement(2452..3207)
                      /codon_start=1
                      /gene="repE"
-                     /product="replication initiation protein for the bacterial 
+                     /product="replication initiation protein for the bacterial
                      F plasmid"
-                     /label=repE
+                     /label="repE"
                      /translation="MAETAVINHKKRKNSPRIVQSNDLTEAAYSLSRDQKRMLYLFVDQ
                      IRKSDGTLQEHDGICEIHVAKYAEIFGLTSAEASKDIRQALKSFAGKEVVFYRPEEDAG
                      DEKGYESFPWFIKRAHSPSRGLYSVHINPYLIPFFIGLQNRFTQFRLSETKEITNPYAM
                      RLYESLCQYRKPDGSGIVSLKIDWIIERYQLPQSYQRMPDFRRRFLQVCVNEINSRTPM
                      RLSYIEKKKGRQTTHIVFSFRDITSMTTG"
      rep_origin      3298..3517
-                     /label=oriS
-                     /note="secondary origin of replication for the bacterial F 
+                     /label="oriS"
+                     /note="secondary origin of replication for the bacterial F
                      plasmid"
      misc_feature    3872..4046
-                     /label=lacOP
+                     /label="lacOP"
      protein_bind    3937..3958
-                     /label=CAP binding site
+                     /label="CAP binding site"
                      /bound_moiety="E. coli catabolite activator protein"
-                     /note="CAP binding activates transcription in the presence 
+                     /note="CAP binding activates transcription in the presence
                      of cAMP."
      promoter        3973..4003
-                     /label=lac promoter
+                     /label="lac promoter"
                      /note="promoter for the E. coli lac operon"
      protein_bind    4011..4027
-                     /label=lac operator
+                     /label="lac operator"
                      /bound_moiety="lac repressor encoded by lacI"
-                     /note="The lac repressor binds to the lac operator to 
-                     inhibit transcription in E. coli. This inhibition can be 
-                     relieved by adding lactose or 
+                     /note="The lac repressor binds to the lac operator to
+                     inhibit transcription in E. coli. This inhibition can be
+                     relieved by adding lactose or
                      isopropyl-beta-D-thiogalactopyranoside (IPTG)."
      primer_bind     4035..4051
-                     /label=M13 rev
-                     /note="common sequencing primer, one of multiple similar 
+                     /label="M13 rev"
+                     /note="common sequencing primer, one of multiple similar
                      variants"
      CDS             4124..4969
                      /codon_start=1
-                     /label=repL
+                     /label="repL"
                      /translation="MLAKVTFLSCITMSDFTFSGYELACFVTHSGLSRSAGHILSQCAN
                      LAATTSEYFIHKPHRLIAAETGYSQSTVVRAFREAVNKGILSVEIVIGDHRERRANLYR
                      FTPSFLAFAQQAKNALIESKLKISSAATKVKAVLAKTLALFNFLSTPPCQNDTPSPCQD
@@ -100,12 +97,12 @@ FEATURES             Location/Qualifiers
                      VEAAARKYAYLKNKRSPDIGGISNFDNLPHCMTVNEALNAVLAKNKDNEQWGIPAGFRG
                      "
      misc_feature    5077..5228
-                     /label=nnpp promoters
+                     /label="nnpp promoters"
      CDS             5268..6083
                      /codon_start=1
                      /product="aminoglycoside phosphotransferase"
-                     /label=KanR
-                     /note="confers resistance to kanamycin in bacteria or G418 
+                     /label="KanR"
+                     /note="confers resistance to kanamycin in bacteria or G418
                      (Geneticin(R)) in eukaryotes"
                      /translation="MSHIQRETSCSRPRLNSNMDADLYGYKWARDNVGQSGATIYRLYG
                      KPDAPELFLKHGKGSVANDVTDEMVRLNWLTEFMPLPTIKHFIRTPDDAWLLTTAIPGK
@@ -113,7 +110,7 @@ FEATURES             Location/Qualifiers
                      SDFDDERNGWPVEQVWKEMHKLLPFSPDSVVTHGDFSLDNLIFDEGKLIGCIDVGRVGI
                      ADRYQDLAILWNCLGEFSPSLQKRLFQKYGIDNPDMNKLQFHLMLDEFF"
      terminator      6193..6236
-                     /label=bacterial terminator
+                     /label="bacterial terminator"
                      /note="putative bacterial transcription terminator"
 ORIGIN
         1 cacctgcacc agtcagtaaa acgacggcca gtagtcaaaa gcctccgacc ggaggctttt

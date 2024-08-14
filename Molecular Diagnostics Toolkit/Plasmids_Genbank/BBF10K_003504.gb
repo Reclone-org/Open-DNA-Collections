@@ -1,10 +1,11 @@
-LOCUS       Exported                4404 bp ds-DNA     circular SYN 24-SEP-2020
+LOCUS       EcPPA                   4404 bp    ds-DNA  circular SYN 24-SEP-2020
 DEFINITION  synthetic linear DNA.
-ACCESSION   .
-VERSION     .
+ACCESSION   ODC_0315
+VERSION     ODC_0315
 KEYWORDS    .
 SOURCE      synthetic DNA construct
   ORGANISM  synthetic DNA construct
+            .
 REFERENCE   1  (bases 1 to 4404)
   AUTHORS   Keoni Gandall
   TITLE     Direct Submission
@@ -15,20 +16,17 @@ REFERENCE   2  (bases 1 to 4404)
   JOURNAL   Exported Thursday, Sep 24, 2020 from SnapGene 5.0.7
             https://www.snapgene.com
 FEATURES             Location/Qualifiers
-     source          1..4404
-                     /organism="synthetic DNA construct"
-                     /mol_type="other DNA"
      terminator      1..4404
-                     /label=T7 terminator
+                     /label="T7 terminator"
                      /note="""transcription terminator for bacteriophage T7 RNA"
      CDS             complement(118..1200)
                      /codon_start=1
                      /gene="lacI"
                      /product="lac repressor"
-                     /label=lacI
-                     /note="The lac repressor binds to the lac operator to 
-                     inhibit transcription in E. coli. This inhibition can be 
-                     relieved by adding lactose or 
+                     /label="lacI"
+                     /note="The lac repressor binds to the lac operator to
+                     inhibit transcription in E. coli. This inhibition can be
+                     relieved by adding lactose or
                      isopropyl-beta-D-thiogalactopyranoside (IPTG)."
                      /translation="MKPVTLYDVAEYAGVSYQTVSRVVNQASHVSAKTREKVEAAMAEL
                      NYIPNRVAQQLAGKQSLLIGVATSSLALHAPSQIVAAIKSRADQLGASVVVSMVERSGV
@@ -39,25 +37,25 @@ FEATURES             Location/Qualifiers
                      ALADSLMQLARQVSRLESGQ"
      promoter        complement(1201..1278)
                      /gene="lacI (mutant)"
-                     /label=lacIq promoter
-                     /note="In the lacIq allele, a single base change in the 
+                     /label="lacIq promoter"
+                     /note="In the lacIq allele, a single base change in the
                      promoter boosts expression of the lacI gene about 10-fold."
      promoter        1587..1605
-                     /label=T7 promoter
+                     /label="T7 promoter"
                      /note="t7 promoter"
      protein_bind    1606..1630
-                     /label=lac operator
+                     /label="lac operator"
                      /bound_moiety="lac repressor encoded by lacI"
-                     /note="The lac repressor binds to the lac operator to 
-                     inhibit transcription in E. coli. This inhibition can be 
-                     relieved by adding lactose or 
+                     /note="The lac repressor binds to the lac operator to
+                     inhibit transcription in E. coli. This inhibition can be
+                     relieved by adding lactose or
                      isopropyl-beta-D-thiogalactopyranoside (IPTG)."
      RBS             1645..1667
-                     /note="efficient ribosome binding site from bacteriophage 
+                     /note="efficient ribosome binding site from bacteriophage
                      T7 gene 10 (Olins and Rangwala, 1989)"
      CDS             1674..2264
                      /codon_start=1
-                     /label=EcPPA Pyrophosphatase
+                     /label="EcPPA Pyrophosphatase"
                      /translation="MGSSHHHHHHSSGLVPRGSHMSLLNVPAGKDLPEDIYVVIEIPAN
                      ADPIKYEIDKESGALFVDRFMSTAMFYPCNYGYINHTLSLDGDPVDVLVPTPYPLQPGS
                      VIRCRPVGVLKMTDEAGEDAKLVAVPHSKLSKEYDHIKDVNDLPELLKAQIAHFFEHYK
@@ -65,33 +63,33 @@ FEATURES             Location/Qualifiers
      CDS             1686..1703
                      /codon_start=1
                      /product="6xHis affinity tag"
-                     /label=6xHis
+                     /label="6xHis"
                      /translation="HHHHHH"
      CDS             1713..1730
                      /codon_start=1
                      /product="thrombin recognition and cleavage site"
-                     /label=thrombin site
+                     /label="thrombin site"
                      /translation="LVPRGS"
      terminator      2331..2378
-                     /label=T7 terminator
-                     /note="transcription terminator for bacteriophage T7 RNA 
+                     /label="T7 terminator"
+                     /note="transcription terminator for bacteriophage T7 RNA
                      polymerase"
      terminator      2441..2488
-                     /label=T7 terminator
-                     /note="transcription terminator for bacteriophage T7 RNA 
+                     /label="T7 terminator"
+                     /note="transcription terminator for bacteriophage T7 RNA
                      polymerase"
      primer_bind     complement(2493..2509)
-                     /label=M13 rev
-                     /note="common sequencing primer, one of multiple similar 
+                     /label="M13 rev"
+                     /note="common sequencing primer, one of multiple similar
                      variants"
      rep_origin      complement(2576..3164)
                      /direction=LEFT
-                     /label=ori
-                     /note="high-copy-number ColE1/pMB1/pBR322/pUC origin of 
+                     /label="ori"
+                     /note="high-copy-number ColE1/pMB1/pBR322/pUC origin of
                      replication"
      CDS             complement(3355..4215)
                      /codon_start=1
-                     /label=bla
+                     /label="bla"
                      /note="confers resistance to ampicillin, carbenicillin, and
                      related antibiotics"
                      /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYI
@@ -101,15 +99,15 @@ FEATURES             Location/Qualifiers
                      LPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGAS
                      LIKHW"
      promoter        complement(4216..4320)
-                     /label=bla promoter
+                     /label="bla promoter"
                      /note="ampicillin resistance gene promoter"
      primer_bind     4336..4352
-                     /label=M13 for
-                     /note="common sequencing primer, one of multiple similar 
+                     /label="M13 for"
+                     /note="common sequencing primer, one of multiple similar
                      variants"
      terminator      4353..4384
-                     /label=tonB terminator
-                     /note="bidirectional E. coli tonB-P14 transcription 
+                     /label="tonB terminator"
+                     /note="bidirectional E. coli tonB-P14 transcription
                      terminator"
 ORIGIN
         1 acgatagtca tgccccgcgc ccaccggaag gagctgactg ggttgaaggc tctcaagggc
