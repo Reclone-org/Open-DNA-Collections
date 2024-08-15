@@ -1,337 +1,337 @@
-﻿BBF ID,ODC ID,Name,Collection,,,,
-BBF10K_000589,ODC_0001,pInducible/pOpen_v4,Open Plasmids,,,,
-BBF10K_003498,ODC_0002,pBuild/pOpen_v3,Open Plasmids,,,,
-BBF10K_003499,ODC_0003,pYeast/pOpen_yeast,Open Plasmids,,,,
-,ODC_0004,pTi,Open Plasmids,,,,
-,ODC_0005,pTiR,Open Plasmids,,,,
-,ODC_0006,pTiER,Open Plasmids,,,,
-BBF10K_003247,ODC_0007,9°N-7 DNA polymerase,Open Enzyme Collection,,,,
-BBF10K_003248,ODC_0008,"DNA Polymerase I, Large (Klenow) Fragment",Open Enzyme Collection,,,,
-BBF10K_003249,ODC_0009,"DNA Polymerase I, Large (Klenow) Fragment (3′→5′ exo-)",Open Enzyme Collection,,,,
-BBF10K_003250,ODC_0010,E. coli DNA Polymerase I,Open Enzyme Collection,,,,
-BBF10K_003251,ODC_0011,KlenTaq1 polymerase,Open Enzyme Collection,,,,
-BBF10K_003252,ODC_0012,KOD DNA polymerase,Open Enzyme Collection,,,,
-BBF10K_003254,ODC_0013,Pwo DNA Polymerase,Open Enzyme Collection,,,,
-BBF10K_003255,ODC_0014,Pyrococcus Sp. Heat-Stable (exo–) DNA Polymerase (Deep Vent™ (exo–) DNA Polymerase at NEB),Open Enzyme Collection,,,,
-BBF10K_003256,ODC_0015,Pyrococcus Sp. Heat-Stable DNA Polymerase (Deep Vent™ at NEB),Open Enzyme Collection,,,,
-BBF10K_003257,ODC_0016,Taq DNA Polymerase,Open Enzyme Collection,,,,
-BBF10K_003259,ODC_0017,Tli DNA polymerase (exo-)(available from NEB as VentR® (exo-) DNA Polymerase),Open Enzyme Collection,,,,
-BBF10K_003260,ODC_0018,Tth DNA polymerase,Open Enzyme Collection,,,,
-BBF10K_003261,ODC_0019,"Bst DNA Polymerase, Full Length",Open Enzyme Collection,,,,
-BBF10K_003262,ODC_0020,"Bst DNA Polymerase, Large Fragment",Open Enzyme Collection,,,,
-BBF10K_003263,ODC_0021,"Bsu DNA Polymerase I, Large Fragment",Open Enzyme Collection,,,,
-BBF10K_003264,ODC_0022,phi29 DNA Polymerase,Open Enzyme Collection,,,,
-BBF10K_003265,ODC_0023,9°N-7 DNA Polymerase chain terminating (NEB > Therminator DNA Pol),Open Enzyme Collection,,,,
-BBF10K_003266,ODC_0024,Sulfolobus DNA Polymerase IV,Open Enzyme Collection,,,,
-BBF10K_003267,ODC_0025,T4 DNA Polymerase,Open Enzyme Collection,,,,
-BBF10K_003268,ODC_0026,T7 DNA Polymerase (unmodified),Open Enzyme Collection,,,,
-BBF10K_003269,ODC_0027,T5 DNA Polymerase,Open Enzyme Collection,,,,
-BBF10K_003270,ODC_0028,T4-DNA Ligase,Open Enzyme Collection,,,,
-BBF10K_003271,ODC_0029,E. coli DNA Ligase,Open Enzyme Collection,,,,
-BBF10K_003272,ODC_0030,DNA Lligase III,Open Enzyme Collection,,,,
-BBF10K_003273,ODC_0031,DNA Ligase IV,Open Enzyme Collection,,,,
-BBF10K_003274,ODC_0032,9 Degrees North DNA Ligase,Open Enzyme Collection,,,,
-BBF10K_003275,ODC_0033,Pfu DNA Ligase,Open Enzyme Collection,,,,
-BBF10K_003276,ODC_0034,Taq DNA Ligase,Open Enzyme Collection,,,,
-BBF10K_003277,ODC_0035,T4 RNA Ligase 1,Open Enzyme Collection,,,,
-BBF10K_003278,ODC_0036,CIP (calf intestinal phosphatase),Open Enzyme Collection,,,,
-BBF10K_003279,ODC_0037,RNAse A,Open Enzyme Collection,,,,
-BBF10K_003280,ODC_0038,RNAse H,Open Enzyme Collection,,,,
-BBF10K_003281,ODC_0039,EcoRI,Open Enzyme Collection,,,,
-BBF10K_003282,ODC_0040,EcoRI methyltransferase,Open Enzyme Collection,,,,
-BBF10K_003283,ODC_0041,PstI,Open Enzyme Collection,,,,
-BBF10K_003284,ODC_0042,PstI methyltransferase,Open Enzyme Collection,,,,
-BBF10K_003285,ODC_0043,MMLV_RT (mut H),Open Enzyme Collection,,,,
-BBF10K_003286,ODC_0044,MMLV_RT (lack H),Open Enzyme Collection,,,,
-BBF10K_003287,ODC_0045,Thermus thermophilus (Tth) RT,Open Enzyme Collection,,,,
-BBF10K_003289,ODC_0046,T3 RNA Polymerase,Open Enzyme Collection,,,,
-BBF10K_003290,ODC_0047,T7 RNA Polymerase,Open Enzyme Collection,,,,
-BBF10K_003291,ODC_0048,SP6 RNA Polymerase,Open Enzyme Collection,,,,
-BBF10K_003292,ODC_0049,Eco31I,Open Enzyme Collection,,,,
-BBF10K_003293,ODC_0050,Eco31IA methyltransferase,Open Enzyme Collection,,,,
-BBF10K_003294,ODC_0051,Eco31IB methyltransferase,Open Enzyme Collection,,,,
-BBF10K_003295,ODC_0052,SapI,Open Enzyme Collection,,,,
-BBF10K_003296,ODC_0053,M1.SapI methyltransferase,Open Enzyme Collection,,,,
-BBF10K_003297,ODC_0054,M2.SapI methyltransferase,Open Enzyme Collection,,,,
-BBF10K_003298,ODC_0055,XbaI,Open Enzyme Collection,,,,
-BBF10K_003299,ODC_0056,XbaI methyltransferase,Open Enzyme Collection,,,,
-BBF10K_003300,ODC_0057,NotI,Open Enzyme Collection,,,,
-BBF10K_003301,ODC_0058,NotI methyltransferase,Open Enzyme Collection,,,,
-BBF10K_003302,ODC_0059,SfiI,Open Enzyme Collection,,,,
-BBF10K_003303,ODC_0060,SfiI methyltransferase,Open Enzyme Collection,,,,
-BBF10K_003304,ODC_0061,EcoRV,Open Enzyme Collection,,,,
-BBF10K_003305,ODC_0062,EcoRV methyltransferase,Open Enzyme Collection,,,,
-BBF10K_003306,ODC_0063,NcoI,Open Enzyme Collection,,,,
-BBF10K_003307,ODC_0064,NcoI methyltransferase,Open Enzyme Collection,,,,
-BBF10K_003308,ODC_0065,HindIII,Open Enzyme Collection,,,,
-BBF10K_003309,ODC_0066,HindIII methyltransferase,Open Enzyme Collection,,,,
-BBF10K_003310,ODC_0067,DpnI,Open Enzyme Collection,,,,
-BBF10K_003311,ODC_0068,Bst HF,Open Enzyme Collection,,,,
-BBF10K_003312,ODC_0069,ET SSB,Open Enzyme Collection,,,,
-BBF10K_003313,ODC_0070,T5 Exonuclease,Open Enzyme Collection,,,,
-BBF10K_003314,ODC_0071,HiFi Tth DNA Ligase,Open Enzyme Collection,,,,
-BBF10K_003315,ODC_0072,Dm dNK,Open Enzyme Collection,,,,
-BBF10K_003316,ODC_0073,TEV protease,Open Enzyme Collection,,,,
-BBF10K_003317,ODC_0074,T4 PNK,Open Enzyme Collection,,,,
-BBF10K_003318,ODC_0075,T4 BGT,Open Enzyme Collection,,,,
-BBF10K_003319,ODC_0076,T7 Endonuclease I,Open Enzyme Collection,,,,
-BBF10K_003320,ODC_0077,T4 Endonuclease V (T4 PDG),Open Enzyme Collection,,,,
-BBF10K_003321,ODC_0078,T4 g32,Open Enzyme Collection,,,,
-BBF10K_003322,ODC_0079,P45,Open Enzyme Collection,,,,
-BBF10K_003323,ODC_0080,Terminal transferase TdT (Bovine DNTT),Open Enzyme Collection,,,,
-BBF10K_003324,ODC_0081,DNA Topoisomerase 1B (Vaccinia Virus),Open Enzyme Collection,,,,
-BBF10K_003325,ODC_0082,lambda red operon,Open Enzyme Collection,,,,
-BBF10K_003326,ODC_0083,UDG,Open Enzyme Collection,,,,
-BBF10K_003327,ODC_0084,Fpg,Open Enzyme Collection,,,,
-BBF10K_003328,ODC_0085,Endonuclease IV E. coli,Open Enzyme Collection,,,,
-BBF10K_003329,ODC_0086,Endonuclease VIII E. coli,Open Enzyme Collection,,,,
-BBF10K_003330,ODC_0087,Exonuclease III E. coli,Open Enzyme Collection,,,,
-BBF10K_003331,ODC_0088,cjBlue/ BioBrick K592011,Open Reporters Collection,,,,
-BBF10K_003335,ODC_0089,gfasPurple/gfasCP Biobrick K1033918,Open Reporters Collection,,,,
-BBF10K_003342,ODC_0090,meffCFP,Open Reporters Collection,,,,
-BBF10K_003343,ODC_0091,mmilCFP,Open Reporters Collection,,,,
-BBF10K_003344,ODC_0092,meleCFP,Open Reporters Collection,,,,
-BBF10K_003345,ODC_0093,efasCFP,Open Reporters Collection,,,,
-BBF10K_003346,ODC_0094,aacuGFP1,Open Reporters Collection,,,,
-BBF10K_003347,ODC_0095,aacuGFP2,Open Reporters Collection,,,,
-BBF10K_003348,ODC_0096,afraGFP,Open Reporters Collection,,,,
-BBF10K_003349,ODC_0097,amilGFP Biobrick K592010,Open Reporters Collection,,,,
-BBF10K_003350,ODC_0098,eechGFP1,Open Reporters Collection,,,,
-BBF10K_003351,ODC_0099,eechGFP2,Open Reporters Collection,,,,
-BBF10K_003352,ODC_0100,eechGFP3,Open Reporters Collection,,,,
-BBF10K_003353,ODC_0101,efasGFP,Open Reporters Collection,,,,
-BBF10K_003354,ODC_0102,gfasGFP,Open Reporters Collection,,,,
-BBF10K_003355,ODC_0103,plamGFP,Open Reporters Collection,,,,
-BBF10K_003357,ODC_0104,amilRFP,Open Reporters Collection,,,,
-BBF10K_003358,ODC_0105,meffRed/meffRFP Biobricks K592012,Open Reporters Collection,,,,
-BBF10K_003359,ODC_0106,pporRFP,Open Reporters Collection,,,,
-BBF10K_003360,ODC_0107,meleRFP,Open Reporters Collection,,,,
-BBF10K_003361,ODC_0108,scubRFP,Open Reporters Collection,,,,
-BBF10K_003362,ODC_0109,eforRed/eforCP Biobrick K592012,Open Reporters Collection,,,,
-BBF10K_003364,ODC_0110,amajLime/amajCFP/amFP486 BioBrick K1033916,Open Reporters Collection,,,,
-BBF10K_003365,ODC_0111,EiraCFP Biobrick J97000,Open Reporters Collection,,,,
-BBF10K_003367,ODC_0112,HRP,Open Reporters Collection,,,,
-BBF10K_003368,ODC_0113,Firefly Luciferase [Photinus pyralis] (Fluc),Open Reporters Collection,,,,
-BBF10K_003369,ODC_0114,Luciferase [Luciola cruciata] (Japanese firefly),Open Reporters Collection,,,,
-BBF10K_003370,ODC_0115,Renilla luciferase,Open Reporters Collection,,,,
-BBF10K_003371,ODC_0116,beta-lactamase,Open Reporters Collection,,,,
-BBF10K_003372,ODC_0117,Calf Intestine Alkaline phosphatase (CIAP),Open Reporters Collection,,,,
-BBF10K_003332,ODC_0118,CE_meffBlue/Rtms5/ NF pocilloporin /Biobrick K1033902,E. coli Protein Expression Tookit,,,,
-BBF10K_003356,ODC_0119,CE_sarcGFP,E. coli Protein Expression Tookit,,,,
-BBF10K_003366,ODC_0120,CE_beta-galactosidase,E. coli Protein Expression Tookit,,,,
-BBF10K_003373,ODC_0121,AF_lacZ pDest,E. coli Protein Expression Tookit,,,,
-BBF10K_003375,ODC_0122,AE_lacZ pDest,E. coli Protein Expression Tookit,,,,
-BBF10K_003376,ODC_0123,AF_high copy (pUC) ori/KanR,E. coli Protein Expression Tookit,,,,
-BBF10K_003377,ODC_0124,AF_medium copy (pET) ori/KanR,E. coli Protein Expression Tookit,,,,
-BBF10K_003378,ODC_0125,AB_T7,E. coli Protein Expression Tookit,,,,
-BBF10K_003379,ODC_0126,AB_T7_lacO,E. coli Protein Expression Tookit,,,,
-BBF10K_003380,ODC_0127,AB_pTac,E. coli Protein Expression Tookit,,,,
-BBF10K_003384,ODC_0128,BT1_BCD2,E. coli Protein Expression Tookit,,,,
-BBF10K_003385,ODC_0129,BT1_Riboj54_F1,E. coli Protein Expression Tookit,,,,
-BBF10K_003386,ODC_0130,BT1_Riboj_B34,E. coli Protein Expression Tookit,,,,
-BBF10K_003387,ODC_0131,BT1_BCD12,E. coli Protein Expression Tookit,,,,
-BBF10K_003388,ODC_0132,BT1_BCD23,E. coli Protein Expression Tookit,,,,
-BBF10K_003389,ODC_0133,BT1_BCD2_His,E. coli Protein Expression Tookit,,,,
-BBF10K_003390,ODC_0134,BT1_RiboJ_B34_His,E. coli Protein Expression Tookit,,,,
-BBF10K_003391,ODC_0135,BT1_BCD2_DsbA,E. coli Protein Expression Tookit,,,,
-BBF10K_003392,ODC_0136,BT1_BCD2_OmpT,E. coli Protein Expression Tookit,,,,
-BBF10K_003393,ODC_0137,BT1_BCD2_pelB,E. coli Protein Expression Tookit,,,,
-BBF10K_003395,ODC_0138,T1T2_Calm,E. coli Protein Expression Tookit,,,,
-BBF10K_003396,ODC_0139,T1T2_CBD,E. coli Protein Expression Tookit,,,,
-BBF10K_003397,ODC_0140,T1T2_Cex,E. coli Protein Expression Tookit,,,,
-BBF10K_003398,ODC_0141,T1T2_MBP,E. coli Protein Expression Tookit,,,,
-BBF10K_003399,ODC_0142,T1T2_R5,E. coli Protein Expression Tookit,,,,
-BBF10K_003400,ODC_0143,T1T2_GST,E. coli Protein Expression Tookit,,,,
-BBF10K_003401,ODC_0144,T1T2_CipA,E. coli Protein Expression Tookit,,,,
-BBF10K_003402,ODC_0145,T1T2_S-Tag,E. coli Protein Expression Tookit,,,,
-BBF10K_003403,ODC_0146,T1T2_GB1,E. coli Protein Expression Tookit,,,,
-BBF10K_003404,ODC_0147,T1T2_GS flexible,E. coli Protein Expression Tookit,,,,
-BBF10K_003405,ODC_0148,T1T3_GS flexible,E. coli Protein Expression Tookit,,,,
-BBF10K_003406,ODC_0149,T1C_GS flexible,E. coli Protein Expression Tookit,,,,
-BBF10K_003407,ODC_0150,T1C_His_TEVcut,E. coli Protein Expression Tookit,,,,
-BBF10K_003408,ODC_0151,BT2_BCD2_His,E. coli Protein Expression Tookit,,,,
-BBF10K_003409,ODC_0152,BT2_RiboJ_B34,E. coli Protein Expression Tookit,,,,
-BBF10K_003410,ODC_0153,BC_B0034,E. coli Protein Expression Tookit,,,,
-BBF10K_003411,ODC_0154,BC_B0032,E. coli Protein Expression Tookit,,,,
-BBF10K_003412,ODC_0155,BC_RiboJ_RBS64,E. coli Protein Expression Tookit,,,,
-BBF10K_003413,ODC_0156,BC_RiboJ_B34,E. coli Protein Expression Tookit,,,,
-BBF10K_003414,ODC_0157,BC_BCD23,E. coli Protein Expression Tookit,,,,
-BBF10K_003415,ODC_0158,BC_BCD12,E. coli Protein Expression Tookit,,,,
-BBF10K_003416,ODC_0159,BC_BCD2,E. coli Protein Expression Tookit,,,,
-BBF10K_003417,ODC_0160,T2C_GS flexible,E. coli Protein Expression Tookit,,,,
-BBF10K_003418,ODC_0161,T2C_TEVcut,E. coli Protein Expression Tookit,,,,
-BBF10K_003419,ODC_0162,BC_BCD2_His_TEVcut,E. coli Protein Expression Tookit,,,,
-BBF10K_003420,ODC_0163,BC_BCD2_His_fuGFP_TEVcut,E. coli Protein Expression Tookit,,,,
-BBF10K_003421,ODC_0164,T2T3_int_∆I,E. coli Protein Expression Tookit,,,,
-BBF10K_003422,ODC_0165,T2T3_SUMO,E. coli Protein Expression Tookit,,,,
-BBF10K_003423,ODC_0166,T2T3_fuGFP,E. coli Protein Expression Tookit,,,,
-BBF10K_003424,ODC_0167,T2T3_AmilCP,E. coli Protein Expression Tookit,,,,
-BBF10K_003425,ODC_0168,T2T3_GS flexible,E. coli Protein Expression Tookit,,,,
-BBF10K_003426,ODC_0169,T3C_SUMO,E. coli Protein Expression Tookit,,,,
-BBF10K_003427,ODC_0170,T3C_TEV,E. coli Protein Expression Tookit,,,,
-BBF10K_003428,ODC_0171,T3C_int_∆I,E. coli Protein Expression Tookit,,,,
-BBF10K_003429,ODC_0172,T3C_fuGFP,E. coli Protein Expression Tookit,,,,
-BBF10K_003430,ODC_0173,T3C_GS flexible linker,E. coli Protein Expression Tookit,,,,
-BBF10K_003431,ODC_0174,CD_OMMLV,E. coli Protein Expression Tookit,,,,
-BBF10K_003432,ODC_0175,CD_HIVRT,E. coli Protein Expression Tookit,,,,
-BBF10K_003433,ODC_0176,CD_Bst-LF,E. coli Protein Expression Tookit,,,,
-BBF10K_003434,ODC_0177,CD_OpenVent,E. coli Protein Expression Tookit,,,,
-BBF10K_003436,ODC_0178,CD_RNAseInhibitor,E. coli Protein Expression Tookit,,,,
-BBF10K_003437,ODC_0179,CD_gp32,E. coli Protein Expression Tookit,,,,
-BBF10K_003438,ODC_0180,CD_BsuLF,E. coli Protein Expression Tookit,,,,
-BBF10K_003439,ODC_0181,CD_UvsY,E. coli Protein Expression Tookit,,,,
-BBF10K_003440,ODC_0182,CD_UvsX,E. coli Protein Expression Tookit,,,,
-BBF10K_003441,ODC_0183,CE_T7RNApol_Stop,E. coli Protein Expression Tookit,,,,
-BBF10K_003442,ODC_0184,CD_PBCV-1_ligase,E. coli Protein Expression Tookit,,,,
-BBF10K_003443,ODC_0185,CD_HRP,E. coli Protein Expression Tookit,,,,
-BBF10K_003444,ODC_0186,CD_TEV_protease,E. coli Protein Expression Tookit,,,,
-BBF10K_003445,ODC_0187,CD_SUMO_protease,E. coli Protein Expression Tookit,,,,
-BBF10K_003446,ODC_0188,CD_Calmodulin,E. coli Protein Expression Tookit,,,,
-BBF10K_003447,ODC_0189,CD_fuGFP,E. coli Protein Expression Tookit,,,,
-BBF10K_003448,ODC_0190,CD_AmilCP,E. coli Protein Expression Tookit,,,,
-BBF10K_003449,ODC_0191,CD_TthRNAseH,E. coli Protein Expression Tookit,,,,
-BBF10K_003450,ODC_0192,CD_EcRNAseH,E. coli Protein Expression Tookit,,,,
-BBF10K_003451,ODC_0193,DT4_Int_SaltS,E. coli Protein Expression Tookit,,,,
-BBF10K_003452,ODC_0194,DT4_Int_ThiolS,E. coli Protein Expression Tookit,,,,
-BBF10K_003453,ODC_0195,DT4_TEV,E. coli Protein Expression Tookit,,,,
-BBF10K_003454,ODC_0196,DT4_fuGFP,E. coli Protein Expression Tookit,,,,
-BBF10K_003455,ODC_0197,DT4_GS flexible linker,E. coli Protein Expression Tookit,,,,
-BBF10K_003457,ODC_0198,DT5_TEVcut,E. coli Protein Expression Tookit,,,,
-BBF10K_003459,ODC_0199,DF_TEVcut_His_Stop_TZ,E. coli Protein Expression Tookit,,,,
-BBF10K_003460,ODC_0200,DF_TEVcut_fuGFP_His_Stop_TZ,E. coli Protein Expression Tookit,,,,
-BBF10K_003461,ODC_0201,T4T5_Int_ThiolS,E. coli Protein Expression Tookit,,,,
-BBF10K_003462,ODC_0202,T4T5_Int_SaltS,E. coli Protein Expression Tookit,,,,
-BBF10K_003463,ODC_0203,T4T5_AmilCP,E. coli Protein Expression Tookit,,,,
-BBF10K_003464,ODC_0204,T4T5_fuGFP,E. coli Protein Expression Tookit,,,,
-BBF10K_003465,ODC_0205,T4T5_GS flexible,E. coli Protein Expression Tookit,,,,
-BBF10K_003466,ODC_0206,T4E_3xStop,E. coli Protein Expression Tookit,,,,
-BBF10K_003467,ODC_0207,T5E_6H,E. coli Protein Expression Tookit,,,,
-BBF10K_003468,ODC_0208,T5E_Calm,E. coli Protein Expression Tookit,,,,
-BBF10K_003469,ODC_0209,T5E_CBD,E. coli Protein Expression Tookit,,,,
-BBF10K_003470,ODC_0210,T5E_Cex,E. coli Protein Expression Tookit,,,,
-BBF10K_003471,ODC_0211,T5E_MBP,E. coli Protein Expression Tookit,,,,
-BBF10K_003472,ODC_0212,T5E_R5,E. coli Protein Expression Tookit,,,,
-BBF10K_003473,ODC_0213,T5E_CipA,E. coli Protein Expression Tookit,,,,
-BBF10K_003474,ODC_0214,T5E_3xStop,E. coli Protein Expression Tookit,,,,
-BBF10K_003475,ODC_0215,EF_ECK9600,E. coli Protein Expression Tookit,,,,
-BBF10K_003476,ODC_0216,EF_T7term,E. coli Protein Expression Tookit,,,,
-BBF10K_003477,ODC_0217,EF_TZ,E. coli Protein Expression Tookit,,,,
-BBF10K_000004,ODC_0218,MERScontrol,Molecular Diagnostics Toolkit,,,,
-BBF10K_000006,ODC_0219,Pfu_Ssod7 HiFi,Molecular Diagnostics Toolkit,,,,
-BBF10K_000013,ODC_0220,gp32,Molecular Diagnostics Toolkit,,,,
-BBF10K_000014,ODC_0221,Ecoli_opt_RNAseInhib,Molecular Diagnostics Toolkit,,,,
-BBF10K_003500,ODC_0222,HIVRT,Molecular Diagnostics Toolkit,,,,
-BBF10K_003501,ODC_0223,OMMLV,Molecular Diagnostics Toolkit,,,,
-BBF10K_003502,ODC_0224,OpenVent,Molecular Diagnostics Toolkit,,,,
-BBF10K_003503,ODC_0225,RNAseInhib,Molecular Diagnostics Toolkit,,,,
-BBF10K_003504,ODC_0226,EcPPA,Molecular Diagnostics Toolkit,,,,
-BBF10K_003505,ODC_0227,orfA1,Molecular Diagnostics Toolkit,,,,
-BBF10K_003506,ODC_0228,orfA2,Molecular Diagnostics Toolkit,,,,
-BBF10K_003507,ODC_0229,orfB3,Molecular Diagnostics Toolkit,,,,
-BBF10K_003508,ODC_0230,orfE4,Molecular Diagnostics Toolkit,,,,
-BBF10K_003509,ODC_0231,orfN5,Molecular Diagnostics Toolkit,,,,
-BBF10K_003510,ODC_0232,SARSContol,Molecular Diagnostics Toolkit,,,,
-BBF10K_003564,ODC_0233,Bst-LF,Molecular Diagnostics Toolkit,,,,
-BBF10K_003565,ODC_0234,Bsu,Molecular Diagnostics Toolkit,,,,
-BBF10K_003566,ODC_0235,UvsX,Molecular Diagnostics Toolkit,,,,
-BBF10K_003567,ODC_0236,PBCV-1_ligase,Molecular Diagnostics Toolkit,,,,
-BBF10K_003568,ODC_0237,TthRNAseH,Molecular Diagnostics Toolkit,,,,
-BBF10K_003569,ODC_0238,EcRNAseH,Molecular Diagnostics Toolkit,,,,
-BBF10K_003570,ODC_0239,TEV,Molecular Diagnostics Toolkit,,,,
-BBF10K_000034,ODC_0240,Sc-pAdh1,Open Yeast Collection,,,,
-BBF10K_000037,ODC_0241,Sc-pCCW12,Open Yeast Collection,,,,
-BBF10K_000039,ODC_0242,Sc-pCUP1,Open Yeast Collection,,,,
-BBF10K_000046,ODC_0243,Sc-pCYC1,Open Yeast Collection,,,,
-BBF10K_000068,ODC_0244,Sc-pHis3,Open Yeast Collection,,,,
-BBF10K_000078,ODC_0245,Sc-pLeu2,Open Yeast Collection,,,,
-BBF10K_000079,ODC_0246,Sc-pMF2,Open Yeast Collection,,,,
-BBF10K_000084,ODC_0247,Sc-pMFA1,Open Yeast Collection,,,,
-BBF10K_000094,ODC_0248,Sc-pMFalpha2,Open Yeast Collection,,,,
-BBF10K_000106,ODC_0249,Sc-pRPL18B,Open Yeast Collection,,,,
-BBF10K_000107,ODC_0250,Sc-pSAC6,Open Yeast Collection,,,,
-BBF10K_000129,ODC_0251,Sc-pSte5,Open Yeast Collection,,,,
-BBF10K_000134,ODC_0252,Sc-pTDH3,Open Yeast Collection,,,,
-BBF10K_000151,ODC_0253,Sc-pTrp1,Open Yeast Collection,,,,
-BBF10K_000152,ODC_0254,Sc-pUra3,Open Yeast Collection,,,,
-BBF10K_000163,ODC_0255,AB_Sc-pCCW12,Open Yeast Collection,,,,
-BBF10K_000167,ODC_0256,AB_Sc-pCYC1,Open Yeast Collection,,,,
-BBF10K_000180,ODC_0257,AB_Pp-pGAP,Open Yeast Collection,,,,
-BBF10K_000181,ODC_0258,AB_Pp-pAOX1,Open Yeast Collection,,,,
-BBF10K_000195,ODC_0259,ScLYS2,Open Yeast Collection,,,,
-BBF10K_000196,ODC_0260,ScMET17,Open Yeast Collection,,,,
-BBF10K_000199,ODC_0261,ScAUR1,Open Yeast Collection,,,,
-BBF10K_000207,ODC_0262,Cre,Open Yeast Collection,,,,
-BBF10K_000210,ODC_0263,FLP,Open Yeast Collection,,,,
-BBF10K_000211,ODC_0264,GPP synthase,Open Yeast Collection,,,,
-BBF10K_000217,ODC_0265,GGPP synthase,Open Yeast Collection,,,,
-BBF10K_000227,ODC_0266,FPP synthase,Open Yeast Collection,,,,
-BBF10K_000238,ODC_0267,4S-limonene-synthase,Open Yeast Collection,,,,
-BBF10K_000243,ODC_0268,limonene-3-hydroxylase,Open Yeast Collection,,,,
-BBF10K_000246,ODC_0269,S-linalool synthase,Open Yeast Collection,,,,
-BBF10K_000256,ODC_0270,carveol dehydrogenase,Open Yeast Collection,,,,
-BBF10K_000327,ODC_0271,ScGal4-DNA-AD,Open Yeast Collection,,,,
-BBF10K_000329,ODC_0272,ScGal4-DNA-BD,Open Yeast Collection,,,,
-BBF10K_000335,ODC_0273,N1N2_SV40_NLS,Open Yeast Collection,,,,
-BBF10K_000355,ODC_0274,Pp_aMF_sec_tag,Open Yeast Collection,,,,
-BBF10K_000357,ODC_0275,Pp_aMF_noEAEA_sec_tag,Open Yeast Collection,,,,
-BBF10K_000385,ODC_0276,Sc-tUBX6,Open Yeast Collection,,,,
-BBF10K_000392,ODC_0277,Sc-tENO1,Open Yeast Collection,,,,
-BBF10K_000401,ODC_0278,Sc-tENO2,Open Yeast Collection,,,,
-BBF10K_000406,ODC_0279,Sc-tPRM9,Open Yeast Collection,,,,
-BBF10K_000412,ODC_0280,Sc-tSSA1,Open Yeast Collection,,,,
-BBF10K_000416,ODC_0281,Sc-tTDH1,Open Yeast Collection,,,,
-BBF10K_000418,ODC_0282,Pp-tAOX1,Open Yeast Collection,,,,
-BBF10K_000420,ODC_0283,AConL-start-rev,Open Yeast Collection,,,,
-BBF10K_000424,ODC_0284,AConL-start,Open Yeast Collection,,,,
-BBF10K_000429,ODC_0285,AConL1,Open Yeast Collection,,,,
-BBF10K_000432,ODC_0286,AConL2,Open Yeast Collection,,,,
-BBF10K_000439,ODC_0287,AConL3,Open Yeast Collection,,,,
-BBF10K_000440,ODC_0288,AConL4,Open Yeast Collection,,,,
-BBF10K_000441,ODC_0289,AConL5,Open Yeast Collection,,,,
-BBF10K_000442,ODC_0290,AConR1,Open Yeast Collection,,,,
-BBF10K_000443,ODC_0291,AConR2,Open Yeast Collection,,,,
-BBF10K_000444,ODC_0292,AConR3,Open Yeast Collection,,,,
-BBF10K_000445,ODC_0293,AConR4,Open Yeast Collection,,,,
-BBF10K_000446,ODC_0294,AConR5,Open Yeast Collection,,,,
-BBF10K_000447,ODC_0295,AConR-end,Open Yeast Collection,,,,
-BBF10K_000448,ODC_0296,AConR-end-rev,Open Yeast Collection,,,,
-BBF10K_000449,ODC_0297,ScHR5'-LEU2,Open Yeast Collection,,,,
-BBF10K_000450,ODC_0298,ScHR3'-LEU2,Open Yeast Collection,,,,
-BBF10K_000451,ODC_0299,ScHR5'-URA3,Open Yeast Collection,,,,
-BBF10K_000452,ODC_0300,ScHR3'-URA3,Open Yeast Collection,,,,
-BBF10K_000453,ODC_0301,ScHR5'-HO,Open Yeast Collection,,,,
-BBF10K_000454,ODC_0302,ScHR3'-HO,Open Yeast Collection,,,,
-BBF10K_000455,ODC_0303,PpHR5'-NTS,Open Yeast Collection,,,,
-BBF10K_000456,ODC_0304,PpHR3'-NTS,Open Yeast Collection,,,,
-BBF10K_000457,ODC_0305,PpHR5'-RGI2,Open Yeast Collection,,,,
-BBF10K_000458,ODC_0306,PpHR3'-RGI2,Open Yeast Collection,,,,
-BBF10K_000459,ODC_0307,PpHR5'-ENO,Open Yeast Collection,,,,
-BBF10K_000460,ODC_0308,PpHR3'-ENO,Open Yeast Collection,,,,
-BBF10K_000461,ODC_0309,PpHR5'-AOXTT,Open Yeast Collection,,,,
-BBF10K_000462,ODC_0310,PpHR3'-AOXTT,Open Yeast Collection,,,,
-BBF10K_000463,ODC_0311,Sc2micron,Open Yeast Collection,,,,
-BBF10K_000464,ODC_0312,ScARS_CEN,Open Yeast Collection,,,,
-BBF10K_000465,ODC_0313,Pichia PARS,Open Yeast Collection,,,,
-BBF10K_000466,ODC_0314,oriT,Open Yeast Collection,,,,
-BBF10K_000467,ODC_0315,ScADE2-marker,Open Yeast Collection,,,,
-BBF10K_000468,ODC_0316,ScHIS3-marker,Open Yeast Collection,,,,
-BBF10K_000469,ODC_0317,ScHygro-marker,Open Yeast Collection,,,,
-BBF10K_000470,ODC_0318,ScKanR-marker,Open Yeast Collection,,,,
-BBF10K_000471,ODC_0319,ScLEU2-marker,Open Yeast Collection,,,,
-BBF10K_000472,ODC_0320,ScNAT-marker,Open Yeast Collection,,,,
-BBF10K_000473,ODC_0321,ScTRP1-marker,Open Yeast Collection,,,,
-BBF10K_000474,ODC_0322,ScURA3-marker,Open Yeast Collection,,,,
-BBF10K_000475,ODC_0323,ScZeo-marker,Open Yeast Collection,,,,
-BBF10K_000476,ODC_0324,OYC-bridge-AGAC-CGAA,Open Yeast Collection,,,,
-BBF10K_000477,ODC_0325,OYC-bridge-AGAC-GCAA,Open Yeast Collection,,,,
-BBF10K_000479,ODC_0326,OYC-CamR,Open Yeast Collection,,,,
-BBF10K_000480,ODC_0327,OYC-SpecR,Open Yeast Collection,,,,
-BBF10K_000481,ODC_0328,OYC-high-copy-origin,Open Yeast Collection,,,,
-BBF10K_000482,ODC_0329,OYC-eforRed-dropout,Open Yeast Collection,,,,
-BBF10K_000484,ODC_0330,pWV01-ori,Open Yeast Collection,,,,
-BBF10K_000485,ODC_0331,BsubSecTagLP_1,Bacillus Subtilis Protein Secretion Toolkit,,,,
-BBF10K_000486,ODC_0332,BsubSecTagLP_2,Bacillus Subtilis Protein Secretion Toolkit,,,,
-BBF10K_000487,ODC_0333,BsubSecTagLP_3,Bacillus Subtilis Protein Secretion Toolkit,,,,
-BBF10K_000488,ODC_0334,BsubSecTagLP_4,Bacillus Subtilis Protein Secretion Toolkit,,,,
-BBF10K_000489,ODC_0335,BsubSecTagLP_5,Bacillus Subtilis Protein Secretion Toolkit,,,,
-BBF10K_000490,ODC_0336,BsubSecTagLP_6,Bacillus Subtilis Protein Secretion Toolkit,,,,
+﻿BBF ID,ODC ID,Name,Collection
+BBF10K_000589,ODC_0001,pInducible/pOpen_v4,Open Plasmids
+BBF10K_003498,ODC_0002,pBuild/pOpen_v3,Open Plasmids
+BBF10K_003499,ODC_0003,pYeast/pOpen_yeast,Open Plasmids
+,ODC_0004,pTi,Open Plasmids
+,ODC_0005,pTiR,Open Plasmids
+,ODC_0006,pTiER,Open Plasmids
+BBF10K_003247,ODC_0007,9°N-7 DNA polymerase,Open Enzyme Collection
+BBF10K_003248,ODC_0008,"DNA Polymerase I, Large (Klenow) Fragment",Open Enzyme Collection
+BBF10K_003249,ODC_0009,"DNA Polymerase I, Large (Klenow) Fragment (3′→5′ exo-)",Open Enzyme Collection
+BBF10K_003250,ODC_0010,E. coli DNA Polymerase I,Open Enzyme Collection
+BBF10K_003251,ODC_0011,KlenTaq1 polymerase,Open Enzyme Collection
+BBF10K_003252,ODC_0012,KOD DNA polymerase,Open Enzyme Collection
+BBF10K_003254,ODC_0013,Pwo DNA Polymerase,Open Enzyme Collection
+BBF10K_003255,ODC_0014,Pyrococcus Sp. Heat-Stable (exo–) DNA Polymerase (Deep Vent™ (exo–) DNA Polymerase at NEB),Open Enzyme Collection
+BBF10K_003256,ODC_0015,Pyrococcus Sp. Heat-Stable DNA Polymerase (Deep Vent™ at NEB),Open Enzyme Collection
+BBF10K_003257,ODC_0016,Taq DNA Polymerase,Open Enzyme Collection
+BBF10K_003259,ODC_0017,Tli DNA polymerase (exo-)(available from NEB as VentR® (exo-) DNA Polymerase),Open Enzyme Collection
+BBF10K_003260,ODC_0018,Tth DNA polymerase,Open Enzyme Collection
+BBF10K_003261,ODC_0019,"Bst DNA Polymerase, Full Length",Open Enzyme Collection
+BBF10K_003262,ODC_0020,"Bst DNA Polymerase, Large Fragment",Open Enzyme Collection
+BBF10K_003263,ODC_0021,"Bsu DNA Polymerase I, Large Fragment",Open Enzyme Collection
+BBF10K_003264,ODC_0022,phi29 DNA Polymerase,Open Enzyme Collection
+BBF10K_003265,ODC_0023,9°N-7 DNA Polymerase chain terminating (NEB > Therminator DNA Pol),Open Enzyme Collection
+BBF10K_003266,ODC_0024,Sulfolobus DNA Polymerase IV,Open Enzyme Collection
+BBF10K_003267,ODC_0025,T4 DNA Polymerase,Open Enzyme Collection
+BBF10K_003268,ODC_0026,T7 DNA Polymerase (unmodified),Open Enzyme Collection
+BBF10K_003269,ODC_0027,T5 DNA Polymerase,Open Enzyme Collection
+BBF10K_003270,ODC_0028,T4-DNA Ligase,Open Enzyme Collection
+BBF10K_003271,ODC_0029,E. coli DNA Ligase,Open Enzyme Collection
+BBF10K_003272,ODC_0030,DNA Lligase III,Open Enzyme Collection
+BBF10K_003273,ODC_0031,DNA Ligase IV,Open Enzyme Collection
+BBF10K_003274,ODC_0032,9 Degrees North DNA Ligase,Open Enzyme Collection
+BBF10K_003275,ODC_0033,Pfu DNA Ligase,Open Enzyme Collection
+BBF10K_003276,ODC_0034,Taq DNA Ligase,Open Enzyme Collection
+BBF10K_003277,ODC_0035,T4 RNA Ligase 1,Open Enzyme Collection
+BBF10K_003278,ODC_0036,CIP (calf intestinal phosphatase),Open Enzyme Collection
+BBF10K_003279,ODC_0037,RNAse A,Open Enzyme Collection
+BBF10K_003280,ODC_0038,RNAse H,Open Enzyme Collection
+BBF10K_003281,ODC_0039,EcoRI,Open Enzyme Collection
+BBF10K_003282,ODC_0040,EcoRI methyltransferase,Open Enzyme Collection
+BBF10K_003283,ODC_0041,PstI,Open Enzyme Collection
+BBF10K_003284,ODC_0042,PstI methyltransferase,Open Enzyme Collection
+BBF10K_003285,ODC_0043,MMLV_RT (mut H),Open Enzyme Collection
+BBF10K_003286,ODC_0044,MMLV_RT (lack H),Open Enzyme Collection
+BBF10K_003287,ODC_0045,Thermus thermophilus (Tth) RT,Open Enzyme Collection
+BBF10K_003289,ODC_0046,T3 RNA Polymerase,Open Enzyme Collection
+BBF10K_003290,ODC_0047,T7 RNA Polymerase,Open Enzyme Collection
+BBF10K_003291,ODC_0048,SP6 RNA Polymerase,Open Enzyme Collection
+BBF10K_003292,ODC_0049,Eco31I,Open Enzyme Collection
+BBF10K_003293,ODC_0050,Eco31IA methyltransferase,Open Enzyme Collection
+BBF10K_003294,ODC_0051,Eco31IB methyltransferase,Open Enzyme Collection
+BBF10K_003295,ODC_0052,SapI,Open Enzyme Collection
+BBF10K_003296,ODC_0053,M1.SapI methyltransferase,Open Enzyme Collection
+BBF10K_003297,ODC_0054,M2.SapI methyltransferase,Open Enzyme Collection
+BBF10K_003298,ODC_0055,XbaI,Open Enzyme Collection
+BBF10K_003299,ODC_0056,XbaI methyltransferase,Open Enzyme Collection
+BBF10K_003300,ODC_0057,NotI,Open Enzyme Collection
+BBF10K_003301,ODC_0058,NotI methyltransferase,Open Enzyme Collection
+BBF10K_003302,ODC_0059,SfiI,Open Enzyme Collection
+BBF10K_003303,ODC_0060,SfiI methyltransferase,Open Enzyme Collection
+BBF10K_003304,ODC_0061,EcoRV,Open Enzyme Collection
+BBF10K_003305,ODC_0062,EcoRV methyltransferase,Open Enzyme Collection
+BBF10K_003306,ODC_0063,NcoI,Open Enzyme Collection
+BBF10K_003307,ODC_0064,NcoI methyltransferase,Open Enzyme Collection
+BBF10K_003308,ODC_0065,HindIII,Open Enzyme Collection
+BBF10K_003309,ODC_0066,HindIII methyltransferase,Open Enzyme Collection
+BBF10K_003310,ODC_0067,DpnI,Open Enzyme Collection
+BBF10K_003311,ODC_0068,Bst HF,Open Enzyme Collection
+BBF10K_003312,ODC_0069,ET SSB,Open Enzyme Collection
+BBF10K_003313,ODC_0070,T5 Exonuclease,Open Enzyme Collection
+BBF10K_003314,ODC_0071,HiFi Tth DNA Ligase,Open Enzyme Collection
+BBF10K_003315,ODC_0072,Dm dNK,Open Enzyme Collection
+BBF10K_003316,ODC_0073,TEV protease,Open Enzyme Collection
+BBF10K_003317,ODC_0074,T4 PNK,Open Enzyme Collection
+BBF10K_003318,ODC_0075,T4 BGT,Open Enzyme Collection
+BBF10K_003319,ODC_0076,T7 Endonuclease I,Open Enzyme Collection
+BBF10K_003320,ODC_0077,T4 Endonuclease V (T4 PDG),Open Enzyme Collection
+BBF10K_003321,ODC_0078,T4 g32,Open Enzyme Collection
+BBF10K_003322,ODC_0079,P45,Open Enzyme Collection
+BBF10K_003323,ODC_0080,Terminal transferase TdT (Bovine DNTT),Open Enzyme Collection
+BBF10K_003324,ODC_0081,DNA Topoisomerase 1B (Vaccinia Virus),Open Enzyme Collection
+BBF10K_003325,ODC_0082,lambda red operon,Open Enzyme Collection
+BBF10K_003326,ODC_0083,UDG,Open Enzyme Collection
+BBF10K_003327,ODC_0084,Fpg,Open Enzyme Collection
+BBF10K_003328,ODC_0085,Endonuclease IV E. coli,Open Enzyme Collection
+BBF10K_003329,ODC_0086,Endonuclease VIII E. coli,Open Enzyme Collection
+BBF10K_003330,ODC_0087,Exonuclease III E. coli,Open Enzyme Collection
+BBF10K_003331,ODC_0088,cjBlue/ BioBrick K592011,Open Reporters Collection
+BBF10K_003335,ODC_0089,gfasPurple/gfasCP Biobrick K1033918,Open Reporters Collection
+BBF10K_003342,ODC_0090,meffCFP,Open Reporters Collection
+BBF10K_003343,ODC_0091,mmilCFP,Open Reporters Collection
+BBF10K_003344,ODC_0092,meleCFP,Open Reporters Collection
+BBF10K_003345,ODC_0093,efasCFP,Open Reporters Collection
+BBF10K_003346,ODC_0094,aacuGFP1,Open Reporters Collection
+BBF10K_003347,ODC_0095,aacuGFP2,Open Reporters Collection
+BBF10K_003348,ODC_0096,afraGFP,Open Reporters Collection
+BBF10K_003349,ODC_0097,amilGFP Biobrick K592010,Open Reporters Collection
+BBF10K_003350,ODC_0098,eechGFP1,Open Reporters Collection
+BBF10K_003351,ODC_0099,eechGFP2,Open Reporters Collection
+BBF10K_003352,ODC_0100,eechGFP3,Open Reporters Collection
+BBF10K_003353,ODC_0101,efasGFP,Open Reporters Collection
+BBF10K_003354,ODC_0102,gfasGFP,Open Reporters Collection
+BBF10K_003355,ODC_0103,plamGFP,Open Reporters Collection
+BBF10K_003357,ODC_0104,amilRFP,Open Reporters Collection
+BBF10K_003358,ODC_0105,meffRed/meffRFP Biobricks K592012,Open Reporters Collection
+BBF10K_003359,ODC_0106,pporRFP,Open Reporters Collection
+BBF10K_003360,ODC_0107,meleRFP,Open Reporters Collection
+BBF10K_003361,ODC_0108,scubRFP,Open Reporters Collection
+BBF10K_003362,ODC_0109,eforRed/eforCP Biobrick K592012,Open Reporters Collection
+BBF10K_003364,ODC_0110,amajLime/amajCFP/amFP486 BioBrick K1033916,Open Reporters Collection
+BBF10K_003365,ODC_0111,EiraCFP Biobrick J97000,Open Reporters Collection
+BBF10K_003367,ODC_0112,HRP,Open Reporters Collection
+BBF10K_003368,ODC_0113,Firefly Luciferase [Photinus pyralis] (Fluc),Open Reporters Collection
+BBF10K_003369,ODC_0114,Luciferase [Luciola cruciata] (Japanese firefly),Open Reporters Collection
+BBF10K_003370,ODC_0115,Renilla luciferase,Open Reporters Collection
+BBF10K_003371,ODC_0116,beta-lactamase,Open Reporters Collection
+BBF10K_003372,ODC_0117,Calf Intestine Alkaline phosphatase (CIAP),Open Reporters Collection
+BBF10K_003332,ODC_0118,CE_meffBlue/Rtms5/ NF pocilloporin /Biobrick K1033902,E. coli Protein Expression Tookit
+BBF10K_003356,ODC_0119,CE_sarcGFP,E. coli Protein Expression Tookit
+BBF10K_003366,ODC_0120,CE_beta-galactosidase,E. coli Protein Expression Tookit
+BBF10K_003373,ODC_0121,AF_lacZ pDest,E. coli Protein Expression Tookit
+BBF10K_003375,ODC_0122,AE_lacZ pDest,E. coli Protein Expression Tookit
+BBF10K_003376,ODC_0123,AF_high copy (pUC) ori/KanR,E. coli Protein Expression Tookit
+BBF10K_003377,ODC_0124,AF_medium copy (pET) ori/KanR,E. coli Protein Expression Tookit
+BBF10K_003378,ODC_0125,AB_T7,E. coli Protein Expression Tookit
+BBF10K_003379,ODC_0126,AB_T7_lacO,E. coli Protein Expression Tookit
+BBF10K_003380,ODC_0127,AB_pTac,E. coli Protein Expression Tookit
+BBF10K_003384,ODC_0128,BT1_BCD2,E. coli Protein Expression Tookit
+BBF10K_003385,ODC_0129,BT1_Riboj54_F1,E. coli Protein Expression Tookit
+BBF10K_003386,ODC_0130,BT1_Riboj_B34,E. coli Protein Expression Tookit
+BBF10K_003387,ODC_0131,BT1_BCD12,E. coli Protein Expression Tookit
+BBF10K_003388,ODC_0132,BT1_BCD23,E. coli Protein Expression Tookit
+BBF10K_003389,ODC_0133,BT1_BCD2_His,E. coli Protein Expression Tookit
+BBF10K_003390,ODC_0134,BT1_RiboJ_B34_His,E. coli Protein Expression Tookit
+BBF10K_003391,ODC_0135,BT1_BCD2_DsbA,E. coli Protein Expression Tookit
+BBF10K_003392,ODC_0136,BT1_BCD2_OmpT,E. coli Protein Expression Tookit
+BBF10K_003393,ODC_0137,BT1_BCD2_pelB,E. coli Protein Expression Tookit
+BBF10K_003395,ODC_0138,T1T2_Calm,E. coli Protein Expression Tookit
+BBF10K_003396,ODC_0139,T1T2_CBD,E. coli Protein Expression Tookit
+BBF10K_003397,ODC_0140,T1T2_Cex,E. coli Protein Expression Tookit
+BBF10K_003398,ODC_0141,T1T2_MBP,E. coli Protein Expression Tookit
+BBF10K_003399,ODC_0142,T1T2_R5,E. coli Protein Expression Tookit
+BBF10K_003400,ODC_0143,T1T2_GST,E. coli Protein Expression Tookit
+BBF10K_003401,ODC_0144,T1T2_CipA,E. coli Protein Expression Tookit
+BBF10K_003402,ODC_0145,T1T2_S-Tag,E. coli Protein Expression Tookit
+BBF10K_003403,ODC_0146,T1T2_GB1,E. coli Protein Expression Tookit
+BBF10K_003404,ODC_0147,T1T2_GS flexible,E. coli Protein Expression Tookit
+BBF10K_003405,ODC_0148,T1T3_GS flexible,E. coli Protein Expression Tookit
+BBF10K_003406,ODC_0149,T1C_GS flexible,E. coli Protein Expression Tookit
+BBF10K_003407,ODC_0150,T1C_His_TEVcut,E. coli Protein Expression Tookit
+BBF10K_003408,ODC_0151,BT2_BCD2_His,E. coli Protein Expression Tookit
+BBF10K_003409,ODC_0152,BT2_RiboJ_B34,E. coli Protein Expression Tookit
+BBF10K_003410,ODC_0153,BC_B0034,E. coli Protein Expression Tookit
+BBF10K_003411,ODC_0154,BC_B0032,E. coli Protein Expression Tookit
+BBF10K_003412,ODC_0155,BC_RiboJ_RBS64,E. coli Protein Expression Tookit
+BBF10K_003413,ODC_0156,BC_RiboJ_B34,E. coli Protein Expression Tookit
+BBF10K_003414,ODC_0157,BC_BCD23,E. coli Protein Expression Tookit
+BBF10K_003415,ODC_0158,BC_BCD12,E. coli Protein Expression Tookit
+BBF10K_003416,ODC_0159,BC_BCD2,E. coli Protein Expression Tookit
+BBF10K_003417,ODC_0160,T2C_GS flexible,E. coli Protein Expression Tookit
+BBF10K_003418,ODC_0161,T2C_TEVcut,E. coli Protein Expression Tookit
+BBF10K_003419,ODC_0162,BC_BCD2_His_TEVcut,E. coli Protein Expression Tookit
+BBF10K_003420,ODC_0163,BC_BCD2_His_fuGFP_TEVcut,E. coli Protein Expression Tookit
+BBF10K_003421,ODC_0164,T2T3_int_∆I,E. coli Protein Expression Tookit
+BBF10K_003422,ODC_0165,T2T3_SUMO,E. coli Protein Expression Tookit
+BBF10K_003423,ODC_0166,T2T3_fuGFP,E. coli Protein Expression Tookit
+BBF10K_003424,ODC_0167,T2T3_AmilCP,E. coli Protein Expression Tookit
+BBF10K_003425,ODC_0168,T2T3_GS flexible,E. coli Protein Expression Tookit
+BBF10K_003426,ODC_0169,T3C_SUMO,E. coli Protein Expression Tookit
+BBF10K_003427,ODC_0170,T3C_TEV,E. coli Protein Expression Tookit
+BBF10K_003428,ODC_0171,T3C_int_∆I,E. coli Protein Expression Tookit
+BBF10K_003429,ODC_0172,T3C_fuGFP,E. coli Protein Expression Tookit
+BBF10K_003430,ODC_0173,T3C_GS flexible linker,E. coli Protein Expression Tookit
+BBF10K_003431,ODC_0174,CD_OMMLV,E. coli Protein Expression Tookit
+BBF10K_003432,ODC_0175,CD_HIVRT,E. coli Protein Expression Tookit
+BBF10K_003433,ODC_0176,CD_Bst-LF,E. coli Protein Expression Tookit
+BBF10K_003434,ODC_0177,CD_OpenVent,E. coli Protein Expression Tookit
+BBF10K_003436,ODC_0178,CD_RNAseInhibitor,E. coli Protein Expression Tookit
+BBF10K_003437,ODC_0179,CD_gp32,E. coli Protein Expression Tookit
+BBF10K_003438,ODC_0180,CD_BsuLF,E. coli Protein Expression Tookit
+BBF10K_003439,ODC_0181,CD_UvsY,E. coli Protein Expression Tookit
+BBF10K_003440,ODC_0182,CD_UvsX,E. coli Protein Expression Tookit
+BBF10K_003441,ODC_0183,CE_T7RNApol_Stop,E. coli Protein Expression Tookit
+BBF10K_003442,ODC_0184,CD_PBCV-1_ligase,E. coli Protein Expression Tookit
+BBF10K_003443,ODC_0185,CD_HRP,E. coli Protein Expression Tookit
+BBF10K_003444,ODC_0186,CD_TEV_protease,E. coli Protein Expression Tookit
+BBF10K_003445,ODC_0187,CD_SUMO_protease,E. coli Protein Expression Tookit
+BBF10K_003446,ODC_0188,CD_Calmodulin,E. coli Protein Expression Tookit
+BBF10K_003447,ODC_0189,CD_fuGFP,E. coli Protein Expression Tookit
+BBF10K_003448,ODC_0190,CD_AmilCP,E. coli Protein Expression Tookit
+BBF10K_003449,ODC_0191,CD_TthRNAseH,E. coli Protein Expression Tookit
+BBF10K_003450,ODC_0192,CD_EcRNAseH,E. coli Protein Expression Tookit
+BBF10K_003451,ODC_0193,DT4_Int_SaltS,E. coli Protein Expression Tookit
+BBF10K_003452,ODC_0194,DT4_Int_ThiolS,E. coli Protein Expression Tookit
+BBF10K_003453,ODC_0195,DT4_TEV,E. coli Protein Expression Tookit
+BBF10K_003454,ODC_0196,DT4_fuGFP,E. coli Protein Expression Tookit
+BBF10K_003455,ODC_0197,DT4_GS flexible linker,E. coli Protein Expression Tookit
+BBF10K_003457,ODC_0198,DT5_TEVcut,E. coli Protein Expression Tookit
+BBF10K_003459,ODC_0199,DF_TEVcut_His_Stop_TZ,E. coli Protein Expression Tookit
+BBF10K_003460,ODC_0200,DF_TEVcut_fuGFP_His_Stop_TZ,E. coli Protein Expression Tookit
+BBF10K_003461,ODC_0201,T4T5_Int_ThiolS,E. coli Protein Expression Tookit
+BBF10K_003462,ODC_0202,T4T5_Int_SaltS,E. coli Protein Expression Tookit
+BBF10K_003463,ODC_0203,T4T5_AmilCP,E. coli Protein Expression Tookit
+BBF10K_003464,ODC_0204,T4T5_fuGFP,E. coli Protein Expression Tookit
+BBF10K_003465,ODC_0205,T4T5_GS flexible,E. coli Protein Expression Tookit
+BBF10K_003466,ODC_0206,T4E_3xStop,E. coli Protein Expression Tookit
+BBF10K_003467,ODC_0207,T5E_6H,E. coli Protein Expression Tookit
+BBF10K_003468,ODC_0208,T5E_Calm,E. coli Protein Expression Tookit
+BBF10K_003469,ODC_0209,T5E_CBD,E. coli Protein Expression Tookit
+BBF10K_003470,ODC_0210,T5E_Cex,E. coli Protein Expression Tookit
+BBF10K_003471,ODC_0211,T5E_MBP,E. coli Protein Expression Tookit
+BBF10K_003472,ODC_0212,T5E_R5,E. coli Protein Expression Tookit
+BBF10K_003473,ODC_0213,T5E_CipA,E. coli Protein Expression Tookit
+BBF10K_003474,ODC_0214,T5E_3xStop,E. coli Protein Expression Tookit
+BBF10K_003475,ODC_0215,EF_ECK9600,E. coli Protein Expression Tookit
+BBF10K_003476,ODC_0216,EF_T7term,E. coli Protein Expression Tookit
+BBF10K_003477,ODC_0217,EF_TZ,E. coli Protein Expression Tookit
+BBF10K_000004,ODC_0218,MERScontrol,Molecular Diagnostics Toolkit
+BBF10K_000006,ODC_0219,Pfu_Ssod7 HiFi,Molecular Diagnostics Toolkit
+BBF10K_000013,ODC_0220,gp32,Molecular Diagnostics Toolkit
+BBF10K_000014,ODC_0221,Ecoli_opt_RNAseInhib,Molecular Diagnostics Toolkit
+BBF10K_003500,ODC_0222,HIVRT,Molecular Diagnostics Toolkit
+BBF10K_003501,ODC_0223,OMMLV,Molecular Diagnostics Toolkit
+BBF10K_003502,ODC_0224,OpenVent,Molecular Diagnostics Toolkit
+BBF10K_003503,ODC_0225,RNAseInhib,Molecular Diagnostics Toolkit
+BBF10K_003504,ODC_0226,EcPPA,Molecular Diagnostics Toolkit
+BBF10K_003505,ODC_0227,orfA1,Molecular Diagnostics Toolkit
+BBF10K_003506,ODC_0228,orfA2,Molecular Diagnostics Toolkit
+BBF10K_003507,ODC_0229,orfB3,Molecular Diagnostics Toolkit
+BBF10K_003508,ODC_0230,orfE4,Molecular Diagnostics Toolkit
+BBF10K_003509,ODC_0231,orfN5,Molecular Diagnostics Toolkit
+BBF10K_003510,ODC_0232,SARSContol,Molecular Diagnostics Toolkit
+BBF10K_003564,ODC_0233,Bst-LF,Molecular Diagnostics Toolkit
+BBF10K_003565,ODC_0234,Bsu,Molecular Diagnostics Toolkit
+BBF10K_003566,ODC_0235,UvsX,Molecular Diagnostics Toolkit
+BBF10K_003567,ODC_0236,PBCV-1_ligase,Molecular Diagnostics Toolkit
+BBF10K_003568,ODC_0237,TthRNAseH,Molecular Diagnostics Toolkit
+BBF10K_003569,ODC_0238,EcRNAseH,Molecular Diagnostics Toolkit
+BBF10K_003570,ODC_0239,TEV,Molecular Diagnostics Toolkit
+BBF10K_000034,ODC_0240,Sc-pAdh1,Open Yeast Collection
+BBF10K_000037,ODC_0241,Sc-pCCW12,Open Yeast Collection
+BBF10K_000039,ODC_0242,Sc-pCUP1,Open Yeast Collection
+BBF10K_000046,ODC_0243,Sc-pCYC1,Open Yeast Collection
+BBF10K_000068,ODC_0244,Sc-pHis3,Open Yeast Collection
+BBF10K_000078,ODC_0245,Sc-pLeu2,Open Yeast Collection
+BBF10K_000079,ODC_0246,Sc-pMF2,Open Yeast Collection
+BBF10K_000084,ODC_0247,Sc-pMFA1,Open Yeast Collection
+BBF10K_000094,ODC_0248,Sc-pMFalpha2,Open Yeast Collection
+BBF10K_000106,ODC_0249,Sc-pRPL18B,Open Yeast Collection
+BBF10K_000107,ODC_0250,Sc-pSAC6,Open Yeast Collection
+BBF10K_000129,ODC_0251,Sc-pSte5,Open Yeast Collection
+BBF10K_000134,ODC_0252,Sc-pTDH3,Open Yeast Collection
+BBF10K_000151,ODC_0253,Sc-pTrp1,Open Yeast Collection
+BBF10K_000152,ODC_0254,Sc-pUra3,Open Yeast Collection
+BBF10K_000163,ODC_0255,AB_Sc-pCCW12,Open Yeast Collection
+BBF10K_000167,ODC_0256,AB_Sc-pCYC1,Open Yeast Collection
+BBF10K_000180,ODC_0257,AB_Pp-pGAP,Open Yeast Collection
+BBF10K_000181,ODC_0258,AB_Pp-pAOX1,Open Yeast Collection
+BBF10K_000195,ODC_0259,ScLYS2,Open Yeast Collection
+BBF10K_000196,ODC_0260,ScMET17,Open Yeast Collection
+BBF10K_000199,ODC_0261,ScAUR1,Open Yeast Collection
+BBF10K_000207,ODC_0262,Cre,Open Yeast Collection
+BBF10K_000210,ODC_0263,FLP,Open Yeast Collection
+BBF10K_000211,ODC_0264,GPP synthase,Open Yeast Collection
+BBF10K_000217,ODC_0265,GGPP synthase,Open Yeast Collection
+BBF10K_000227,ODC_0266,FPP synthase,Open Yeast Collection
+BBF10K_000238,ODC_0267,4S-limonene-synthase,Open Yeast Collection
+BBF10K_000243,ODC_0268,limonene-3-hydroxylase,Open Yeast Collection
+BBF10K_000246,ODC_0269,S-linalool synthase,Open Yeast Collection
+BBF10K_000256,ODC_0270,carveol dehydrogenase,Open Yeast Collection
+BBF10K_000327,ODC_0271,ScGal4-DNA-AD,Open Yeast Collection
+BBF10K_000329,ODC_0272,ScGal4-DNA-BD,Open Yeast Collection
+BBF10K_000335,ODC_0273,N1N2_SV40_NLS,Open Yeast Collection
+BBF10K_000355,ODC_0274,Pp_aMF_sec_tag,Open Yeast Collection
+BBF10K_000357,ODC_0275,Pp_aMF_noEAEA_sec_tag,Open Yeast Collection
+BBF10K_000385,ODC_0276,Sc-tUBX6,Open Yeast Collection
+BBF10K_000392,ODC_0277,Sc-tENO1,Open Yeast Collection
+BBF10K_000401,ODC_0278,Sc-tENO2,Open Yeast Collection
+BBF10K_000406,ODC_0279,Sc-tPRM9,Open Yeast Collection
+BBF10K_000412,ODC_0280,Sc-tSSA1,Open Yeast Collection
+BBF10K_000416,ODC_0281,Sc-tTDH1,Open Yeast Collection
+BBF10K_000418,ODC_0282,Pp-tAOX1,Open Yeast Collection
+BBF10K_000420,ODC_0283,AConL-start-rev,Open Yeast Collection
+BBF10K_000424,ODC_0284,AConL-start,Open Yeast Collection
+BBF10K_000429,ODC_0285,AConL1,Open Yeast Collection
+BBF10K_000432,ODC_0286,AConL2,Open Yeast Collection
+BBF10K_000439,ODC_0287,AConL3,Open Yeast Collection
+BBF10K_000440,ODC_0288,AConL4,Open Yeast Collection
+BBF10K_000441,ODC_0289,AConL5,Open Yeast Collection
+BBF10K_000442,ODC_0290,AConR1,Open Yeast Collection
+BBF10K_000443,ODC_0291,AConR2,Open Yeast Collection
+BBF10K_000444,ODC_0292,AConR3,Open Yeast Collection
+BBF10K_000445,ODC_0293,AConR4,Open Yeast Collection
+BBF10K_000446,ODC_0294,AConR5,Open Yeast Collection
+BBF10K_000447,ODC_0295,AConR-end,Open Yeast Collection
+BBF10K_000448,ODC_0296,AConR-end-rev,Open Yeast Collection
+BBF10K_000449,ODC_0297,ScHR5'-LEU2,Open Yeast Collection
+BBF10K_000450,ODC_0298,ScHR3'-LEU2,Open Yeast Collection
+BBF10K_000451,ODC_0299,ScHR5'-URA3,Open Yeast Collection
+BBF10K_000452,ODC_0300,ScHR3'-URA3,Open Yeast Collection
+BBF10K_000453,ODC_0301,ScHR5'-HO,Open Yeast Collection
+BBF10K_000454,ODC_0302,ScHR3'-HO,Open Yeast Collection
+BBF10K_000455,ODC_0303,PpHR5'-NTS,Open Yeast Collection
+BBF10K_000456,ODC_0304,PpHR3'-NTS,Open Yeast Collection
+BBF10K_000457,ODC_0305,PpHR5'-RGI2,Open Yeast Collection
+BBF10K_000458,ODC_0306,PpHR3'-RGI2,Open Yeast Collection
+BBF10K_000459,ODC_0307,PpHR5'-ENO,Open Yeast Collection
+BBF10K_000460,ODC_0308,PpHR3'-ENO,Open Yeast Collection
+BBF10K_000461,ODC_0309,PpHR5'-AOXTT,Open Yeast Collection
+BBF10K_000462,ODC_0310,PpHR3'-AOXTT,Open Yeast Collection
+BBF10K_000463,ODC_0311,Sc2micron,Open Yeast Collection
+BBF10K_000464,ODC_0312,ScARS_CEN,Open Yeast Collection
+BBF10K_000465,ODC_0313,Pichia PARS,Open Yeast Collection
+BBF10K_000466,ODC_0314,oriT,Open Yeast Collection
+BBF10K_000467,ODC_0315,ScADE2-marker,Open Yeast Collection
+BBF10K_000468,ODC_0316,ScHIS3-marker,Open Yeast Collection
+BBF10K_000469,ODC_0317,ScHygro-marker,Open Yeast Collection
+BBF10K_000470,ODC_0318,ScKanR-marker,Open Yeast Collection
+BBF10K_000471,ODC_0319,ScLEU2-marker,Open Yeast Collection
+BBF10K_000472,ODC_0320,ScNAT-marker,Open Yeast Collection
+BBF10K_000473,ODC_0321,ScTRP1-marker,Open Yeast Collection
+BBF10K_000474,ODC_0322,ScURA3-marker,Open Yeast Collection
+BBF10K_000475,ODC_0323,ScZeo-marker,Open Yeast Collection
+BBF10K_000476,ODC_0324,OYC-bridge-AGAC-CGAA,Open Yeast Collection
+BBF10K_000477,ODC_0325,OYC-bridge-AGAC-GCAA,Open Yeast Collection
+BBF10K_000479,ODC_0326,OYC-CamR,Open Yeast Collection
+BBF10K_000480,ODC_0327,OYC-SpecR,Open Yeast Collection
+BBF10K_000481,ODC_0328,OYC-high-copy-origin,Open Yeast Collection
+BBF10K_000482,ODC_0329,OYC-eforRed-dropout,Open Yeast Collection
+BBF10K_000484,ODC_0330,pWV01-ori,Open Yeast Collection
+BBF10K_000485,ODC_0331,BsubSecTagLP_1,Bacillus Subtilis Protein Secretion Toolkit
+BBF10K_000486,ODC_0332,BsubSecTagLP_2,Bacillus Subtilis Protein Secretion Toolkit
+BBF10K_000487,ODC_0333,BsubSecTagLP_3,Bacillus Subtilis Protein Secretion Toolkit
+BBF10K_000488,ODC_0334,BsubSecTagLP_4,Bacillus Subtilis Protein Secretion Toolkit
+BBF10K_000489,ODC_0335,BsubSecTagLP_5,Bacillus Subtilis Protein Secretion Toolkit
+BBF10K_000490,ODC_0336,BsubSecTagLP_6,Bacillus Subtilis Protein Secretion Toolkit
