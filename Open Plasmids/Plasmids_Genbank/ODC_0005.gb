@@ -1,5 +1,6 @@
 LOCUS       pTIR_O1_EfoR            5528 bp ds-DNA     circular     24-MAY-2024
 DEFINITION  .
+ACCESSION   ODC_0006
 COMMENT     Created by D+I+T LacI and EforRed cassettes verified by sequencing
             This plasmid works as Golden Gate Level1 acceptor plasmid. It
             includes E. coli pBR322 origin of replication and Kanamycin

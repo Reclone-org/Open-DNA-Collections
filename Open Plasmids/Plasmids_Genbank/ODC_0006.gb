@@ -1,5 +1,6 @@
 LOCUS       pTIR                    5484 bp ds-DNA     circular     24-MAY-2024
 DEFINITION  .
+ACCESSION   ODC_0005
 COMMENT     Created by D+I+T LacI and RFP cassettes verified by sequencing This
             plasmid works as Golden Gate Level1 acceptor plasmid. It includes
             E. coli pBR322 origin of replication and Kanamycin resistance

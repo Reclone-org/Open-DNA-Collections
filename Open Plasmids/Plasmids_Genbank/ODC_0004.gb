@@ -1,5 +1,6 @@
 LOCUS       pTI_O1                  5215 bp ds-DNA     circular     24-MAY-2024
 DEFINITION  .
+ACCESSION   ODC_0004
 COMMENT     This plasmid works as BsaI Golden Gate acceptor vector. It includes
             E. coli pBR322 origin of replication and Kanamycin resistance
             cassette as a selection marker. It has LacI constitutive expression
