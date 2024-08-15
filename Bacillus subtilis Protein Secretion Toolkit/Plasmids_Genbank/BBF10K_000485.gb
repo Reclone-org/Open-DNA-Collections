@@ -1,17 +1,19 @@
-LOCUS       BsubSecTagLP_1          4967 bp    ds-DNA  linear   UNA 25-MAR-2021
-DEFINITION  natural linear DNA.
-ACCESSION   ODC_0326
-VERSION     ODC_0326
+LOCUS       Exported                4967 bp ds-DNA     linear   UNA 25-MAR-2021
+DEFINITION  natural linear DNA
+ACCESSION   .
+VERSION     .
 KEYWORDS    .
 SOURCE      natural DNA sequence
   ORGANISM  unspecified
-            .
 REFERENCE   1  (bases 1 to 4967)
   AUTHORS   .
   TITLE     Direct Submission
   JOURNAL   Exported Thursday, Mar 25, 2021 from SnapGene Viewer 5.2.4
             https://www.snapgene.com
 FEATURES             Location/Qualifiers
+     source          1..4967
+                     /organism="unspecified"
+                     /mol_type="genomic DNA"
 ORIGIN
         1 ggtctcttac tgagtcaaca aaaaggaggt aatttgatga agaacatgag ctgcaaattg
        61 gttgtgtccg ttactctgtt cttctccttt ctgacgattg gacctctggc ccacgcctcc

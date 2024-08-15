@@ -1,27 +1,29 @@
-LOCUS       pBuild                  2687 bp    ds-DNA  circular SYN 24-SEP-2020
-DEFINITION  synthetic circular DNA.
-ACCESSION   ODC_0001
-VERSION     ODC_0001
+LOCUS       Exported                2687 bp ds-DNA     circular SYN 24-SEP-2020
+DEFINITION  synthetic circular DNA
+ACCESSION   .
+VERSION     .
 KEYWORDS    .
 SOURCE      synthetic DNA construct
   ORGANISM  synthetic DNA construct
-            .
 REFERENCE   1  (bases 1 to 2687)
   AUTHORS   Keoni Gandall
   TITLE     Direct Submission
   JOURNAL   Exported Thursday, Sep 24, 2020 from SnapGene 5.0.7
             https://www.snapgene.com
 FEATURES             Location/Qualifiers
+     source          1..2687
+                     /organism="synthetic DNA construct"
+                     /mol_type="other DNA"
      misc_feature    293..482
-                     /label="spacer"
+                     /label=spacer
                      /note="Leftover from pUC19"
      misc_feature    297..316
-                     /label="anneal_sequence"
+                     /label=anneal_sequence
      CDS             complement(483..1343)
                      /codon_start=1
                      /gene="bla"
                      /product="beta-lactamase"
-                     /label="AmpR"
+                     /label=AmpR
                      /note="confers resistance to ampicillin, carbenicillin, and
                      related antibiotics"
                      /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYI
@@ -31,63 +33,63 @@ FEATURES             Location/Qualifiers
                      LPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGAS
                      LIKHW"
      misc_feature    627
-                     /label="C->A"
+                     /label=C->A
                      /note="removes BsaI site"
      promoter        complement(1344..1448)
                      /gene="bla"
-                     /label="AmpR promoter"
+                     /label=AmpR promoter
      misc_feature    1449..1463
-                     /label="AarI"
+                     /label=AarI
      primer_bind     1464..1480
-                     /label="M13 fwd"
-                     /note="common sequencing primer, one of multiple similar
+                     /label=M13 fwd
+                     /note="common sequencing primer, one of multiple similar 
                      variants"
      terminator      1481..1512
-                     /label="tonB terminator"
-                     /note="bidirectional E. coli tonB-P14 transcription
+                     /label=tonB terminator
+                     /note="bidirectional E. coli tonB-P14 transcription 
                      terminator"
      primer_bind     complement(1510..1528)
-                     /label="SLiCE-rev"
+                     /label=SLiCE-rev
      misc_feature    1529..1548
-                     /label="BbsI-BtgZI"
+                     /label=BbsI-BtgZI
      CDS             1874..2179
                      /codon_start=1
                      /gene="ccdB"
                      /product="CcdB, a bacterial toxin that poisons DNA gyrase"
-                     /label="ccdB"
-                     /note="Plasmids containing the ccdB gene cannot be
+                     /label=ccdB
+                     /note="Plasmids containing the ccdB gene cannot be 
                      propagated in standard E. coli strains."
                      /translation="MQFKVYTYKRESRYRLFVDVQSDIIDTPGRRMVIPLASARLLSDK
                      VSRELYPVVHIGDESWRMMTTDMASVPVSVIGEEVADLSHRENDIKNAINLMFWGI"
      misc_feature    2203..2222
-                     /label="BbsI-BtgZI"
+                     /label=BbsI-BtgZI
      primer_bind     2223..2241
-                     /label="SLiCE-for"
+                     /label=SLiCE-for
      primer_bind     complement(2242..2260)
-                     /label="T7 Reverse"
+                     /label=T7 Reverse
                      /note="https://www.elimbio.com/elim's_primer.htm"
      terminator      2256..2303
-                     /label="T7 terminator"
-                     /note="transcription terminator for bacteriophage T7 RNA
+                     /label=T7 terminator
+                     /note="transcription terminator for bacteriophage T7 RNA 
                      polymerase"
      primer_bind     complement(2304..2324)
-                     /label="M13 rev"
-                     /note="common sequencing primer, one of multiple similar
+                     /label=M13 rev
+                     /note="common sequencing primer, one of multiple similar 
                      variants"
      primer_bind     complement(2308..2324)
-                     /label="M13 rev"
-                     /note="common sequencing primer, one of multiple similar
+                     /label=M13 rev
+                     /note="common sequencing primer, one of multiple similar 
                      variants"
      misc_feature    2325..2339
-                     /label="AarI"
+                     /label=AarI
      CDS             2340..2390
                      /codon_start=1
-                     /label="spacer"
+                     /label=spacer
                      /translation="MTHINKFREESPEECH"
      rep_origin      complement(join(2391..2687,1..292))
                      /direction=LEFT
-                     /label="ori"
-                     /note="high-copy-number ColE1/pMB1/pBR322/pUC origin of
+                     /label=ori
+                     /note="high-copy-number ColE1/pMB1/pBR322/pUC origin of 
                      replication"
 ORIGIN
         1 taactatcgt cttgagtcca acccggtaag acacgactta tcgccactgg cagcagccac

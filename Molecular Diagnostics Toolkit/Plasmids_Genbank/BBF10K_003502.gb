@@ -1,11 +1,10 @@
-LOCUS       OpenVent                6151 bp    ds-DNA  circular SYN 24-SEP-2020
+LOCUS       Exported                6151 bp ds-DNA     circular SYN 24-SEP-2020
 DEFINITION  synthetic linear DNA.
-ACCESSION   ODC_0312
-VERSION     ODC_0312
+ACCESSION   .
+VERSION     .
 KEYWORDS    .
 SOURCE      synthetic DNA construct
   ORGANISM  synthetic DNA construct
-            .
 REFERENCE   1  (bases 1 to 6151)
   AUTHORS   Keoni Gandall
   TITLE     Direct Submission
@@ -16,15 +15,18 @@ REFERENCE   2  (bases 1 to 6151)
   JOURNAL   Exported Thursday, Sep 24, 2020 from SnapGene 5.0.7
             https://www.snapgene.com
 FEATURES             Location/Qualifiers
+     source          1..6151
+                     /organism="synthetic DNA construct"
+                     /mol_type="other DNA"
      terminator      1..6151
-                     /label="T7 terminator"
+                     /label=T7 terminator
                      /note="""transcription terminator for bacteriophage T7 RNA"
      promoter        1619..1637
-                     /label="T7 promoter"
+                     /label=T7 promoter
                      /note="t7 promoter"
      CDS             1707..4040
                      /codon_start=1
-                     /label="OpenVent"
+                     /label=OpenVent
                      /translation="MIIDADYITEDGKPIIRIFKKEKGEFKVEYDRTFRPYIYALLKDD
                      SAIDEVKKITAERHGKIVRITEVEKVQKKFLGRPIEVWKLYLEHPQDVPAIREKIREHP
                      AVVDIFEYDIPFAKRYLIDKGLTPMEGNEELTFLAVDIETLYHEGEEFGKGPIIMISYA
@@ -40,21 +42,21 @@ FEATURES             Location/Qualifiers
                      PGMVIGYIVLKGDGPISKRAIAIEEFDPKKHKYDAEYYIENQVLPAVERILRAFGYRKE
                      DLRYQKTKQVGLGAWLKFHHHHHH"
      terminator      4055..4102
-                     /label="T7 terminator"
-                     /note="transcription terminator for bacteriophage T7 RNA
+                     /label=T7 terminator
+                     /note="transcription terminator for bacteriophage T7 RNA 
                      polymerase"
      primer_bind     complement(4240..4256)
-                     /label="M13 rev"
-                     /note="common sequencing primer, one of multiple similar
+                     /label=M13 rev
+                     /note="common sequencing primer, one of multiple similar 
                      variants"
      rep_origin      complement(4323..4911)
                      /direction=LEFT
-                     /label="ori"
-                     /note="high-copy-number ColE1/pMB1/pBR322/pUC origin of
+                     /label=ori
+                     /note="high-copy-number ColE1/pMB1/pBR322/pUC origin of 
                      replication"
      CDS             complement(5102..5962)
                      /codon_start=1
-                     /label="bla"
+                     /label=bla
                      /note="confers resistance to ampicillin, carbenicillin, and
                      related antibiotics"
                      /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYI
@@ -64,15 +66,15 @@ FEATURES             Location/Qualifiers
                      LPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGAS
                      LIKHW"
      promoter        complement(5963..6067)
-                     /label="bla promoter"
+                     /label=bla promoter
                      /note="ampicillin resistance gene promoter"
      primer_bind     6083..6099
-                     /label="M13 for"
-                     /note="common sequencing primer, one of multiple similar
+                     /label=M13 for
+                     /note="common sequencing primer, one of multiple similar 
                      variants"
      terminator      6100..6131
-                     /label="tonB terminator"
-                     /note="bidirectional E. coli tonB-P14 transcription
+                     /label=tonB terminator
+                     /note="bidirectional E. coli tonB-P14 transcription 
                      terminator"
 ORIGIN
         1 ttaattaaca ttactcgcat ccattctcag gctgtctcgt ctcgtctcgc gcccaccgga

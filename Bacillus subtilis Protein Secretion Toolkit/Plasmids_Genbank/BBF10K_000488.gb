@@ -1,865 +1,859 @@
-LOCUS       BsubSecTagLP_4          4879 bp    ds-DNA  linear   SYN 17-NOV-2020
+LOCUS       BsubSecTags_LP_4        4879 bp ds-DNA     linear     17-NOV-2020
 DEFINITION  .
-ACCESSION   ODC_0329
-VERSION     ODC_0329
-KEYWORDS    .
-SOURCE      .
-  ORGANISM  .
-            .
 FEATURES             Location/Qualifiers
      RBS             50..74
                      /label="YqxM_RBS"
-                     /ApEinfo_revcolor="#f58a5e"
-                     /ApEinfo_fwdcolor="#f58a5e"
+                     /ApEinfo_revcolor=#f58a5e
+                     /ApEinfo_fwdcolor=#f58a5e
      BsaI_bind       1198..1203
                      /label="BsaI_3PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       1013..1018
                      /label="BsaI_3PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      Loc             75..203
                      /label="YqxM_SecTag"
-                     /ApEinfo_revcolor="#84b0dc"
-                     /ApEinfo_fwdcolor="#84b0dc"
+                     /ApEinfo_revcolor=#84b0dc
+                     /ApEinfo_fwdcolor=#84b0dc
      BsaI_bind       complement(4085..4090)
                      /label="BsaI_3PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      RBS             1932..1956
                      /label="YwaD_RBS"
-                     /ApEinfo_revcolor="#f58a5e"
-                     /ApEinfo_fwdcolor="#f58a5e"
+                     /ApEinfo_revcolor=#f58a5e
+                     /ApEinfo_fwdcolor=#f58a5e
      PmeI_bind       complement(4456..4463)
                      /label="PmeI_bind"
-                     /ApEinfo_revcolor="#85dae9"
-                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      PmeI_bind       complement(1882..1889)
                      /label="PmeI_bind"
-                     /ApEinfo_revcolor="#85dae9"
-                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      PmeI_bind       1882..1889
                      /label="PmeI_bind"
-                     /ApEinfo_revcolor="#85dae9"
-                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      RBS             4096..4120
                      /label="YjcM_RBS"
-                     /ApEinfo_revcolor="#f58a5e"
-                     /ApEinfo_fwdcolor="#f58a5e"
+                     /ApEinfo_revcolor=#f58a5e
+                     /ApEinfo_fwdcolor=#f58a5e
      BsaI_bind       1272..1277
                      /label="BsaI_5PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      PmeI_bind       complement(1049..1056)
                      /label="PmeI_bind"
-                     /ApEinfo_revcolor="#85dae9"
-                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      RBS             1098..1122
                      /label="YwmD_RBS"
-                     /ApEinfo_revcolor="#f58a5e"
-                     /ApEinfo_fwdcolor="#f58a5e"
+                     /ApEinfo_revcolor=#f58a5e
+                     /ApEinfo_fwdcolor=#f58a5e
      PmeI_bind       complement(1661..1668)
                      /label="PmeI_bind"
-                     /ApEinfo_revcolor="#85dae9"
-                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      BsaI_bind       complement(210..215)
                      /label="BsaI_5PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       complement(3623..3628)
                      /label="BsaI_5PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       1484..1489
                      /label="BsaI_5PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       1921..1926
                      /label="BsaI_5PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       39..44
                      /label="BsaI_5PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      PmeI_bind       complement(658..665)
                      /label="PmeI_bind"
-                     /ApEinfo_revcolor="#85dae9"
-                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      BsaI_bind       1410..1415
                      /label="BsaI_3PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      RBS             2141..2165
                      /label="YpjP_RBS"
-                     /ApEinfo_revcolor="#f58a5e"
-                     /ApEinfo_fwdcolor="#f58a5e"
+                     /ApEinfo_revcolor=#f58a5e
+                     /ApEinfo_fwdcolor=#f58a5e
      BsaI_bind       complement(2712..2717)
                      /label="BsaI_3PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      PmeI_bind       1049..1056
                      /label="PmeI_bind"
-                     /ApEinfo_revcolor="#85dae9"
-                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      RBS             1283..1307
                      /label="YwtD_RBS"
-                     /ApEinfo_revcolor="#f58a5e"
-                     /ApEinfo_fwdcolor="#f58a5e"
+                     /ApEinfo_revcolor=#f58a5e
+                     /ApEinfo_fwdcolor=#f58a5e
      BsaI_bind       4844..4849
                      /label="BsaI_3PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      RBS             295..319
                      /label="YkoJ_RBS"
-                     /ApEinfo_revcolor="#f58a5e"
-                     /ApEinfo_fwdcolor="#f58a5e"
+                     /ApEinfo_revcolor=#f58a5e
+                     /ApEinfo_fwdcolor=#f58a5e
      BsaI_bind       3091..3096
                      /label="BsaI_5PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      PmeI_bind       complement(1..8)
                      /label="PmeI_bind"
-                     /ApEinfo_revcolor="#85dae9"
-                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      PmeI_bind       complement(2674..2681)
                      /label="PmeI_bind"
-                     /ApEinfo_revcolor="#85dae9"
-                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      BsaI_bind       3426..3431
                      /label="BsaI_3PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      PmeI_bind       complement(3053..3060)
                      /label="PmeI_bind"
-                     /ApEinfo_revcolor="#85dae9"
-                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      RBS             4693..4717
                      /label="SpoIIQ_RBS"
-                     /ApEinfo_revcolor="#f58a5e"
-                     /ApEinfo_fwdcolor="#f58a5e"
+                     /ApEinfo_revcolor=#f58a5e
+                     /ApEinfo_fwdcolor=#f58a5e
      RBS             2723..2747
                      /label="TyrA_RBS"
-                     /ApEinfo_revcolor="#f58a5e"
-                     /ApEinfo_fwdcolor="#f58a5e"
+                     /ApEinfo_revcolor=#f58a5e
+                     /ApEinfo_fwdcolor=#f58a5e
      PmeI_bind       complement(3262..3269)
                      /label="PmeI_bind"
-                     /ApEinfo_revcolor="#85dae9"
-                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      BsaI_bind       1625..1630
                      /label="BsaI_3PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       complement(3426..3431)
                      /label="BsaI_5PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       complement(2527..2532)
                      /label="BsaI_3PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       3697..3702
                      /label="BsaI_5PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      PmeI_bind       complement(246..253)
                      /label="PmeI_bind"
-                     /ApEinfo_revcolor="#85dae9"
-                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      PmeI_bind       complement(1234..1241)
                      /label="PmeI_bind"
-                     /ApEinfo_revcolor="#85dae9"
-                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      Loc             3127..3219
                      /label="WprA_SecTag"
-                     /ApEinfo_revcolor="#84b0dc"
-                     /ApEinfo_fwdcolor="#84b0dc"
+                     /ApEinfo_revcolor=#84b0dc
+                     /ApEinfo_fwdcolor=#84b0dc
      BsaI_bind       284..289
                      /label="BsaI_5PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       2527..2532
                      /label="BsaI_5PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      PmeI_bind       complement(4241..4248)
                      /label="PmeI_bind"
-                     /ApEinfo_revcolor="#85dae9"
-                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      BsaI_bind       complement(2638..2643)
                      /label="BsaI_5PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       complement(622..627)
                      /label="BsaI_5PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      PmeI_bind       2092..2099
                      /label="PmeI_bind"
-                     /ApEinfo_revcolor="#85dae9"
-                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      RBS             2538..2562
                      /label="DacF_RBS"
-                     /ApEinfo_revcolor="#f58a5e"
-                     /ApEinfo_fwdcolor="#f58a5e"
+                     /ApEinfo_revcolor=#f58a5e
+                     /ApEinfo_fwdcolor=#f58a5e
      RBS             4290..4314
                      /label="YhaK_RBS"
-                     /ApEinfo_revcolor="#f58a5e"
-                     /ApEinfo_fwdcolor="#f58a5e"
+                     /ApEinfo_revcolor=#f58a5e
+                     /ApEinfo_fwdcolor=#f58a5e
      Loc             926..1006
                      /label="TasA_SecTag"
-                     /ApEinfo_revcolor="#84b0dc"
-                     /ApEinfo_fwdcolor="#84b0dc"
+                     /ApEinfo_revcolor=#84b0dc
+                     /ApEinfo_fwdcolor=#84b0dc
      BsaI_bind       complement(1921..1926)
                      /label="BsaI_3PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      Loc             3336..3419
                      /label="YbbR_SecTag"
-                     /ApEinfo_revcolor="#84b0dc"
-                     /ApEinfo_fwdcolor="#84b0dc"
+                     /ApEinfo_revcolor=#84b0dc
+                     /ApEinfo_fwdcolor=#84b0dc
      PmeI_bind       complement(2295..2302)
                      /label="PmeI_bind"
-                     /ApEinfo_revcolor="#85dae9"
-                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      BsaI_bind       2056..2061
                      /label="BsaI_3PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      PmeI_bind       4644..4651
                      /label="PmeI_bind"
-                     /ApEinfo_revcolor="#85dae9"
-                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      BsaI_bind       complement(1625..1630)
                      /label="BsaI_5PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      PmeI_bind       2489..2496
                      /label="PmeI_bind"
-                     /ApEinfo_revcolor="#85dae9"
-                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      Loc             2748..2816
                      /label="TyrA_SecTag"
-                     /ApEinfo_revcolor="#84b0dc"
-                     /ApEinfo_fwdcolor="#84b0dc"
+                     /ApEinfo_revcolor=#84b0dc
+                     /ApEinfo_fwdcolor=#84b0dc
      RBS             3902..3926
                      /label="PbpD_RBS"
-                     /ApEinfo_revcolor="#f58a5e"
-                     /ApEinfo_fwdcolor="#f58a5e"
+                     /ApEinfo_revcolor=#f58a5e
+                     /ApEinfo_fwdcolor=#f58a5e
      Loc             2563..2631
                      /label="DacF_SecTag"
-                     /ApEinfo_revcolor="#84b0dc"
-                     /ApEinfo_fwdcolor="#84b0dc"
+                     /ApEinfo_revcolor=#84b0dc
+                     /ApEinfo_fwdcolor=#84b0dc
      BsaI_bind       2130..2135
                      /label="BsaI_5PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       2712..2717
                      /label="BsaI_5PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      PmeI_bind       2674..2681
                      /label="PmeI_bind"
-                     /ApEinfo_revcolor="#85dae9"
-                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      BsaI_bind       complement(696..701)
                      /label="BsaI_3PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       2638..2643
                      /label="BsaI_3PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      PmeI_bind       246..253
                      /label="PmeI_bind"
-                     /ApEinfo_revcolor="#85dae9"
-                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      BsaI_bind       complement(4011..4016)
                      /label="BsaI_5PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       1087..1092
                      /label="BsaI_5PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      RBS             901..925
                      /label="TasA_RBS"
-                     /ApEinfo_revcolor="#f58a5e"
-                     /ApEinfo_fwdcolor="#f58a5e"
+                     /ApEinfo_revcolor=#f58a5e
+                     /ApEinfo_fwdcolor=#f58a5e
      BsaI_bind       complement(404..409)
                      /label="BsaI_5PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       complement(39..44)
                      /label="BsaI_3PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       210..215
                      /label="BsaI_3PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       890..895
                      /label="BsaI_5PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      Loc             320..397
                      /label="YkoJ_SecTag"
-                     /ApEinfo_revcolor="#84b0dc"
-                     /ApEinfo_fwdcolor="#84b0dc"
+                     /ApEinfo_revcolor=#84b0dc
+                     /ApEinfo_fwdcolor=#84b0dc
      PmeI_bind       complement(852..859)
                      /label="PmeI_bind"
-                     /ApEinfo_revcolor="#85dae9"
-                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      PmeI_bind       3660..3666
                      /label="PmeI_bind"
-                     /ApEinfo_revcolor="#85dae9"
-                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      PmeI_bind       complement(3462..3469)
                      /label="PmeI_bind"
-                     /ApEinfo_revcolor="#85dae9"
-                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      Loc             514..615
                      /label="Mpr_SecTag"
-                     /ApEinfo_revcolor="#84b0dc"
-                     /ApEinfo_fwdcolor="#84b0dc"
+                     /ApEinfo_revcolor=#84b0dc
+                     /ApEinfo_fwdcolor=#84b0dc
      BsaI_bind       complement(2056..2061)
                      /label="BsaI_5PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       complement(1198..1203)
                      /label="BsaI_5PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      PmeI_bind       3053..3060
                      /label="PmeI_bind"
-                     /ApEinfo_revcolor="#85dae9"
-                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      Loc             1520..1618
                      /label="YdbK_SecTag"
-                     /ApEinfo_revcolor="#84b0dc"
-                     /ApEinfo_fwdcolor="#84b0dc"
+                     /ApEinfo_revcolor=#84b0dc
+                     /ApEinfo_fwdcolor=#84b0dc
      PmeI_bind       complement(440..447)
                      /label="PmeI_bind"
-                     /ApEinfo_revcolor="#85dae9"
-                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      BsaI_bind       complement(4420..4425)
                      /label="BsaI_5PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      PmeI_bind       1661..1668
                      /label="PmeI_bind"
-                     /ApEinfo_revcolor="#85dae9"
-                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      BsaI_bind       complement(890..895)
                      /label="BsaI_3PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      PmeI_bind       3853..3860
                      /label="PmeI_bind"
-                     /ApEinfo_revcolor="#85dae9"
-                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      BsaI_bind       complement(1846..1851)
                      /label="BsaI_5PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      RBS             2548..2556
                      /label="Shine-Dalgarno sequence"
-                     /ApEinfo_revcolor="#b4abac"
-                     /ApEinfo_fwdcolor="#b4abac"
+                     /ApEinfo_revcolor=#b4abac
+                     /ApEinfo_fwdcolor=#b4abac
      PmeI_bind       3262..3269
                      /label="PmeI_bind"
-                     /ApEinfo_revcolor="#85dae9"
-                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      BsaI_bind       complement(4608..4613)
                      /label="BsaI_5PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       complement(2453..2458)
                      /label="BsaI_5PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       1846..1851
                      /label="BsaI_3PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       3226..3231
                      /label="BsaI_3PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       4011..4016
                      /label="BsaI_3PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       3500..3505
                      /label="BsaI_5PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       4420..4425
                      /label="BsaI_3PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       complement(2259..2264)
                      /label="BsaI_5PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      Loc             1308..1403
                      /label="YwtD_SecTag"
-                     /ApEinfo_revcolor="#84b0dc"
-                     /ApEinfo_fwdcolor="#84b0dc"
+                     /ApEinfo_revcolor=#84b0dc
+                     /ApEinfo_fwdcolor=#84b0dc
      BsaI_bind       1699..1704
                      /label="BsaI_5PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      PmeI_bind       4456..4463
                      /label="PmeI_bind"
-                     /ApEinfo_revcolor="#85dae9"
-                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      Loc             2166..2252
                      /label="YpjP_SecTag"
-                     /ApEinfo_revcolor="#84b0dc"
-                     /ApEinfo_fwdcolor="#84b0dc"
+                     /ApEinfo_revcolor=#84b0dc
+                     /ApEinfo_fwdcolor=#84b0dc
      RBS             1495..1519
                      /label="YdbK_RBS"
-                     /ApEinfo_revcolor="#f58a5e"
-                     /ApEinfo_fwdcolor="#f58a5e"
+                     /ApEinfo_revcolor=#f58a5e
+                     /ApEinfo_fwdcolor=#f58a5e
      PmeI_bind       658..665
                      /label="PmeI_bind"
-                     /ApEinfo_revcolor="#85dae9"
-                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      BsaI_bind       complement(1410..1415)
                      /label="BsaI_5PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       complement(1484..1489)
                      /label="BsaI_3PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       2453..2458
                      /label="BsaI_3PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       complement(478..483)
                      /label="BsaI_3PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       3017..3022
                      /label="BsaI_3PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       complement(1272..1277)
                      /label="BsaI_3PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      Loc             4718..4837
                      /label="SpoIIQ_SecTag"
-                     /ApEinfo_revcolor="#84b0dc"
-                     /ApEinfo_fwdcolor="#84b0dc"
+                     /ApEinfo_revcolor=#84b0dc
+                     /ApEinfo_fwdcolor=#84b0dc
      PmeI_bind       complement(2859..2866)
                      /label="PmeI_bind"
-                     /ApEinfo_revcolor="#85dae9"
-                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      RBS             3708..3732
                      /label="YjiA_RBS"
-                     /ApEinfo_revcolor="#f58a5e"
-                     /ApEinfo_fwdcolor="#f58a5e"
+                     /ApEinfo_revcolor=#f58a5e
+                     /ApEinfo_fwdcolor=#f58a5e
      BsaI_bind       complement(284..289)
                      /label="BsaI_3PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       2333..2338
                      /label="BsaI_5PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       2897..2902
                      /label="BsaI_5PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       2823..2828
                      /label="BsaI_3PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       4279..4284
                      /label="BsaI_5PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      PmeI_bind       852..859
                      /label="PmeI_bind"
-                     /ApEinfo_revcolor="#85dae9"
-                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      RBS             2908..2932
                      /label="LytF_RBS"
-                     /ApEinfo_revcolor="#f58a5e"
-                     /ApEinfo_fwdcolor="#f58a5e"
+                     /ApEinfo_revcolor=#f58a5e
+                     /ApEinfo_fwdcolor=#f58a5e
      BsaI_bind       696..701
                      /label="BsaI_5PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       complement(816..821)
                      /label="BsaI_5PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      Loc             4530..4601
                      /label="PelB_SecTag"
-                     /ApEinfo_revcolor="#84b0dc"
-                     /ApEinfo_fwdcolor="#84b0dc"
+                     /ApEinfo_revcolor=#84b0dc
+                     /ApEinfo_fwdcolor=#84b0dc
      BsaI_bind       complement(3891..3896)
                      /label="BsaI_3PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       complement(4682..4687)
                      /label="BsaI_3PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       4494..4499
                      /label="BsaI_5PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      RBS             3311..3335
                      /label="YbbR_RBS"
-                     /ApEinfo_revcolor="#f58a5e"
-                     /ApEinfo_fwdcolor="#f58a5e"
+                     /ApEinfo_revcolor=#f58a5e
+                     /ApEinfo_fwdcolor=#f58a5e
      Loc             2369..2446
                      /label="RpmG_SecTag"
-                     /ApEinfo_revcolor="#84b0dc"
-                     /ApEinfo_fwdcolor="#84b0dc"
+                     /ApEinfo_revcolor=#84b0dc
+                     /ApEinfo_fwdcolor=#84b0dc
      BsaI_bind       complement(1013..1018)
                      /label="BsaI_5PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      PmeI_bind       complement(2489..2496)
                      /label="PmeI_bind"
-                     /ApEinfo_revcolor="#85dae9"
-                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      PmeI_bind       2295..2302
                      /label="PmeI_bind"
-                     /ApEinfo_revcolor="#85dae9"
-                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      BsaI_bind       complement(2823..2828)
                      /label="BsaI_5PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       complement(3017..3022)
                      /label="BsaI_5PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       3817..3822
                      /label="BsaI_3PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      RBS             489..513
                      /label="Mpr_RBS"
-                     /ApEinfo_revcolor="#f58a5e"
-                     /ApEinfo_fwdcolor="#f58a5e"
+                     /ApEinfo_revcolor=#f58a5e
+                     /ApEinfo_fwdcolor=#f58a5e
      Loc             1735..1839
                      /label="YfkN_SecTag"
-                     /ApEinfo_revcolor="#84b0dc"
-                     /ApEinfo_fwdcolor="#84b0dc"
+                     /ApEinfo_revcolor=#84b0dc
+                     /ApEinfo_fwdcolor=#84b0dc
      PmeI_bind       complement(1446..1453)
                      /label="PmeI_bind"
-                     /ApEinfo_revcolor="#85dae9"
-                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      PmeI_bind       complement(4644..4651)
                      /label="PmeI_bind"
-                     /ApEinfo_revcolor="#85dae9"
-                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      BsaI_bind       complement(3226..3231)
                      /label="BsaI_5PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       3891..3896
                      /label="BsaI_5PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      PmeI_bind       complement(4047..4054)
                      /label="PmeI_bind"
-                     /ApEinfo_revcolor="#85dae9"
-                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      RBS             1710..1734
                      /label="YfkN_RBS"
-                     /ApEinfo_revcolor="#f58a5e"
-                     /ApEinfo_fwdcolor="#f58a5e"
+                     /ApEinfo_revcolor=#f58a5e
+                     /ApEinfo_fwdcolor=#f58a5e
      Loc             1957..2049
                      /label="YwaD_SecTag"
-                     /ApEinfo_revcolor="#84b0dc"
-                     /ApEinfo_fwdcolor="#84b0dc"
+                     /ApEinfo_revcolor=#84b0dc
+                     /ApEinfo_fwdcolor=#84b0dc
      PmeI_bind       complement(2092..2099)
                      /label="PmeI_bind"
-                     /ApEinfo_revcolor="#85dae9"
-                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      PmeI_bind       1234..1241
                      /label="PmeI_bind"
-                     /ApEinfo_revcolor="#85dae9"
-                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      PmeI_bind       3462..3469
                      /label="PmeI_bind"
-                     /ApEinfo_revcolor="#85dae9"
-                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      PmeI_bind       440..447
                      /label="PmeI_bind"
-                     /ApEinfo_revcolor="#85dae9"
-                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      RBS             2344..2368
                      /label="RpmG_RBS"
-                     /ApEinfo_revcolor="#f58a5e"
-                     /ApEinfo_fwdcolor="#f58a5e"
+                     /ApEinfo_revcolor=#f58a5e
+                     /ApEinfo_fwdcolor=#f58a5e
      BsaI_bind       complement(1699..1704)
                      /label="BsaI_3PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      Loc             2933..3010
                      /label="LytF_SecTag"
-                     /ApEinfo_revcolor="#84b0dc"
-                     /ApEinfo_fwdcolor="#84b0dc"
+                     /ApEinfo_revcolor=#84b0dc
+                     /ApEinfo_fwdcolor=#84b0dc
      RBS             4505..4529
                      /label="PelB_RBS"
-                     /ApEinfo_revcolor="#f58a5e"
-                     /ApEinfo_fwdcolor="#f58a5e"
+                     /ApEinfo_revcolor=#f58a5e
+                     /ApEinfo_fwdcolor=#f58a5e
      Loc             4121..4198
                      /label="YjcM_SecTag"
-                     /ApEinfo_revcolor="#84b0dc"
-                     /ApEinfo_fwdcolor="#84b0dc"
+                     /ApEinfo_revcolor=#84b0dc
+                     /ApEinfo_fwdcolor=#84b0dc
      PmeI_bind       1446..1453
                      /label="PmeI_bind"
-                     /ApEinfo_revcolor="#85dae9"
-                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      BsaI_bind       3623..3628
                      /label="BsaI_3PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       complement(4844..4849)
                      /label="BsaI_5PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       complement(4494..4499)
                      /label="BsaI_3PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       complement(3091..3096)
                      /label="BsaI_3PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       complement(2897..2902)
                      /label="BsaI_3PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       404..409
                      /label="BsaI_3PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      Loc             3927..4004
                      /label="PbpD_SecTag"
-                     /ApEinfo_revcolor="#84b0dc"
-                     /ApEinfo_fwdcolor="#84b0dc"
+                     /ApEinfo_revcolor=#84b0dc
+                     /ApEinfo_fwdcolor=#84b0dc
      BsaI_bind       4085..4090
                      /label="BsaI_5PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       complement(3500..3505)
                      /label="BsaI_3PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       478..483
                      /label="BsaI_5PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      PmeI_bind       2859..2866
                      /label="PmeI_bind"
-                     /ApEinfo_revcolor="#85dae9"
-                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      RBS             707..731
                      /label="YpuA_RBS"
-                     /ApEinfo_revcolor="#f58a5e"
-                     /ApEinfo_fwdcolor="#f58a5e"
+                     /ApEinfo_revcolor=#f58a5e
+                     /ApEinfo_fwdcolor=#f58a5e
      PmeI_bind       4241..4248
                      /label="PmeI_bind"
-                     /ApEinfo_revcolor="#85dae9"
-                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      BsaI_bind       complement(2333..2338)
                      /label="BsaI_3PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      Loc             1123..1191
                      /label="YwmD_SecTag"
-                     /ApEinfo_revcolor="#84b0dc"
-                     /ApEinfo_fwdcolor="#84b0dc"
+                     /ApEinfo_revcolor=#84b0dc
+                     /ApEinfo_fwdcolor=#84b0dc
      BsaI_bind       complement(4205..4210)
                      /label="BsaI_5PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      PmeI_bind       complement(3660..3666)
                      /label="PmeI_bind"
-                     /ApEinfo_revcolor="#85dae9"
-                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      BsaI_bind       complement(4279..4284)
                      /label="BsaI_3PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      PmeI_bind       1..8
                      /label="PmeI_bind"
-                     /ApEinfo_revcolor="#85dae9"
-                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      BsaI_bind       complement(3817..3822)
                      /label="BsaI_5PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       3300..3305
                      /label="BsaI_5PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       4205..4210
                      /label="BsaI_3PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      RBS             3511..3535
                      /label="YhjA_RBS"
-                     /ApEinfo_revcolor="#f58a5e"
-                     /ApEinfo_fwdcolor="#f58a5e"
+                     /ApEinfo_revcolor=#f58a5e
+                     /ApEinfo_fwdcolor=#f58a5e
      BsaI_bind       622..627
                      /label="BsaI_3PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      Loc             4315..4413
                      /label="YhaK_SecTag"
-                     /ApEinfo_revcolor="#84b0dc"
-                     /ApEinfo_fwdcolor="#84b0dc"
+                     /ApEinfo_revcolor=#84b0dc
+                     /ApEinfo_fwdcolor=#84b0dc
      PmeI_bind       complement(3853..3860)
                      /label="PmeI_bind"
-                     /ApEinfo_revcolor="#85dae9"
-                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      RBS             3102..3126
                      /label="WprA_RBS"
-                     /ApEinfo_revcolor="#f58a5e"
-                     /ApEinfo_fwdcolor="#f58a5e"
+                     /ApEinfo_revcolor=#f58a5e
+                     /ApEinfo_fwdcolor=#f58a5e
      BsaI_bind       complement(3300..3305)
                      /label="BsaI_3PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       4608..4613
                      /label="BsaI_3PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       816..821
                      /label="BsaI_3PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      Loc             3733..3810
                      /label="YjiA_SecTag"
-                     /ApEinfo_revcolor="#84b0dc"
-                     /ApEinfo_fwdcolor="#84b0dc"
+                     /ApEinfo_revcolor=#84b0dc
+                     /ApEinfo_fwdcolor=#84b0dc
      BsaI_bind       complement(2130..2135)
                      /label="BsaI_3PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      BsaI_bind       2259..2264
                      /label="BsaI_3PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      Loc             732..809
                      /label="YpuA_SecTag"
-                     /ApEinfo_revcolor="#84b0dc"
-                     /ApEinfo_fwdcolor="#84b0dc"
+                     /ApEinfo_revcolor=#84b0dc
+                     /ApEinfo_fwdcolor=#84b0dc
      BsaI_bind       complement(1087..1092)
                      /label="BsaI_3PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      PmeI_bind       4047..4054
                      /label="PmeI_bind"
-                     /ApEinfo_revcolor="#85dae9"
-                     /ApEinfo_fwdcolor="#85dae9"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
      BsaI_bind       4682..4687
                      /label="BsaI_5PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
      Loc             3536..3616
                      /label="YhjA_SecTag"
-                     /ApEinfo_revcolor="#84b0dc"
-                     /ApEinfo_fwdcolor="#84b0dc"
+                     /ApEinfo_revcolor=#84b0dc
+                     /ApEinfo_fwdcolor=#84b0dc
      BsaI_bind       complement(3697..3702)
                      /label="BsaI_3PrimeBindingSite"
-                     /ApEinfo_revcolor="#75c6a9"
-                     /ApEinfo_fwdcolor="#75c6a9"
+                     /ApEinfo_revcolor=#75c6a9
+                     /ApEinfo_fwdcolor=#75c6a9
 ORIGIN
-        1 gtttaaactg ggatcgtcac ttgatcccta gcgaatgtgg tctcgtactg ggggctaata
-       61 aaggaggttt ttttatgttc cgtctgtttc acaatcagca gaaagcgaaa actaagctga
-      121 aggttctgct gattttccag ctttccgtta tctttagcct gacggctgcg atttgcctgc
-      181 agttctccga cgacacgagt gcctccatgg agacctaacc tctttagatt gacccgagcg
-      241 aaccggttta aaccgcgaag caactatccc aaagcaaaag tggggtctcg tactggctaa
-      301 tcaaaaagga ggtaaaataa tgctgaagaa gaagtggatg gtaggcttac tggcaggttg
-      361 cctggcagct ggcggtttct cctataacgc gttcgcttcc atggagaccg aacgggtgat
-      421 caccgataca gcctcacacg tttaaacgtg tgcattcttc gacctaactt gctctagggt
-      481 ctcctactca ggcggcccaa aggaggtatt ttaatgaaac tggttcctcg ttttcgtaaa
-      541 cagtggttcg cgtatcttac tgtcttatgc cttgcgttag ctgccgctgt gtcattcggc
-      601 gtgccagcga aagcctccat agagaccgag tgataagacc tttacaccct gtagtaagtt
-      661 taaacggaca aggtccctaa cagtcggtct tatgcggtct catactcggg gagataaaag
-      721 gagggttttt tatgaagaaa atctggattg gaatgcttgc ggcagccgtg ctgcttctga
-      781 tggtcccaaa ggttagcctg gcggacgcgt ccatagagac cagcaactaa cgagatagcc
-      841 actgcggtct ggtttaaacg aaccacgtgg tcaccacgaa actggctggg gtctcctact
-      901 cggggcaaga aaaggaggta attgtatggg tatgaagaag aaactgtctc tgggtgttgc
-      961 atctgcggca cttggcttgg cgctggtggg tggcggtacg tgggcatcca tggagaccgt
-     1021 accgtccgca gtcctttgat tggacctagt ttaaaccatt cttgaatcaa ccttgcggta
-     1081 gcttcaggtc tcttactcac gggcgaacaa ggaggttata ctatgaagaa actgctggca
-     1141 gccggaatca tcggtctgtt aaccgtgtct attgcgtcac cgtcgtttgc gtccatcgag
-     1201 accctactgg acttatgact ggacagtctc gctgtttaaa cgcatatcct gttgtatagg
-     1261 acctcaactt gggtctccta ctgggagcag ttaaaggagg tatttatatg aacacgttag
-     1321 caaactggaa gaagttcctg ctggtcgccg tcatcatttg ttttctggtt ccaatcatga
-     1381 cgaaagccga aatcgccgaa gcatccatcg agaccctgaa cgggtgcatg caataggtgt
-     1441 gcaatgttta aacctcgtca ctacttcccg tgaacagacc gcaggtctcg tactggacaa
-     1501 caataaagga gcctatttaa tgaaactgtt taaccgcaaa gtcacactgg taagtctgat
-     1561 cttgatggcc gtgttccagt tctttatggc tctgattatc aaacgtattg tcatttcctc
-     1621 catcgagacc gcgtcattga gccagaccca tagcgtgacg gtttaaacgc taactttctt
-     1681 tcgagcaacg gtcgagtagg tctcttactg gcccacataa aagagcgtct ttttatgcgt
-     1741 atccagaaac gtcgcaccca cgtcgagaac attctgcgca ttctgttacc accgattatg
-     1801 atcctgtctc tgattctgcc taccccaccc attcacgctt ccatcgagac caaataccga
-     1861 cgatggaagt gctagagcaa ggtttaaacc aagtggttcg gaaggaccat tcaaggccat
-     1921 ggtctcatac ttcagagggg tctgggaggt cacgatatga agaaactgct gaccgtgatg
-     1981 actatggcgg ttctgactgc aggcactctg ctgctgccgg ctcaatcagt caccccagcc
-     2041 gcacatgctt ccatagagac ctactgcatg gtcctagttg gattggtttt cgtttaaaca
-     2101 aaggaggtaa cttgaaaggg catcagtcgg gtctcttact cggcaaggtc aaaggaggtt
-     2161 acaatatgaa attgtggatg cgtaaaacgt tggtggtgct gtttacgatc gtcacattcg
-     2221 ggttggtttc tccaccagca gcactgatgg cgtccattga gaccttggtg aaagcgttgc
-     2281 actatctgtg cttcgtttaa acgtatgacg atctcacatg ctacctagtc gtggtctcct
-     2341 actccggggg gacaaaggag gttatcgaat gcgtaagaaa atcacgttgg cttgcaagac
-     2401 ctgcggtaac cgtaactata ccaccatgaa gtcatcggca agcgcatcca tggagaccat
-     2461 catagcttgg aactgcaacc tgggatttgt ttaaacaatg ttcggtgtta ggagcgaaac
-     2521 gtcataggtc tcatactcgc tgggtaataa ggaggttaac atatgaagcg cttgttgagc
-     2581 acgctgctga tcggcattat gctgttgacc tttgctccgt cagcatttgc ctccatcgag
-     2641 accgagtaga tccctttcct ctttcatcgt tctgtttaaa ctaagagtat gacgagccct
-     2701 ctgacagacg aggtctcata cttgaggggc ccaaaggagg tatttttatg aaccagatga
-     2761 aagacactat tttgctggcc ggtctgggcc tgattggagg gagtattgcc ctggcctcca
-     2821 tcgagacctt ccgtcatgcg tgactggctc acgttctggt ttaaaccaag gcaagcacta
-     2881 acgttgtacg aattggggtc tcttacttaa gagaaggaaa ggaggacata agatgaagaa
-     2941 gaaactggca gctggtctga cagcaagcgc tattgtgggc acaaccctgg tggttactcc
-     3001 ggctgaagcg tccatcgaga ccataatcaa cggtaacgct agggtcttgt aggtttaaac
-     3061 aaatggggac tgtgtaagga tgcgtctaat ggtctcctac tcatagggtc gaaaggaggt
-     3121 ccaataatga agcgccgtaa attcagctca gttgtagcag ctgtgttgat ctttgcgctg
-     3181 atcttctcac tgttcagtcc aggaactaaa gccgcagcgt ccattgagac ccctccgata
-     3241 caactgcgct aggacactaa tgtttaaacg tccgtcacga gaggctatgt tggtgaatag
-     3301 gtctcatact gacggaggac cggaaggatt tttttatgga taagtttctg aacaaccgtt
-     3361 gggctgtcaa aattattgct ctgctgtttg cgctgctgct gtatgtggcg gtcaacagtt
-     3421 ccatagagac cgcgtatgta ctgtaaatcc agccaatcgt cgtttaaacg ggcttagcca
-     3481 agccgaagat gatgaggcag gtctcctact ggtaataaag gagcgttata tttttatgaa
-     3541 gaaagcagct gccgtcctgt tgagcttagg ccttgtgttt ggtttctcct acggtgcggg
-     3601 tcacgttgct gaagcatcca tggagacccg ctttcgtcac agaatgtcgc gtatccaggt
-     3661 ttaaacggtg gccaaaacca gtcagaattg ccacgtggtc tcatactcca ggggacaaaa
-     3721 ggaggattat atatggccgc tcaaacggac tacaagaaac aagtcgtggg cattctgctg
-     3781 tcattggcct tcgtcctgtt cgtctttagt tccattgaga ccgcatatcg tggggtttgg
-     3841 cacctatcgt acgtttaaac actgtatgat actgcaatcc ctgcagcaag ggtctcctac
-     3901 ttggtaggtt caaaggaggt attttaatga ccatgttgcg taaaatcatc gggtggattc
-     3961 tgcttctgtg catcattccc ctgtttgcct ttacagttat cgcgtccatc gagaccggtt
-     4021 gcgttgcgga agggattgtg agcatcgttt aaacatactc catcagacac ggtccgagat
-     4081 aacaggtctc ttactgggaa taccaaaagg aggcctatat atgaagaaag agttacttgc
-     4141 gtcgctggta ctgtgcctgt cactgtctcc tttagtgagt actaacgaag tctttgcgtc
-     4201 catggagacc aactgagaac tcaatccttc gagcctacgt gtttaaacgt aagcccttgt
-     4261 atagtaagct cagggtgggg tctcttactc aggcaataaa aagcaggaaa tatcatgcgc
-     4321 acctggaaac gtattcccaa gaccaccatg ctgattagcc tggtatcacc gtttctgtta
-     4381 atcacaccag tgttgttcta cgcagccctg gcgtccatgg agacccgaac aacatagatg
-     4441 gttacggagt gactggttta aacttgtgtg tcggagtttg gggtggctgt gcgggtctcg
-     4501 tacttaaggc gggaaaagga ggtctaaaaa tgaaacgcct gtgcctgtgg tttacagtgt
-     4561 ttagcctgtt cctggttctg ctgccaggta aagcattggg ctccatggag accggttcat
-     4621 ctacaccgtg gcacagtgag tcagtttaaa ctccagcgaa gtaagtacta agtatgagga
-     4681 tggtctctta ctggggtatt acaaaggagg tattttaatg cgtgaagagg aaaagaaaac
-     4741 atctcaggtg aagaagctgc agcagttctt ccgcaaacgt tgggtgtttc cggcaatcta
-     4801 tcttgtgtca gcagctgtga tcttaacagc ggttctgtcc attgagacct agacgacttt
-     4861 agcgaagtgt ggcagccta
+        1 GTTTAAACTG GGATCGTCAC TTGATCCCTA GCGAATGTGG TCTCGTACTG GGGGCTAATA
+       61 AAGGAGGTTT TTTTATGTTC CGTCTGTTTC ACAATCAGCA GAAAGCGAAA ACTAAGCTGA
+      121 AGGTTCTGCT GATTTTCCAG CTTTCCGTTA TCTTTAGCCT GACGGCTGCG ATTTGCCTGC
+      181 AGTTCTCCGA CGACACGAGT GCCTCCATGG AGACCTAACC TCTTTAGATT GACCCGAGCG
+      241 AACCGGTTTA AACCGCGAAG CAACTATCCC AAAGCAAAAG TGGGGTCTCG TACTGGCTAA
+      301 TCAAAAAGGA GGTAAAATAA TGCTGAAGAA GAAGTGGATG GTAGGCTTAC TGGCAGGTTG
+      361 CCTGGCAGCT GGCGGTTTCT CCTATAACGC GTTCGCTTCC ATGGAGACCG AACGGGTGAT
+      421 CACCGATACA GCCTCACACG TTTAAACGTG TGCATTCTTC GACCTAACTT GCTCTAGGGT
+      481 CTCCTACTCA GGCGGCCCAA AGGAGGTATT TTAATGAAAC TGGTTCCTCG TTTTCGTAAA
+      541 CAGTGGTTCG CGTATCTTAC TGTCTTATGC CTTGCGTTAG CTGCCGCTGT GTCATTCGGC
+      601 GTGCCAGCGA AAGCCTCCAT AGAGACCGAG TGATAAGACC TTTACACCCT GTAGTAAGTT
+      661 TAAACGGACA AGGTCCCTAA CAGTCGGTCT TATGCGGTCT CATACTCGGG GAGATAAAAG
+      721 GAGGGTTTTT TATGAAGAAA ATCTGGATTG GAATGCTTGC GGCAGCCGTG CTGCTTCTGA
+      781 TGGTCCCAAA GGTTAGCCTG GCGGACGCGT CCATAGAGAC CAGCAACTAA CGAGATAGCC
+      841 ACTGCGGTCT GGTTTAAACG AACCACGTGG TCACCACGAA ACTGGCTGGG GTCTCCTACT
+      901 CGGGGCAAGA AAAGGAGGTA ATTGTATGGG TATGAAGAAG AAACTGTCTC TGGGTGTTGC
+      961 ATCTGCGGCA CTTGGCTTGG CGCTGGTGGG TGGCGGTACG TGGGCATCCA TGGAGACCGT
+     1021 ACCGTCCGCA GTCCTTTGAT TGGACCTAGT TTAAACCATT CTTGAATCAA CCTTGCGGTA
+     1081 GCTTCAGGTC TCTTACTCAC GGGCGAACAA GGAGGTTATA CTATGAAGAA ACTGCTGGCA
+     1141 GCCGGAATCA TCGGTCTGTT AACCGTGTCT ATTGCGTCAC CGTCGTTTGC GTCCATCGAG
+     1201 ACCCTACTGG ACTTATGACT GGACAGTCTC GCTGTTTAAA CGCATATCCT GTTGTATAGG
+     1261 ACCTCAACTT GGGTCTCCTA CTGGGAGCAG TTAAAGGAGG TATTTATATG AACACGTTAG
+     1321 CAAACTGGAA GAAGTTCCTG CTGGTCGCCG TCATCATTTG TTTTCTGGTT CCAATCATGA
+     1381 CGAAAGCCGA AATCGCCGAA GCATCCATCG AGACCCTGAA CGGGTGCATG CAATAGGTGT
+     1441 GCAATGTTTA AACCTCGTCA CTACTTCCCG TGAACAGACC GCAGGTCTCG TACTGGACAA
+     1501 CAATAAAGGA GCCTATTTAA TGAAACTGTT TAACCGCAAA GTCACACTGG TAAGTCTGAT
+     1561 CTTGATGGCC GTGTTCCAGT TCTTTATGGC TCTGATTATC AAACGTATTG TCATTTCCTC
+     1621 CATCGAGACC GCGTCATTGA GCCAGACCCA TAGCGTGACG GTTTAAACGC TAACTTTCTT
+     1681 TCGAGCAACG GTCGAGTAGG TCTCTTACTG GCCCACATAA AAGAGCGTCT TTTTATGCGT
+     1741 ATCCAGAAAC GTCGCACCCA CGTCGAGAAC ATTCTGCGCA TTCTGTTACC ACCGATTATG
+     1801 ATCCTGTCTC TGATTCTGCC TACCCCACCC ATTCACGCTT CCATCGAGAC CAAATACCGA
+     1861 CGATGGAAGT GCTAGAGCAA GGTTTAAACC AAGTGGTTCG GAAGGACCAT TCAAGGCCAT
+     1921 GGTCTCATAC TTCAGAGGGG TCTGGGAGGT CACGATATGA AGAAACTGCT GACCGTGATG
+     1981 ACTATGGCGG TTCTGACTGC AGGCACTCTG CTGCTGCCGG CTCAATCAGT CACCCCAGCC
+     2041 GCACATGCTT CCATAGAGAC CTACTGCATG GTCCTAGTTG GATTGGTTTT CGTTTAAACA
+     2101 AAGGAGGTAA CTTGAAAGGG CATCAGTCGG GTCTCTTACT CGGCAAGGTC AAAGGAGGTT
+     2161 ACAATATGAA ATTGTGGATG CGTAAAACGT TGGTGGTGCT GTTTACGATC GTCACATTCG
+     2221 GGTTGGTTTC TCCACCAGCA GCACTGATGG CGTCCATTGA GACCTTGGTG AAAGCGTTGC
+     2281 ACTATCTGTG CTTCGTTTAA ACGTATGACG ATCTCACATG CTACCTAGTC GTGGTCTCCT
+     2341 ACTCCGGGGG GACAAAGGAG GTTATCGAAT GCGTAAGAAA ATCACGTTGG CTTGCAAGAC
+     2401 CTGCGGTAAC CGTAACTATA CCACCATGAA GTCATCGGCA AGCGCATCCA TGGAGACCAT
+     2461 CATAGCTTGG AACTGCAACC TGGGATTTGT TTAAACAATG TTCGGTGTTA GGAGCGAAAC
+     2521 GTCATAGGTC TCATACTCGC TGGGTAATAA GGAGGTTAAC ATATGAAGCG CTTGTTGAGC
+     2581 ACGCTGCTGA TCGGCATTAT GCTGTTGACC TTTGCTCCGT CAGCATTTGC CTCCATCGAG
+     2641 ACCGAGTAGA TCCCTTTCCT CTTTCATCGT TCTGTTTAAA CTAAGAGTAT GACGAGCCCT
+     2701 CTGACAGACG AGGTCTCATA CTTGAGGGGC CCAAAGGAGG TATTTTTATG AACCAGATGA
+     2761 AAGACACTAT TTTGCTGGCC GGTCTGGGCC TGATTGGAGG GAGTATTGCC CTGGCCTCCA
+     2821 TCGAGACCTT CCGTCATGCG TGACTGGCTC ACGTTCTGGT TTAAACCAAG GCAAGCACTA
+     2881 ACGTTGTACG AATTGGGGTC TCTTACTTAA GAGAAGGAAA GGAGGACATA AGATGAAGAA
+     2941 GAAACTGGCA GCTGGTCTGA CAGCAAGCGC TATTGTGGGC ACAACCCTGG TGGTTACTCC
+     3001 GGCTGAAGCG TCCATCGAGA CCATAATCAA CGGTAACGCT AGGGTCTTGT AGGTTTAAAC
+     3061 AAATGGGGAC TGTGTAAGGA TGCGTCTAAT GGTCTCCTAC TCATAGGGTC GAAAGGAGGT
+     3121 CCAATAATGA AGCGCCGTAA ATTCAGCTCA GTTGTAGCAG CTGTGTTGAT CTTTGCGCTG
+     3181 ATCTTCTCAC TGTTCAGTCC AGGAACTAAA GCCGCAGCGT CCATTGAGAC CCCTCCGATA
+     3241 CAACTGCGCT AGGACACTAA TGTTTAAACG TCCGTCACGA GAGGCTATGT TGGTGAATAG
+     3301 GTCTCATACT GACGGAGGAC CGGAAGGATT TTTTTATGGA TAAGTTTCTG AACAACCGTT
+     3361 GGGCTGTCAA AATTATTGCT CTGCTGTTTG CGCTGCTGCT GTATGTGGCG GTCAACAGTT
+     3421 CCATAGAGAC CGCGTATGTA CTGTAAATCC AGCCAATCGT CGTTTAAACG GGCTTAGCCA
+     3481 AGCCGAAGAT GATGAGGCAG GTCTCCTACT GGTAATAAAG GAGCGTTATA TTTTTATGAA
+     3541 GAAAGCAGCT GCCGTCCTGT TGAGCTTAGG CCTTGTGTTT GGTTTCTCCT ACGGTGCGGG
+     3601 TCACGTTGCT GAAGCATCCA TGGAGACCCG CTTTCGTCAC AGAATGTCGC GTATCCAGGT
+     3661 TTAAACGGTG GCCAAAACCA GTCAGAATTG CCACGTGGTC TCATACTCCA GGGGACAAAA
+     3721 GGAGGATTAT ATATGGCCGC TCAAACGGAC TACAAGAAAC AAGTCGTGGG CATTCTGCTG
+     3781 TCATTGGCCT TCGTCCTGTT CGTCTTTAGT TCCATTGAGA CCGCATATCG TGGGGTTTGG
+     3841 CACCTATCGT ACGTTTAAAC ACTGTATGAT ACTGCAATCC CTGCAGCAAG GGTCTCCTAC
+     3901 TTGGTAGGTT CAAAGGAGGT ATTTTAATGA CCATGTTGCG TAAAATCATC GGGTGGATTC
+     3961 TGCTTCTGTG CATCATTCCC CTGTTTGCCT TTACAGTTAT CGCGTCCATC GAGACCGGTT
+     4021 GCGTTGCGGA AGGGATTGTG AGCATCGTTT AAACATACTC CATCAGACAC GGTCCGAGAT
+     4081 AACAGGTCTC TTACTGGGAA TACCAAAAGG AGGCCTATAT ATGAAGAAAG AGTTACTTGC
+     4141 GTCGCTGGTA CTGTGCCTGT CACTGTCTCC TTTAGTGAGT ACTAACGAAG TCTTTGCGTC
+     4201 CATGGAGACC AACTGAGAAC TCAATCCTTC GAGCCTACGT GTTTAAACGT AAGCCCTTGT
+     4261 ATAGTAAGCT CAGGGTGGGG TCTCTTACTC AGGCAATAAA AAGCAGGAAA TATCATGCGC
+     4321 ACCTGGAAAC GTATTCCCAA GACCACCATG CTGATTAGCC TGGTATCACC GTTTCTGTTA
+     4381 ATCACACCAG TGTTGTTCTA CGCAGCCCTG GCGTCCATGG AGACCCGAAC AACATAGATG
+     4441 GTTACGGAGT GACTGGTTTA AACTTGTGTG TCGGAGTTTG GGGTGGCTGT GCGGGTCTCG
+     4501 TACTTAAGGC GGGAAAAGGA GGTCTAAAAA TGAAACGCCT GTGCCTGTGG TTTACAGTGT
+     4561 TTAGCCTGTT CCTGGTTCTG CTGCCAGGTA AAGCATTGGG CTCCATGGAG ACCGGTTCAT
+     4621 CTACACCGTG GCACAGTGAG TCAGTTTAAA CTCCAGCGAA GTAAGTACTA AGTATGAGGA
+     4681 TGGTCTCTTA CTGGGGTATT ACAAAGGAGG TATTTTAATG CGTGAAGAGG AAAAGAAAAC
+     4741 ATCTCAGGTG AAGAAGCTGC AGCAGTTCTT CCGCAAACGT TGGGTGTTTC CGGCAATCTA
+     4801 TCTTGTGTCA GCAGCTGTGA TCTTAACAGC GGTTCTGTCC ATTGAGACCT AGACGACTTT
+     4861 AGCGAAGTGT GGCAGCCTA
 //
