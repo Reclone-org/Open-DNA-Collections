@@ -116,106 +116,106 @@ BBF10K_003369,ODC_0114,Luciferase [Luciola cruciata] (Japanese firefly),Open Rep
 BBF10K_003370,ODC_0115,Renilla luciferase,Open Reporters Collection
 BBF10K_003371,ODC_0116,beta-lactamase,Open Reporters Collection
 BBF10K_003372,ODC_0117,Calf Intestine Alkaline phosphatase (CIAP),Open Reporters Collection
-BBF10K_003332,ODC_0118,CE_meffBlue/Rtms5/ NF pocilloporin /Biobrick K1033902,E. coli Protein Expression Tookit
-BBF10K_003356,ODC_0119,CE_sarcGFP,E. coli Protein Expression Tookit
-BBF10K_003366,ODC_0120,CE_beta-galactosidase,E. coli Protein Expression Tookit
-BBF10K_003373,ODC_0121,AF_lacZ pDest,E. coli Protein Expression Tookit
-BBF10K_003375,ODC_0122,AE_lacZ pDest,E. coli Protein Expression Tookit
-BBF10K_003376,ODC_0123,AF_high copy (pUC) ori/KanR,E. coli Protein Expression Tookit
-BBF10K_003377,ODC_0124,AF_medium copy (pET) ori/KanR,E. coli Protein Expression Tookit
-BBF10K_003378,ODC_0125,AB_T7,E. coli Protein Expression Tookit
-BBF10K_003379,ODC_0126,AB_T7_lacO,E. coli Protein Expression Tookit
-BBF10K_003380,ODC_0127,AB_pTac,E. coli Protein Expression Tookit
-BBF10K_003384,ODC_0128,BT1_BCD2,E. coli Protein Expression Tookit
-BBF10K_003385,ODC_0129,BT1_Riboj54_F1,E. coli Protein Expression Tookit
-BBF10K_003386,ODC_0130,BT1_Riboj_B34,E. coli Protein Expression Tookit
-BBF10K_003387,ODC_0131,BT1_BCD12,E. coli Protein Expression Tookit
-BBF10K_003388,ODC_0132,BT1_BCD23,E. coli Protein Expression Tookit
-BBF10K_003389,ODC_0133,BT1_BCD2_His,E. coli Protein Expression Tookit
-BBF10K_003390,ODC_0134,BT1_RiboJ_B34_His,E. coli Protein Expression Tookit
-BBF10K_003391,ODC_0135,BT1_BCD2_DsbA,E. coli Protein Expression Tookit
-BBF10K_003392,ODC_0136,BT1_BCD2_OmpT,E. coli Protein Expression Tookit
-BBF10K_003393,ODC_0137,BT1_BCD2_pelB,E. coli Protein Expression Tookit
-BBF10K_003395,ODC_0138,T1T2_Calm,E. coli Protein Expression Tookit
-BBF10K_003396,ODC_0139,T1T2_CBD,E. coli Protein Expression Tookit
-BBF10K_003397,ODC_0140,T1T2_Cex,E. coli Protein Expression Tookit
-BBF10K_003398,ODC_0141,T1T2_MBP,E. coli Protein Expression Tookit
-BBF10K_003399,ODC_0142,T1T2_R5,E. coli Protein Expression Tookit
-BBF10K_003400,ODC_0143,T1T2_GST,E. coli Protein Expression Tookit
-BBF10K_003401,ODC_0144,T1T2_CipA,E. coli Protein Expression Tookit
-BBF10K_003402,ODC_0145,T1T2_S-Tag,E. coli Protein Expression Tookit
-BBF10K_003403,ODC_0146,T1T2_GB1,E. coli Protein Expression Tookit
-BBF10K_003404,ODC_0147,T1T2_GS flexible,E. coli Protein Expression Tookit
-BBF10K_003405,ODC_0148,T1T3_GS flexible,E. coli Protein Expression Tookit
-BBF10K_003406,ODC_0149,T1C_GS flexible,E. coli Protein Expression Tookit
-BBF10K_003407,ODC_0150,T1C_His_TEVcut,E. coli Protein Expression Tookit
-BBF10K_003408,ODC_0151,BT2_BCD2_His,E. coli Protein Expression Tookit
-BBF10K_003409,ODC_0152,BT2_RiboJ_B34,E. coli Protein Expression Tookit
-BBF10K_003410,ODC_0153,BC_B0034,E. coli Protein Expression Tookit
-BBF10K_003411,ODC_0154,BC_B0032,E. coli Protein Expression Tookit
-BBF10K_003412,ODC_0155,BC_RiboJ_RBS64,E. coli Protein Expression Tookit
-BBF10K_003413,ODC_0156,BC_RiboJ_B34,E. coli Protein Expression Tookit
-BBF10K_003414,ODC_0157,BC_BCD23,E. coli Protein Expression Tookit
-BBF10K_003415,ODC_0158,BC_BCD12,E. coli Protein Expression Tookit
-BBF10K_003416,ODC_0159,BC_BCD2,E. coli Protein Expression Tookit
-BBF10K_003417,ODC_0160,T2C_GS flexible,E. coli Protein Expression Tookit
-BBF10K_003418,ODC_0161,T2C_TEVcut,E. coli Protein Expression Tookit
-BBF10K_003419,ODC_0162,BC_BCD2_His_TEVcut,E. coli Protein Expression Tookit
-BBF10K_003420,ODC_0163,BC_BCD2_His_fuGFP_TEVcut,E. coli Protein Expression Tookit
-BBF10K_003421,ODC_0164,T2T3_int_∆I,E. coli Protein Expression Tookit
-BBF10K_003422,ODC_0165,T2T3_SUMO,E. coli Protein Expression Tookit
-BBF10K_003423,ODC_0166,T2T3_fuGFP,E. coli Protein Expression Tookit
-BBF10K_003424,ODC_0167,T2T3_AmilCP,E. coli Protein Expression Tookit
-BBF10K_003425,ODC_0168,T2T3_GS flexible,E. coli Protein Expression Tookit
-BBF10K_003426,ODC_0169,T3C_SUMO,E. coli Protein Expression Tookit
-BBF10K_003427,ODC_0170,T3C_TEV,E. coli Protein Expression Tookit
-BBF10K_003428,ODC_0171,T3C_int_∆I,E. coli Protein Expression Tookit
-BBF10K_003429,ODC_0172,T3C_fuGFP,E. coli Protein Expression Tookit
-BBF10K_003430,ODC_0173,T3C_GS flexible linker,E. coli Protein Expression Tookit
-BBF10K_003431,ODC_0174,CD_OMMLV,E. coli Protein Expression Tookit
-BBF10K_003432,ODC_0175,CD_HIVRT,E. coli Protein Expression Tookit
-BBF10K_003433,ODC_0176,CD_Bst-LF,E. coli Protein Expression Tookit
-BBF10K_003434,ODC_0177,CD_OpenVent,E. coli Protein Expression Tookit
-BBF10K_003436,ODC_0178,CD_RNAseInhibitor,E. coli Protein Expression Tookit
-BBF10K_003437,ODC_0179,CD_gp32,E. coli Protein Expression Tookit
-BBF10K_003438,ODC_0180,CD_BsuLF,E. coli Protein Expression Tookit
-BBF10K_003439,ODC_0181,CD_UvsY,E. coli Protein Expression Tookit
-BBF10K_003440,ODC_0182,CD_UvsX,E. coli Protein Expression Tookit
-BBF10K_003441,ODC_0183,CE_T7RNApol_Stop,E. coli Protein Expression Tookit
-BBF10K_003442,ODC_0184,CD_PBCV-1_ligase,E. coli Protein Expression Tookit
-BBF10K_003443,ODC_0185,CD_HRP,E. coli Protein Expression Tookit
-BBF10K_003444,ODC_0186,CD_TEV_protease,E. coli Protein Expression Tookit
-BBF10K_003445,ODC_0187,CD_SUMO_protease,E. coli Protein Expression Tookit
-BBF10K_003446,ODC_0188,CD_Calmodulin,E. coli Protein Expression Tookit
-BBF10K_003447,ODC_0189,CD_fuGFP,E. coli Protein Expression Tookit
-BBF10K_003448,ODC_0190,CD_AmilCP,E. coli Protein Expression Tookit
-BBF10K_003449,ODC_0191,CD_TthRNAseH,E. coli Protein Expression Tookit
-BBF10K_003450,ODC_0192,CD_EcRNAseH,E. coli Protein Expression Tookit
-BBF10K_003451,ODC_0193,DT4_Int_SaltS,E. coli Protein Expression Tookit
-BBF10K_003452,ODC_0194,DT4_Int_ThiolS,E. coli Protein Expression Tookit
-BBF10K_003453,ODC_0195,DT4_TEV,E. coli Protein Expression Tookit
-BBF10K_003454,ODC_0196,DT4_fuGFP,E. coli Protein Expression Tookit
-BBF10K_003455,ODC_0197,DT4_GS flexible linker,E. coli Protein Expression Tookit
-BBF10K_003457,ODC_0198,DT5_TEVcut,E. coli Protein Expression Tookit
-BBF10K_003459,ODC_0199,DF_TEVcut_His_Stop_TZ,E. coli Protein Expression Tookit
-BBF10K_003460,ODC_0200,DF_TEVcut_fuGFP_His_Stop_TZ,E. coli Protein Expression Tookit
-BBF10K_003461,ODC_0201,T4T5_Int_ThiolS,E. coli Protein Expression Tookit
-BBF10K_003462,ODC_0202,T4T5_Int_SaltS,E. coli Protein Expression Tookit
-BBF10K_003463,ODC_0203,T4T5_AmilCP,E. coli Protein Expression Tookit
-BBF10K_003464,ODC_0204,T4T5_fuGFP,E. coli Protein Expression Tookit
-BBF10K_003465,ODC_0205,T4T5_GS flexible,E. coli Protein Expression Tookit
-BBF10K_003466,ODC_0206,T4E_3xStop,E. coli Protein Expression Tookit
-BBF10K_003467,ODC_0207,T5E_6H,E. coli Protein Expression Tookit
-BBF10K_003468,ODC_0208,T5E_Calm,E. coli Protein Expression Tookit
-BBF10K_003469,ODC_0209,T5E_CBD,E. coli Protein Expression Tookit
-BBF10K_003470,ODC_0210,T5E_Cex,E. coli Protein Expression Tookit
-BBF10K_003471,ODC_0211,T5E_MBP,E. coli Protein Expression Tookit
-BBF10K_003472,ODC_0212,T5E_R5,E. coli Protein Expression Tookit
-BBF10K_003473,ODC_0213,T5E_CipA,E. coli Protein Expression Tookit
-BBF10K_003474,ODC_0214,T5E_3xStop,E. coli Protein Expression Tookit
-BBF10K_003475,ODC_0215,EF_ECK9600,E. coli Protein Expression Tookit
-BBF10K_003476,ODC_0216,EF_T7term,E. coli Protein Expression Tookit
-BBF10K_003477,ODC_0217,EF_TZ,E. coli Protein Expression Tookit
+BBF10K_003332,ODC_0118,CE_meffBlue/Rtms5/ NF pocilloporin /Biobrick K1033902,Ecoli Protein Expression Toolkit
+BBF10K_003356,ODC_0119,CE_sarcGFP,Ecoli Protein Expression Toolkit
+BBF10K_003366,ODC_0120,CE_beta-galactosidase,Ecoli Protein Expression Toolkit
+BBF10K_003373,ODC_0121,AF_lacZ pDest,Ecoli Protein Expression Toolkit
+BBF10K_003375,ODC_0122,AE_lacZ pDest,Ecoli Protein Expression Toolkit
+BBF10K_003376,ODC_0123,AF_high copy (pUC) ori/KanR,Ecoli Protein Expression Toolkit
+BBF10K_003377,ODC_0124,AF_medium copy (pET) ori/KanR,Ecoli Protein Expression Toolkit
+BBF10K_003378,ODC_0125,AB_T7,Ecoli Protein Expression Toolkit
+BBF10K_003379,ODC_0126,AB_T7_lacO,Ecoli Protein Expression Toolkit
+BBF10K_003380,ODC_0127,AB_pTac,Ecoli Protein Expression Toolkit
+BBF10K_003384,ODC_0128,BT1_BCD2,Ecoli Protein Expression Toolkit
+BBF10K_003385,ODC_0129,BT1_Riboj54_F1,Ecoli Protein Expression Toolkit
+BBF10K_003386,ODC_0130,BT1_Riboj_B34,Ecoli Protein Expression Toolkit
+BBF10K_003387,ODC_0131,BT1_BCD12,Ecoli Protein Expression Toolkit
+BBF10K_003388,ODC_0132,BT1_BCD23,Ecoli Protein Expression Toolkit
+BBF10K_003389,ODC_0133,BT1_BCD2_His,Ecoli Protein Expression Toolkit
+BBF10K_003390,ODC_0134,BT1_RiboJ_B34_His,Ecoli Protein Expression Toolkit
+BBF10K_003391,ODC_0135,BT1_BCD2_DsbA,Ecoli Protein Expression Toolkit
+BBF10K_003392,ODC_0136,BT1_BCD2_OmpT,Ecoli Protein Expression Toolkit
+BBF10K_003393,ODC_0137,BT1_BCD2_pelB,Ecoli Protein Expression Toolkit
+BBF10K_003395,ODC_0138,T1T2_Calm,Ecoli Protein Expression Toolkit
+BBF10K_003396,ODC_0139,T1T2_CBD,Ecoli Protein Expression Toolkit
+BBF10K_003397,ODC_0140,T1T2_Cex,Ecoli Protein Expression Toolkit
+BBF10K_003398,ODC_0141,T1T2_MBP,Ecoli Protein Expression Toolkit
+BBF10K_003399,ODC_0142,T1T2_R5,Ecoli Protein Expression Toolkit
+BBF10K_003400,ODC_0143,T1T2_GST,Ecoli Protein Expression Toolkit
+BBF10K_003401,ODC_0144,T1T2_CipA,Ecoli Protein Expression Toolkit
+BBF10K_003402,ODC_0145,T1T2_S-Tag,Ecoli Protein Expression Toolkit
+BBF10K_003403,ODC_0146,T1T2_GB1,Ecoli Protein Expression Toolkit
+BBF10K_003404,ODC_0147,T1T2_GS flexible,Ecoli Protein Expression Toolkit
+BBF10K_003405,ODC_0148,T1T3_GS flexible,Ecoli Protein Expression Toolkit
+BBF10K_003406,ODC_0149,T1C_GS flexible,Ecoli Protein Expression Toolkit
+BBF10K_003407,ODC_0150,T1C_His_TEVcut,Ecoli Protein Expression Toolkit
+BBF10K_003408,ODC_0151,BT2_BCD2_His,Ecoli Protein Expression Toolkit
+BBF10K_003409,ODC_0152,BT2_RiboJ_B34,Ecoli Protein Expression Toolkit
+BBF10K_003410,ODC_0153,BC_B0034,Ecoli Protein Expression Toolkit
+BBF10K_003411,ODC_0154,BC_B0032,Ecoli Protein Expression Toolkit
+BBF10K_003412,ODC_0155,BC_RiboJ_RBS64,Ecoli Protein Expression Toolkit
+BBF10K_003413,ODC_0156,BC_RiboJ_B34,Ecoli Protein Expression Toolkit
+BBF10K_003414,ODC_0157,BC_BCD23,Ecoli Protein Expression Toolkit
+BBF10K_003415,ODC_0158,BC_BCD12,Ecoli Protein Expression Toolkit
+BBF10K_003416,ODC_0159,BC_BCD2,Ecoli Protein Expression Toolkit
+BBF10K_003417,ODC_0160,T2C_GS flexible,Ecoli Protein Expression Toolkit
+BBF10K_003418,ODC_0161,T2C_TEVcut,Ecoli Protein Expression Toolkit
+BBF10K_003419,ODC_0162,BC_BCD2_His_TEVcut,Ecoli Protein Expression Toolkit
+BBF10K_003420,ODC_0163,BC_BCD2_His_fuGFP_TEVcut,Ecoli Protein Expression Toolkit
+BBF10K_003421,ODC_0164,T2T3_int_∆I,Ecoli Protein Expression Toolkit
+BBF10K_003422,ODC_0165,T2T3_SUMO,Ecoli Protein Expression Toolkit
+BBF10K_003423,ODC_0166,T2T3_fuGFP,Ecoli Protein Expression Toolkit
+BBF10K_003424,ODC_0167,T2T3_AmilCP,Ecoli Protein Expression Toolkit
+BBF10K_003425,ODC_0168,T2T3_GS flexible,Ecoli Protein Expression Toolkit
+BBF10K_003426,ODC_0169,T3C_SUMO,Ecoli Protein Expression Toolkit
+BBF10K_003427,ODC_0170,T3C_TEV,Ecoli Protein Expression Toolkit
+BBF10K_003428,ODC_0171,T3C_int_∆I,Ecoli Protein Expression Toolkit
+BBF10K_003429,ODC_0172,T3C_fuGFP,Ecoli Protein Expression Toolkit
+BBF10K_003430,ODC_0173,T3C_GS flexible linker,Ecoli Protein Expression Toolkit
+BBF10K_003431,ODC_0174,CD_OMMLV,Ecoli Protein Expression Toolkit
+BBF10K_003432,ODC_0175,CD_HIVRT,Ecoli Protein Expression Toolkit
+BBF10K_003433,ODC_0176,CD_Bst-LF,Ecoli Protein Expression Toolkit
+BBF10K_003434,ODC_0177,CD_OpenVent,Ecoli Protein Expression Toolkit
+BBF10K_003436,ODC_0178,CD_RNAseInhibitor,Ecoli Protein Expression Toolkit
+BBF10K_003437,ODC_0179,CD_gp32,Ecoli Protein Expression Toolkit
+BBF10K_003438,ODC_0180,CD_BsuLF,Ecoli Protein Expression Toolkit
+BBF10K_003439,ODC_0181,CD_UvsY,Ecoli Protein Expression Toolkit
+BBF10K_003440,ODC_0182,CD_UvsX,Ecoli Protein Expression Toolkit
+BBF10K_003441,ODC_0183,CE_T7RNApol_Stop,Ecoli Protein Expression Toolkit
+BBF10K_003442,ODC_0184,CD_PBCV-1_ligase,Ecoli Protein Expression Toolkit
+BBF10K_003443,ODC_0185,CD_HRP,Ecoli Protein Expression Toolkit
+BBF10K_003444,ODC_0186,CD_TEV_protease,Ecoli Protein Expression Toolkit
+BBF10K_003445,ODC_0187,CD_SUMO_protease,Ecoli Protein Expression Toolkit
+BBF10K_003446,ODC_0188,CD_Calmodulin,Ecoli Protein Expression Toolkit
+BBF10K_003447,ODC_0189,CD_fuGFP,Ecoli Protein Expression Toolkit
+BBF10K_003448,ODC_0190,CD_AmilCP,Ecoli Protein Expression Toolkit
+BBF10K_003449,ODC_0191,CD_TthRNAseH,Ecoli Protein Expression Toolkit
+BBF10K_003450,ODC_0192,CD_EcRNAseH,Ecoli Protein Expression Toolkit
+BBF10K_003451,ODC_0193,DT4_Int_SaltS,Ecoli Protein Expression Toolkit
+BBF10K_003452,ODC_0194,DT4_Int_ThiolS,Ecoli Protein Expression Toolkit
+BBF10K_003453,ODC_0195,DT4_TEV,Ecoli Protein Expression Toolkit
+BBF10K_003454,ODC_0196,DT4_fuGFP,Ecoli Protein Expression Toolkit
+BBF10K_003455,ODC_0197,DT4_GS flexible linker,Ecoli Protein Expression Toolkit
+BBF10K_003457,ODC_0198,DT5_TEVcut,Ecoli Protein Expression Toolkit
+BBF10K_003459,ODC_0199,DF_TEVcut_His_Stop_TZ,Ecoli Protein Expression Toolkit
+BBF10K_003460,ODC_0200,DF_TEVcut_fuGFP_His_Stop_TZ,Ecoli Protein Expression Toolkit
+BBF10K_003461,ODC_0201,T4T5_Int_ThiolS,Ecoli Protein Expression Toolkit
+BBF10K_003462,ODC_0202,T4T5_Int_SaltS,Ecoli Protein Expression Toolkit
+BBF10K_003463,ODC_0203,T4T5_AmilCP,Ecoli Protein Expression Toolkit
+BBF10K_003464,ODC_0204,T4T5_fuGFP,Ecoli Protein Expression Toolkit
+BBF10K_003465,ODC_0205,T4T5_GS flexible,Ecoli Protein Expression Toolkit
+BBF10K_003466,ODC_0206,T4E_3xStop,Ecoli Protein Expression Toolkit
+BBF10K_003467,ODC_0207,T5E_6H,Ecoli Protein Expression Toolkit
+BBF10K_003468,ODC_0208,T5E_Calm,Ecoli Protein Expression Toolkit
+BBF10K_003469,ODC_0209,T5E_CBD,Ecoli Protein Expression Toolkit
+BBF10K_003470,ODC_0210,T5E_Cex,Ecoli Protein Expression Toolkit
+BBF10K_003471,ODC_0211,T5E_MBP,Ecoli Protein Expression Toolkit
+BBF10K_003472,ODC_0212,T5E_R5,Ecoli Protein Expression Toolkit
+BBF10K_003473,ODC_0213,T5E_CipA,Ecoli Protein Expression Toolkit
+BBF10K_003474,ODC_0214,T5E_3xStop,Ecoli Protein Expression Toolkit
+BBF10K_003475,ODC_0215,EF_ECK9600,Ecoli Protein Expression Toolkit
+BBF10K_003476,ODC_0216,EF_T7term,Ecoli Protein Expression Toolkit
+BBF10K_003477,ODC_0217,EF_TZ,Ecoli Protein Expression Toolkit
 BBF10K_000004,ODC_0218,MERScontrol,Molecular Diagnostics Toolkit
 BBF10K_000006,ODC_0219,Pfu_Ssod7 HiFi,Molecular Diagnostics Toolkit
 BBF10K_000013,ODC_0220,gp32,Molecular Diagnostics Toolkit
@@ -329,9 +329,9 @@ BBF10K_000480,ODC_0327,OYC-SpecR,Open Yeast Collection
 BBF10K_000481,ODC_0328,OYC-high-copy-origin,Open Yeast Collection
 BBF10K_000482,ODC_0329,OYC-eforRed-dropout,Open Yeast Collection
 BBF10K_000484,ODC_0330,pWV01-ori,Open Yeast Collection
-BBF10K_000485,ODC_0331,BsubSecTagLP_1,Bacillus Subtilis Protein Secretion Toolkit
-BBF10K_000486,ODC_0332,BsubSecTagLP_2,Bacillus Subtilis Protein Secretion Toolkit
-BBF10K_000487,ODC_0333,BsubSecTagLP_3,Bacillus Subtilis Protein Secretion Toolkit
-BBF10K_000488,ODC_0334,BsubSecTagLP_4,Bacillus Subtilis Protein Secretion Toolkit
-BBF10K_000489,ODC_0335,BsubSecTagLP_5,Bacillus Subtilis Protein Secretion Toolkit
-BBF10K_000490,ODC_0336,BsubSecTagLP_6,Bacillus Subtilis Protein Secretion Toolkit
+BBF10K_000485,ODC_0331,BsubSecTagLP_1,Bacillus subtilis Protein Secretion Toolkit
+BBF10K_000486,ODC_0332,BsubSecTagLP_2,Bacillus subtilis Protein Secretion Toolkit
+BBF10K_000487,ODC_0333,BsubSecTagLP_3,Bacillus subtilis Protein Secretion Toolkit
+BBF10K_000488,ODC_0334,BsubSecTagLP_4,Bacillus subtilis Protein Secretion Toolkit
+BBF10K_000489,ODC_0335,BsubSecTagLP_5,Bacillus subtilis Protein Secretion Toolkit
+BBF10K_000490,ODC_0336,BsubSecTagLP_6,Bacillus subtilis Protein Secretion Toolkit
