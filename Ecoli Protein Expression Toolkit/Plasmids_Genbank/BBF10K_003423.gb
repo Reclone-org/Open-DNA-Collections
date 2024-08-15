@@ -1,7 +1,7 @@
-LOCUS       fuGFP                   2856 bp    DNA     circular SYN 24-JUL-2020
+LOCUS       N2N3_fuGFP              2856 bp    DNA     circular SYN 24-JUL-2020
 DEFINITION  synthetic linear DNA.
-ACCESSION   ODC_0088
-VERSION     ODC_0088
+ACCESSION   ODC_0047
+VERSION     ODC_0047
 KEYWORDS    .
 SOURCE      synthetic DNA construct
   ORGANISM  synthetic DNA construct
