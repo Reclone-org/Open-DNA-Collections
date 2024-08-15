@@ -31,35 +31,35 @@ Open Reporters are not provided in expression vectors. In order to see a color, 
 
 ### Plasmids
 
-|Gene|Name|Freegenes ID|
+|Name|ID|Freegenes ID|
 |---|---|---|
-| cjBlue/ BioBrick K592011 | cjBlue/ BioBrick K592011 | [BBF10K_003331](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/BBF10K_003331.gb) |
-| gfasPurple/gfasCP Biobrick K1033918 | gfasPurple/gfasCP Biobrick K1033918 | [BBF10K_003335](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/BBF10K_003335.gb) |
-| meffCP | meffCP | [BBF10K_003338](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/BBF10K_003338.gb) |
-| meffCFP | meffCFP | [BBF10K_003342](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/BBF10K_003342.gb) |
-| mmilCFP | mmilCFP | [BBF10K_003343](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/BBF10K_003343.gb) |
-| meleCFP | meleCFP | [BBF10K_003344](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/BBF10K_003344.gb) |
-| efasCFP | efasCFP | [BBF10K_003345](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/BBF10K_003345.gb) |
-| aacuGFP1 | aacuGFP1 | [BBF10K_003346](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/BBF10K_003346.gb) |
-| aacuGFP2 | aacuGFP2 | [BBF10K_003347](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/BBF10K_003347.gb) |
-| afraGFP | afraGFP | [BBF10K_003348](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/BBF10K_003348.gb) |
-| amilGFP Biobrick K592010 | amilGFP Biobrick K592010 | [BBF10K_003349](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/BBF10K_003349.gb) |
-| eechGFP1 | eechGFP1 | [BBF10K_003350](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/BBF10K_003350.gb) |
-| eechGFP2 | eechGFP2 | [BBF10K_003351](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/BBF10K_003351.gb) |
-| eechGFP3 | eechGFP3 | [BBF10K_003352](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/BBF10K_003352.gb) |
-| efasGFP | efasGFP | [BBF10K_003353](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/BBF10K_003353.gb) |
-| gfasGFP | gfasGFP | [BBF10K_003354](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/BBF10K_003354.gb) |
-| palmGFP | palmGFP | [BBF10K_003355](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/BBF10K_003355.gb) |
-| amilRFP | amilRFP | [BBF10K_003357](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/BBF10K_003357.gb) |
-| meffRed/meffRFP Biobricks K592012 | meffRed/meffRFP Biobricks K592012 | [BBF10K_003358](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/BBF10K_003358.gb) |
-| meleRFP | meleRFP | [BBF10K_003360](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/BBF10K_003360.gb) |
-| scubRFP | scubRFP | [BBF10K_003361](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/BBF10K_003361.gb) |
-| eforRed/eforCP Biobrick K592012 | eforRed/eforCP Biobrick K592012 | [BBF10K_003362](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/BBF10K_003362.gb) |
-| amajLime/amajCFP/amFP486 BioBrick K1033916 | amajLime/amajCFP/amFP486 BioBrick K1033916 | [BBF10K_003364](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/BBF10K_003364.gb) |
-| EiraCFP Biobrick J97000 | EiraCFP Biobrick J97000 | [BBF10K_003365](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/BBF10K_003365.gb) |
-| HRP | horseradish peroxidase (HRP) | [BBF10K_003367](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/BBF10K_003367.gb) |
-| Firefly Luciferase [Photinus pyralis] (Fluc) | Firefly Luciferase [Photinus pyralis] (Fluc) | [BBF10K_003368](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/BBF10K_003368.gb) |
-| Luciferase [Luciola cruciata] (Japanese firefly) | Luciferase [Luciola cruciata] (Japanese firefly) | [BBF10K_003369](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/BBF10K_003369.gb) |
-| Renilla luciferase | Renilla luciferase | [BBF10K_003370](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/BBF10K_003370.gb) |
-| beta-lactamase | beta-lactamase | [BBF10K_003371](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/BBF10K_003371.gb) |
-| CIAP | Calf Intestine Alkaline phosphatase  (CIAP) | [BBF10K_003372](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/BBF10K_003372.gb) |
+| cjBlue/ BioBrick K592011 | [ODC_0088](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/ODC_0088.gb) | BBF10K_003331 |
+| gfasPurple/gfasCP Biobrick K1033918 | [ODC_0089](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/ODC_0089.gb) | BBF10K_003335 |
+| meffCFP | [ODC_0090](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/ODC_0090.gb) | BBF10K_003342 |
+| mmilCFP | [ODC_0091](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/ODC_0091.gb) | BBF10K_003343 |
+| meleCFP | [ODC_0092](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/ODC_0092.gb) | BBF10K_003344 |
+| efasCFP | [ODC_0093](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/ODC_0093.gb) | BBF10K_003345 |
+| aacuGFP1 | [ODC_0094](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/ODC_0094.gb) | BBF10K_003346 |
+| aacuGFP2 | [ODC_0095](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/ODC_0095.gb) | BBF10K_003347 |
+| afraGFP | [ODC_0096](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/ODC_0096.gb) | BBF10K_003348 |
+| amilGFP Biobrick K592010 | [ODC_0097](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/ODC_0097.gb) | BBF10K_003349 |
+| eechGFP1 | [ODC_0098](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/ODC_0098.gb) | BBF10K_003350 |
+| eechGFP2 | [ODC_0099](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/ODC_0099.gb) | BBF10K_003351 |
+| eechGFP3 | [ODC_0100](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/ODC_0100.gb) | BBF10K_003352 |
+| efasGFP | [ODC_0101](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/ODC_0101.gb) | BBF10K_003353 |
+| gfasGFP | [ODC_0102](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/ODC_0102.gb) | BBF10K_003354 |
+| plamGFP | [ODC_0103](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/ODC_0103.gb) | BBF10K_003355 |
+| amilRFP | [ODC_0104](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/ODC_0104.gb) | BBF10K_003357 |
+| meffRed/meffRFP Biobricks K592012 | [ODC_0105](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/ODC_0105.gb) | BBF10K_003358 |
+| pporRFP | [ODC_0106](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/ODC_0106.gb) | BBF10K_003359 |
+| meleRFP | [ODC_0107](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/ODC_0107.gb) | BBF10K_003360 |
+| scubRFP | [ODC_0108](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/ODC_0108.gb) | BBF10K_003361 |
+| eforRed/eforCP Biobrick K592012 | [ODC_0109](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/ODC_0109.gb) | BBF10K_003362 |
+| amajLime/amajCFP/amFP486 BioBrick K1033916 | [ODC_0110](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/ODC_0110.gb) | BBF10K_003364 |
+| EiraCFP Biobrick J97000 | [ODC_0111](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/ODC_0111.gb) | BBF10K_003365 |
+| HRP | [ODC_0112](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/ODC_0112.gb) | BBF10K_003367 |
+| Firefly Luciferase [Photinus pyralis] (Fluc) | [ODC_0113](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/ODC_0113.gb) | BBF10K_003368 |
+| Luciferase [Luciola cruciata] (Japanese firefly) | [ODC_0114](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/ODC_0114.gb) | BBF10K_003369 |
+| Renilla luciferase | [ODC_0115](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/ODC_0115.gb) | BBF10K_003370 |
+| beta-lactamase | [ODC_0116](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/ODC_0116.gb) | BBF10K_003371 |
+| Calf Intestine Alkaline phosphatase (CIAP) | [ODC_0117](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Reporters%20Collection/Plasmids_Genbank/ODC_0117.gb) | BBF10K_003372 |

@@ -40,86 +40,86 @@ Some or all of these items are for use only as permitted by a research exemption
 
 ### Plasmids
 
-|Gene|Name|Freegenes ID|
+|Name|ID|Freegenes ID|
 |---|---|---|
-| 9N7polA | 9°N-7 DNA polymerase | [BBF10K_003247](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003247.gb) |
-| K12polLF | DNA Polymerase I, Large (Klenow) Fragment | [BBF10K_003248](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003248.gb) |
-| K12polLF (exo) | DNA Polymerase I, Large (Klenow) Fragment (3′→5′ exo-) | [BBF10K_003249](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003249.gb) |
-| ECOpolA | E. coli DNA Polymerase I | [BBF10K_003250](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003250.gb) |
-| KTHEAQpol | KlenTaq1 polymerase  | [BBF10K_003251](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003251.gb) |
-| KODpol | KOD DNA polymerase | [BBF10K_003252](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003252.gb) |
-| Pwopol | Pwo DNA Polymerase | [BBF10K_003254](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003254.gb) |
-| GBDpol (exo) | Pyrococcus Sp. Heat-Stable (exo–) DNA Polymerase (Deep Vent™ (exo–) DNA Polymerase at NEB) | [BBF10K_003255](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003255.gb) |
-| GBDpol | Pyrococcus Sp. Heat-Stable DNA Polymerase (Deep Vent™ at NEB) | [BBF10K_003256](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003256.gb) |
-| THEAQpolA | Taq DNA Polymerase | [BBF10K_003257](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003257.gb) |
-| Tlipol (exo) | Tli DNA polymerase (exo-) (available from NEB as VentR® (exo-) DNA Polymerase) | [BBF10K_003259](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003259.gb) |
-| TthpolA | Tth DNA polymerase | [BBF10K_003260](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003260.gb) |
-| Bstpol | Bst DNA Polymerase, Full Length | [BBF10K_003261](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003261.gb) |
-| BstpolLF | Bst DNA Polymerase, Large Fragment | [BBF10K_003262](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003262.gb) |
-| BsupolLF | Bsu DNA Polymerase I, Large Fragment  | [BBF10K_003263](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003263.gb) |
-| phi29pol | phi29 DNA Polymerase | [BBF10K_003264](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003264.gb) |
-| 9N7polA (CT) | 9°N-7 DNA Polymerase chain terminating (NEB > Therminator DNA Pol) | [BBF10K_003265](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003265.gb) |
-| dbh | Sulfolobus DNA Polymerase IV | [BBF10K_003266](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003266.gb) |
-| T4gene43 | T4 DNA Polymerase | [BBF10K_003267](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003267.gb) |
-| T7gene5 | T7 DNA Polymerase (unmodified) | [BBF10K_003268](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003268.gb) |
-| T5gene122 | T5 DNA Polymerase | [BBF10K_003269](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003269.gb) |
-| T4gene30 | T4-DNA Ligase | [BBF10K_003270](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003270.gb) |
-| ECOligA | E. coli DNA Ligase | [BBF10K_003271](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003271.gb) |
-| HSlig3 | DNA Lligase III | [BBF10K_003272](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003272.gb) |
-| HSlig4 | DNA Ligase IV | [BBF10K_003273](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003273.gb) |
-| 9N7lig | 9 Degrees North DNA Ligase | [BBF10K_003274](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003274.gb) |
-| Pfulig | Pfu DNA Ligase | [BBF10K_003275](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003275.gb) |
-| THEAQlig | Taq DNA Ligase | [BBF10K_003276](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003276.gb) |
-| T4gene63 | T4 RNA Ligase 1 | [BBF10K_003277](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003277.gb) |
-| ALPI | CIP (calf intestinal phosphatase) | [BBF10K_003278](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003278.gb) |
-| RNAse A | RNAse A | [BBF10K_003279](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003279.gb) |
-| RNAse H | RNAse H | [BBF10K_003280](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003280.gb) |
-| EcoRIR | EcoRI restriction enzyme | [BBF10K_003281](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003281.gb) |
-| EcoRIM | EcoRI methyltransferase | [BBF10K_003282](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003282.gb) |
-| PstIR | PstI restriction enzyme | [BBF10K_003283](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003283.gb) |
-| PstIM | PstI methyltransferase | [BBF10K_003284](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003284.gb) |
-| MMLV_RT (mut H) | Moloney Murine Leukemia Virus (MMLV) Reverse Transcriptase (RNAse H deactivated by 3 mutations) | [BBF10K_003285](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003285.gb) |
-| MMLV_RT (lack H) | Moloney Murine Leukemia Virus (MMLV) Reverse Transcriptase RNaseH - (lacking RNaseH domain) (SuperScriptII) | [BBF10K_003286](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003286.gb) |
-| TthRT | Thermus thermophilus (Tth) RT | [BBF10K_003287](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003287.gb) |
-| T3RNAp | T3 RNA Polymerase | [BBF10K_003289](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003289.gb) |
-| T7RNAp | T7 RNA Polymerase | [BBF10K_003290](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003290.gb) |
-| SP6RNAp | SP6 RNA Polymerase | [BBF10K_003291](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003291.gb) |
-| Eco31I | Eco31I restriction enzyme | [BBF10K_003292](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003292.gb) |
-| Eco31IA | Eco31IA methyltransferase | [BBF10K_003293](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003293.gb) |
-| Eco31IB | Eco31IB methyltransferase | [BBF10K_003294](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003294.gb) |
-| SapIR | SapI restriction enzyme | [BBF10K_003295](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003295.gb) |
-| SapIM1 | M1.SapI methyltransferase | [BBF10K_003296](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003296.gb) |
-| SapIM2 | M2.SapI methyltransferase | [BBF10K_003297](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003297.gb) |
-| XbaIR | XbaI restriction enzyme | [BBF10K_003298](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003298.gb) |
-| XbaIM | M.XbaI methyltransferase | [BBF10K_003299](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003299.gb) |
-| NotIR (GC) | NotI restriction enzyme | [BBF10K_003300](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003300.gb) |
-| NotIM | M.NotI methyltransferase | [BBF10K_003301](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003301.gb) |
-| SfiIR (cDNA) | SfiI (used to create cDNA libraries) | [BBF10K_003302](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003302.gb) |
-| SfiIM | M.SfiI methyltransferase | [BBF10K_003303](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003303.gb) |
-| EcoRV | EcoRV restriction enzyme | [BBF10K_003304](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003304.gb) |
-| EcoRVM | M.EcoRV methyltransferase | [BBF10K_003305](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003305.gb) |
-| NcoIR | NcoI restriction enzyme | [BBF10K_003306](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003306.gb) |
-| NcoIM | M.NcoI methyltransferase | [BBF10K_003307](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003307.gb) |
-| HindIIIR | HindIII restriction enzyme | [BBF10K_003308](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003308.gb) |
-| HindIIIM | M.HindIII methyltransferase | [BBF10K_003309](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003309.gb) |
-| DpnIR | DpnI restriction enzyme | [BBF10K_003310](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003310.gb) |
-| Bst HF | Bst polymerase, High fidelity | [BBF10K_003311](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003311.gb) |
-| ETSSB | Extreme Thermostable Single-Stranded DNA Binding Protein | [BBF10K_003312](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003312.gb) |
-| T5gene12/13 | T5 Exonuclease | [BBF10K_003313](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003313.gb) |
-| TthligK294R | Tth DNA Ligase K294R | [BBF10K_003314](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003314.gb) |
-| dromedNK | dNK from drosophila | [BBF10K_003315](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003315.gb) |
-| TEV protease | TEV protease | [BBF10K_003316](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003316.gb) |
-| T4 PNK | T4 Polynucleotide Kinase | [BBF10K_003317](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003317.gb) |
-| T4-BGT | T4 Phage β-glucosyltransferase | [BBF10K_003318](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003318.gb) |
-| T7EI | T7EI (T7 Endonuclease I) | [BBF10K_003319](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003319.gb) |
-| T4 PGD | T4 PGD (T4 Endonuclease V) | [BBF10K_003320](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003320.gb) |
-| T4 g32 | T4 gene 32 | [BBF10K_003321](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003321.gb) |
-| P45 | P45 (ArchaeMaxx/PfuTurbo) | [BBF10K_003322](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003322.gb) |
-| BovDNTT | Bovine DNTT | [BBF10K_003323](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003323.gb) |
-| DNA Topoisomerase 1B Vaccinia Virus | DNA Topoisomerase 1B Vaccinia Virus | [BBF10K_003324](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003324.gb) |
-| lambda red operon | lambda red operon (exo, bet, gam) | [BBF10K_003325](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003325.gb) |
-| UDG | Uracil DNA glycosylase | [BBF10K_003326](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003326.gb) |
-| Fpg | Formamidopyrimidine DNA Glycosylase | [BBF10K_003327](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003327.gb) |
-| Endonuclease IV E. coli | Endonuclease IV E. coli | [BBF10K_003328](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003328.gb) |
-| Endonuclease VIII E. coli | Endonuclease VIII E. coli | [BBF10K_003329](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003329.gb) |
-| Exonuclease III E. coli | Exonuclease III E. coli | [BBF10K_003330](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/BBF10K_003330.gb) |
+| 9°N-7 DNA polymerase | [ODC_0007](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0007.gb) | BBF10K_003247 |
+| DNA Polymerase I, Large (Klenow) Fragment | [ODC_0008](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0008.gb) | BBF10K_003248 |
+| DNA Polymerase I, Large (Klenow) Fragment (3′→5′ exo-) | [ODC_0009](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0009.gb) | BBF10K_003249 |
+| E. coli DNA Polymerase I | [ODC_0010](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0010.gb) | BBF10K_003250 |
+| KlenTaq1 polymerase | [ODC_0011](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0011.gb) | BBF10K_003251 |
+| KOD DNA polymerase | [ODC_0012](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0012.gb) | BBF10K_003252 |
+| Pwo DNA Polymerase | [ODC_0013](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0013.gb) | BBF10K_003254 |
+| Pyrococcus Sp. Heat-Stable (exo–) DNA Polymerase (Deep Vent™ (exo–) DNA Polymerase at NEB) | [ODC_0014](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0014.gb) | BBF10K_003255 |
+| Pyrococcus Sp. Heat-Stable DNA Polymerase (Deep Vent™ at NEB) | [ODC_0015](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0015.gb) | BBF10K_003256 |
+| Taq DNA Polymerase | [ODC_0016](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0016.gb) | BBF10K_003257 |
+| Tli DNA polymerase (exo-)(available from NEB as VentR® (exo-) DNA Polymerase) | [ODC_0017](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0017.gb) | BBF10K_003259 |
+| Tth DNA polymerase | [ODC_0018](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0018.gb) | BBF10K_003260 |
+| Bst DNA Polymerase, Full Length | [ODC_0019](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0019.gb) | BBF10K_003261 |
+| Bst DNA Polymerase, Large Fragment | [ODC_0020](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0020.gb) | BBF10K_003262 |
+| Bsu DNA Polymerase I, Large Fragment | [ODC_0021](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0021.gb) | BBF10K_003263 |
+| phi29 DNA Polymerase | [ODC_0022](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0022.gb) | BBF10K_003264 |
+| 9°N-7 DNA Polymerase chain terminating (NEB > Therminator DNA Pol) | [ODC_0023](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0023.gb) | BBF10K_003265 |
+| Sulfolobus DNA Polymerase IV | [ODC_0024](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0024.gb) | BBF10K_003266 |
+| T4 DNA Polymerase | [ODC_0025](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0025.gb) | BBF10K_003267 |
+| T7 DNA Polymerase (unmodified) | [ODC_0026](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0026.gb) | BBF10K_003268 |
+| T5 DNA Polymerase | [ODC_0027](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0027.gb) | BBF10K_003269 |
+| T4-DNA Ligase | [ODC_0028](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0028.gb) | BBF10K_003270 |
+| E. coli DNA Ligase | [ODC_0029](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0029.gb) | BBF10K_003271 |
+| DNA Lligase III | [ODC_0030](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0030.gb) | BBF10K_003272 |
+| DNA Ligase IV | [ODC_0031](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0031.gb) | BBF10K_003273 |
+| 9 Degrees North DNA Ligase | [ODC_0032](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0032.gb) | BBF10K_003274 |
+| Pfu DNA Ligase | [ODC_0033](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0033.gb) | BBF10K_003275 |
+| Taq DNA Ligase | [ODC_0034](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0034.gb) | BBF10K_003276 |
+| T4 RNA Ligase 1 | [ODC_0035](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0035.gb) | BBF10K_003277 |
+| CIP (calf intestinal phosphatase) | [ODC_0036](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0036.gb) | BBF10K_003278 |
+| RNAse A | [ODC_0037](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0037.gb) | BBF10K_003279 |
+| RNAse H | [ODC_0038](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0038.gb) | BBF10K_003280 |
+| EcoRI | [ODC_0039](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0039.gb) | BBF10K_003281 |
+| EcoRI methyltransferase | [ODC_0040](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0040.gb) | BBF10K_003282 |
+| PstI | [ODC_0041](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0041.gb) | BBF10K_003283 |
+| PstI methyltransferase | [ODC_0042](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0042.gb) | BBF10K_003284 |
+| MMLV_RT (mut H) | [ODC_0043](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0043.gb) | BBF10K_003285 |
+| MMLV_RT (lack H) | [ODC_0044](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0044.gb) | BBF10K_003286 |
+| Thermus thermophilus (Tth) RT | [ODC_0045](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0045.gb) | BBF10K_003287 |
+| T3 RNA Polymerase | [ODC_0046](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0046.gb) | BBF10K_003289 |
+| T7 RNA Polymerase | [ODC_0047](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0047.gb) | BBF10K_003290 |
+| SP6 RNA Polymerase | [ODC_0048](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0048.gb) | BBF10K_003291 |
+| Eco31I | [ODC_0049](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0049.gb) | BBF10K_003292 |
+| Eco31IA methyltransferase | [ODC_0050](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0050.gb) | BBF10K_003293 |
+| Eco31IB methyltransferase | [ODC_0051](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0051.gb) | BBF10K_003294 |
+| SapI | [ODC_0052](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0052.gb) | BBF10K_003295 |
+| M1.SapI methyltransferase | [ODC_0053](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0053.gb) | BBF10K_003296 |
+| M2.SapI methyltransferase | [ODC_0054](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0054.gb) | BBF10K_003297 |
+| XbaI | [ODC_0055](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0055.gb) | BBF10K_003298 |
+| XbaI methyltransferase | [ODC_0056](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0056.gb) | BBF10K_003299 |
+| NotI | [ODC_0057](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0057.gb) | BBF10K_003300 |
+| NotI methyltransferase | [ODC_0058](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0058.gb) | BBF10K_003301 |
+| SfiI | [ODC_0059](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0059.gb) | BBF10K_003302 |
+| SfiI methyltransferase | [ODC_0060](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0060.gb) | BBF10K_003303 |
+| EcoRV | [ODC_0061](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0061.gb) | BBF10K_003304 |
+| EcoRV methyltransferase | [ODC_0062](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0062.gb) | BBF10K_003305 |
+| NcoI | [ODC_0063](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0063.gb) | BBF10K_003306 |
+| NcoI methyltransferase | [ODC_0064](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0064.gb) | BBF10K_003307 |
+| HindIII | [ODC_0065](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0065.gb) | BBF10K_003308 |
+| HindIII methyltransferase | [ODC_0066](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0066.gb) | BBF10K_003309 |
+| DpnI | [ODC_0067](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0067.gb) | BBF10K_003310 |
+| Bst HF | [ODC_0068](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0068.gb) | BBF10K_003311 |
+| ET SSB | [ODC_0069](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0069.gb) | BBF10K_003312 |
+| T5 Exonuclease | [ODC_0070](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0070.gb) | BBF10K_003313 |
+| HiFi Tth DNA Ligase | [ODC_0071](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0071.gb) | BBF10K_003314 |
+| Dm dNK | [ODC_0072](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0072.gb) | BBF10K_003315 |
+| TEV protease | [ODC_0073](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0073.gb) | BBF10K_003316 |
+| T4 PNK | [ODC_0074](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0074.gb) | BBF10K_003317 |
+| T4 BGT | [ODC_0075](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0075.gb) | BBF10K_003318 |
+| T7 Endonuclease I | [ODC_0076](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0076.gb) | BBF10K_003319 |
+| T4 Endonuclease V (T4 PDG) | [ODC_0077](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0077.gb) | BBF10K_003320 |
+| T4 g32 | [ODC_0078](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0078.gb) | BBF10K_003321 |
+| P45 | [ODC_0079](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0079.gb) | BBF10K_003322 |
+| Terminal transferase TdT (Bovine DNTT) | [ODC_0080](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0080.gb) | BBF10K_003323 |
+| DNA Topoisomerase 1B (Vaccinia Virus) | [ODC_0081](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0081.gb) | BBF10K_003324 |
+| lambda red operon | [ODC_0082](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0082.gb) | BBF10K_003325 |
+| UDG | [ODC_0083](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0083.gb) | BBF10K_003326 |
+| Fpg | [ODC_0084](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0084.gb) | BBF10K_003327 |
+| Endonuclease IV E. coli | [ODC_0085](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0085.gb) | BBF10K_003328 |
+| Endonuclease VIII E. coli | [ODC_0086](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0086.gb) | BBF10K_003329 |
+| Exonuclease III E. coli | [ODC_0087](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Enzyme%20Collection/Plasmids_Genbank/ODC_0087.gb) | BBF10K_003330 |

@@ -38,27 +38,27 @@ Some or all of these items are for use only as permitted by a research exemption
 
 ### Plasmids
 
-|Gene|Name|Part|
+|Name|ID|Freegenes ID|
 |---|---|---|
-| MERScontrol | MERS negative control | [BBF10K_000004](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Molecular%20Diagnostics%20Toolkit/Plasmids_Genbank/BBF10K_000004.gb) |
-| Pfu_Ssod7 HiFi | Pfu_Ssod7 HiFi - High Fidelity DNA polymerase | [BBF10K_000006](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Molecular%20Diagnostics%20Toolkit/Plasmids_Genbank/BBF10K_000006.gb) |
-| gp32 | gp32 | [BBF10K_000013](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Molecular%20Diagnostics%20Toolkit/Plasmids_Genbank/BBF10K_000013.gb) |
-| Ecoli_opt_RNAseInhib | E coli optimized RNAse Inhibitor | [BBF10K_000014](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Molecular%20Diagnostics%20Toolkit/Plasmids_Genbank/BBF10K_000014.gb) |
-| HIV-RT | Human Immunodeficiency Virus Reverse Transcriptase | [BBF10K_003500](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Molecular%20Diagnostics%20Toolkit/Plasmids_Genbank/BBF10K_003500.gb) |
-| OMMLV | Moloney Murine Leukemia Virus Reverse Transcriptase | [BBF10K_003501](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Molecular%20Diagnostics%20Toolkit/Plasmids_Genbank/BBF10K_003501.gb) |
-| OpenVent | OpenVent DNA polymerase | [BBF10K_003502](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Molecular%20Diagnostics%20Toolkit/Plasmids_Genbank/BBF10K_003502.gb) |
-| RNAseInhib | RNAse Inhibitor | [BBF10K_003503](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Molecular%20Diagnostics%20Toolkit/Plasmids_Genbank/BBF10K_003503.gb) |
-| EcPPA Pyrophosphatase | Inorganic pyrophosphatase from E.coli | [BBF10K_003504](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Molecular%20Diagnostics%20Toolkit/Plasmids_Genbank/BBF10K_003504.gb) |
-| T7_Orf1A_1 | SARS-CoV-2 Orf1A positive control | [BBF10K_003505](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Molecular%20Diagnostics%20Toolkit/Plasmids_Genbank/BBF10K_003505.gb) |
-| T7_Orf1A_2 | SARS-CoV-2 Orf1A 2 positive control | [BBF10K_003506](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Molecular%20Diagnostics%20Toolkit/Plasmids_Genbank/BBF10K_003506.gb) |
-| T7_Orf1B_3 | SARS-CoV-2 Orf1B positive control | [BBF10K_003507](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Molecular%20Diagnostics%20Toolkit/Plasmids_Genbank/BBF10K_003507.gb) |
-| T7_Orf1E_4 | SARS-CoV-2 Orf1E positive control | [BBF10K_003508](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Molecular%20Diagnostics%20Toolkit/Plasmids_Genbank/BBF10K_003508.gb) |
-| T7_OrfN_5 | SARS-CoV-2 OrfN positive control | [BBF10K_003509](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Molecular%20Diagnostics%20Toolkit/Plasmids_Genbank/BBF10K_003509.gb) |
-| Sars_NegativeControl | SARS-CoV-2 negative control | [BBF10K_003510](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Molecular%20Diagnostics%20Toolkit/Plasmids_Genbank/BBF10K_003510.gb) |
-| Bst-LF | Bst-LF | [BBF10K_003564](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Molecular%20Diagnostics%20Toolkit/Plasmids_Genbank/BBF10K_003564.gb) |
-| Bsu | Bsu | [BBF10K_003565](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Molecular%20Diagnostics%20Toolkit/Plasmids_Genbank/BBF10K_003565.gb) |
-| UvsX | UvsX | [BBF10K_003566](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Molecular%20Diagnostics%20Toolkit/Plasmids_Genbank/BBF10K_003566.gb) |
-| PBCV-1_ligase | PBCV-1_ligase | [BBF10K_003567](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Molecular%20Diagnostics%20Toolkit/Plasmids_Genbank/BBF10K_003567.gb) |
-| TthRNAseH | TthRNAseH | [BBF10K_003568](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Molecular%20Diagnostics%20Toolkit/Plasmids_Genbank/BBF10K_003568.gb) |
-| EcRNAseH | EcRNAseH | [BBF10K_003569](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Molecular%20Diagnostics%20Toolkit/Plasmids_Genbank/BBF10K_003569.gb) |
-| TEV | TEV | [BBF10K_003570](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Molecular%20Diagnostics%20Toolkit/Plasmids_Genbank/BBF10K_003570.gb) |
+| MERScontrol | [ODC_0218](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Molecular%20Diagnostics%20Toolkit/Plasmids_Genbank/ODC_0218.gb) | BBF10K_000004 |
+| Pfu_Ssod7 HiFi | [ODC_0219](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Molecular%20Diagnostics%20Toolkit/Plasmids_Genbank/ODC_0219.gb) | BBF10K_000006 |
+| gp32 | [ODC_0220](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Molecular%20Diagnostics%20Toolkit/Plasmids_Genbank/ODC_0220.gb) | BBF10K_000013 |
+| Ecoli_opt_RNAseInhib | [ODC_0221](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Molecular%20Diagnostics%20Toolkit/Plasmids_Genbank/ODC_0221.gb) | BBF10K_000014 |
+| HIVRT | [ODC_0222](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Molecular%20Diagnostics%20Toolkit/Plasmids_Genbank/ODC_0222.gb) | BBF10K_003500 |
+| OMMLV | [ODC_0223](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Molecular%20Diagnostics%20Toolkit/Plasmids_Genbank/ODC_0223.gb) | BBF10K_003501 |
+| OpenVent | [ODC_0224](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Molecular%20Diagnostics%20Toolkit/Plasmids_Genbank/ODC_0224.gb) | BBF10K_003502 |
+| RNAseInhib | [ODC_0225](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Molecular%20Diagnostics%20Toolkit/Plasmids_Genbank/ODC_0225.gb) | BBF10K_003503 |
+| EcPPA | [ODC_0226](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Molecular%20Diagnostics%20Toolkit/Plasmids_Genbank/ODC_0226.gb) | BBF10K_003504 |
+| orfA1 | [ODC_0227](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Molecular%20Diagnostics%20Toolkit/Plasmids_Genbank/ODC_0227.gb) | BBF10K_003505 |
+| orfA2 | [ODC_0228](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Molecular%20Diagnostics%20Toolkit/Plasmids_Genbank/ODC_0228.gb) | BBF10K_003506 |
+| orfB3 | [ODC_0229](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Molecular%20Diagnostics%20Toolkit/Plasmids_Genbank/ODC_0229.gb) | BBF10K_003507 |
+| orfE4 | [ODC_0230](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Molecular%20Diagnostics%20Toolkit/Plasmids_Genbank/ODC_0230.gb) | BBF10K_003508 |
+| orfN5 | [ODC_0231](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Molecular%20Diagnostics%20Toolkit/Plasmids_Genbank/ODC_0231.gb) | BBF10K_003509 |
+| SARSContol | [ODC_0232](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Molecular%20Diagnostics%20Toolkit/Plasmids_Genbank/ODC_0232.gb) | BBF10K_003510 |
+| Bst-LF | [ODC_0233](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Molecular%20Diagnostics%20Toolkit/Plasmids_Genbank/ODC_0233.gb) | BBF10K_003564 |
+| Bsu | [ODC_0234](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Molecular%20Diagnostics%20Toolkit/Plasmids_Genbank/ODC_0234.gb) | BBF10K_003565 |
+| UvsX | [ODC_0235](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Molecular%20Diagnostics%20Toolkit/Plasmids_Genbank/ODC_0235.gb) | BBF10K_003566 |
+| PBCV-1_ligase | [ODC_0236](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Molecular%20Diagnostics%20Toolkit/Plasmids_Genbank/ODC_0236.gb) | BBF10K_003567 |
+| TthRNAseH | [ODC_0237](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Molecular%20Diagnostics%20Toolkit/Plasmids_Genbank/ODC_0237.gb) | BBF10K_003568 |
+| EcRNAseH | [ODC_0238](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Molecular%20Diagnostics%20Toolkit/Plasmids_Genbank/ODC_0238.gb) | BBF10K_003569 |
+| TEV | [ODC_0239](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Molecular%20Diagnostics%20Toolkit/Plasmids_Genbank/ODC_0239.gb) | BBF10K_003570 |

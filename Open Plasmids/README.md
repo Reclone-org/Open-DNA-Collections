@@ -30,9 +30,12 @@ an inducible-copy vector based on iGEM plasmid pSB2K3, and intended for cloning 
 
 ### Plasmids
 
-|Gene|Name|Freegenes ID|
+|Name|ID|Freegenes ID|
 |---|---|---|
-| pBuild | pOpen_v3 | [BBF10K_003498](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Plasmids/Plasmids_Genbank/BBF10K_003498.gb) |
-| pYeast | pOpen_yeast | [BBF10K_003499](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Plasmids/Plasmids_Genbank/BBF10K_003499.gb) |
-| pInducible | pOpen_v4 | [BBF10K_000589](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Plasmids/Plasmids_Genbank/BBF10K_000589.gb) |
+| pInducible/pOpen_v4 | [ODC_0001](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Plasmids/Plasmids_Genbank/ODC_0001.gb) | BBF10K_000589 |
+| pBuild/pOpen_v3 | [ODC_0002](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Plasmids/Plasmids_Genbank/ODC_0002.gb) | BBF10K_003498 |
+| pYeast/pOpen_yeast | [ODC_0003](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Plasmids/Plasmids_Genbank/ODC_0003.gb) | BBF10K_003499 |
+| pTi | [ODC_0004](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Plasmids/Plasmids_Genbank/ODC_0004.gb) | nan |
+| pTiR | [ODC_0005](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Plasmids/Plasmids_Genbank/ODC_0005.gb) | nan |
+| pTiER | [ODC_0006](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Open%20Plasmids/Plasmids_Genbank/ODC_0006.gb) | nan |
 
