@@ -136,3 +136,4 @@ The assembly syntax for this collection is compatible with MoClo and follows [th
 | EF_ECK9600 | [ODC_0215](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Ecoli%20Protein%20Expression%20Toolkit/Plasmids_Genbank/ODC_0215.gb) | BBF10K_003475 |
 | EF_T7term | [ODC_0216](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Ecoli%20Protein%20Expression%20Toolkit/Plasmids_Genbank/ODC_0216.gb) | BBF10K_003476 |
 | EF_TZ | [ODC_0217](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Ecoli%20Protein%20Expression%20Toolkit/Plasmids_Genbank/ODC_0217.gb) | BBF10K_003477 |
+| spisPink/spisCPBiobrickK1033925 | [ODC_0337](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Ecoli%20Protein%20Expression%20Toolkit/Plasmids_Genbank/ODC_0337.gb) | BBF10K_003333 |
