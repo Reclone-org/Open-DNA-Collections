@@ -1,7 +1,7 @@
-LOCUS       Exported     2798 bp     DNA     circular     SYN     24-JUL-2020
+LOCUS       spisPink/spisCPBiobrickK1033925     2798 bp     DNA     circular     SYN     24-JUL-2020
 DEFINITION  synthetic linear DNA
-ACCESSION   .
-VERSION     .
+ACCESSION   ODC_0337
+VERSION     ODC_0337
 KEYWORDS    .
 SOURCE      synthetic DNA construct
   ORGANISM  synthetic DNA construct
@@ -12,7 +12,7 @@ REFERENCE   1  (bases 1 to 2001)
 FEATURES             Location/Qualifiers
      terminator      1..2798
                      /label="T7 terminator"
-                     /note="transcription terminator for bacteriophage T7 RNA  polymerase"
+                     /note="transcription terminator for bacteriophage T7 RNA polymerase"
      terminator      835..882
                      /label="T7 terminator"
                      /note="transcription terminator for bacteriophage T7 RNA polymerase"
