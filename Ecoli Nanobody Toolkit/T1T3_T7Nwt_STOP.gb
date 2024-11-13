@@ -1,0 +1,83 @@
+LOCUS       T1T3_T7Nwt_STOP          648 bp ds-DNA     circular     24-SEP-2024
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     misc_feature    1..40
+                     /label="UNS1"
+                     /ApEinfo_revcolor="#85dae9"
+                     /ApEinfo_fwdcolor="#85dae9"
+     primer          35..90
+                     /label="T1T3_T7Nev_T1_F"
+                     /note="sequence: cgtctcGCTCTTCTTCCCCATgaacacgattaacatcgctaagaacgacttctctg"
+                     /ApEinfo_revcolor="#f8d3a9"
+                     /ApEinfo_fwdcolor="#f8d3a9"
+     misc_feature    41..47
+                     /label="Recognition Site SapI"
+                     /ApEinfo_revcolor="#f8d3a9"
+                     /ApEinfo_fwdcolor="#f8d3a9"
+     misc_feature    48..48
+                     /label="inT"
+                     /ApEinfo_revcolor="#b1ff67"
+                     /ApEinfo_fwdcolor="#b1ff67"
+     misc_feature    49..51
+                     /label="TCC"
+                     /ApEinfo_revcolor="#f58a5e"
+                     /ApEinfo_fwdcolor="#f58a5e"
+     Grammar         52..55
+                     /label="T1"
+                     /ApEinfo_revcolor="#ff9ccd"
+                     /ApEinfo_fwdcolor="#ff9ccd"
+     CDS             54..593
+                     /label="T7 Nwt"
+                     /ApEinfo_revcolor="#ff9ccd"
+                     /ApEinfo_fwdcolor="#ff9ccd"
+                     /translation="MNTINIAKNDFSDIELAAIPFNTLADHYGERLAREQLALEHESYEMGEARFRKMFERQLKAGEVADNAAAKPLITTLLPKMIARINDWFEEVKAKRGKRPTAFQFLQEIKPEAVAYITIKTTLACLTSADNTTVQAVASAIGRAIEDEARFGRIRDLEAKHFKKNVEEQLNKRVGHVYK*"
+     misc_feature    56..593
+                     /label="T7 RNAP 1-179 MB"
+                     /ApEinfo_revcolor="#ff9ccd"
+                     /ApEinfo_fwdcolor="#ff9ccd"
+                     /locus_tag="T7 RNAP 1-179 MB"
+                     /label="T7 RNAP 1-179 MB"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}width 5 offset 0"
+     primer          complement(569..617)
+                     /label="T1T3_T7Nwt_T3_R"
+                     /note="sequence: gtatcctggGCTCTTCatcgTGGAttacttgtagacgtgccctacgcgc"
+                     /ApEinfo_revcolor="#84b0dc"
+                     /ApEinfo_fwdcolor="#84b0dc"
+     Grammar         594..597
+                     /label="T3"
+                     /ApEinfo_revcolor="#85dae9"
+                     /ApEinfo_fwdcolor="#85dae9"
+     CDS             594..597
+                     /label="T3grammar"
+                     /ApEinfo_revcolor="#84b0dc"
+                     /ApEinfo_fwdcolor="#84b0dc"
+                     /translation="S"
+     misc_feature    598..600
+                     /label="CGA"
+                     /ApEinfo_revcolor="#f58a5e"
+                     /ApEinfo_fwdcolor="#f58a5e"
+     misc_feature    601..601
+                     /label="inT"
+                     /ApEinfo_revcolor="#b1ff67"
+                     /ApEinfo_fwdcolor="#b1ff67"
+     misc_feature    602..608
+                     /label="Recognition Site SapI"
+                     /ApEinfo_revcolor="#f8d3a9"
+                     /ApEinfo_fwdcolor="#f8d3a9"
+     misc_feature    609..648
+                     /label="UNSX"
+                     /ApEinfo_revcolor="#9eafd2"
+                     /ApEinfo_fwdcolor="#9eafd2"
+ORIGIN
+        1 cattactcgc atccattctc aggctgtctc gtctcgtctc GCTCTTCTTC CCCATGaaca
+       61 cgattaacat cgctaagaac gacttctctg acatcgaact ggctgctatc ccgttcaaca
+      121 ctctggctga ccattacggt gagcgtttag ctcgcgaaca gttggccctt gagcatgagt
+      181 cttacgagat gggtgaagca cgcttccgca agatgtttga gcgtcaactt aaagctggtg
+      241 aggttgcgga taacgctgcc gccaagcctc tcatcactac cctactccct aagatgattg
+      301 cacgcatcaa cgactggttt gaggaagtga aagctaagcg cggcaagcgc ccgacagcct
+      361 tccagttcct gcaagaaatc aagccggaag ccgtagcgta catcaccatt aagaccactc
+      421 tggcttgcct aaccagtgct gacaatacaa ccgttcaggc tgtagcaagc gcaatcggtc
+      481 gggccattga ggacgaggct cgcttcggtc gtatccgtga ccttgaagct aagcacttca
+      541 agaaaaacgt tgaggaacaa ctcaacaagc gcgtagggca cgtctacaag taaTCCAcga
+      601 tGAAGAGCcc aggatacata gattaccaca actccgagcc cttccacc
+//

@@ -1,0 +1,96 @@
+LOCUS       CD_NbVHHE                550 bp ds-DNA     circular     24-SEP-2024
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     misc_feature    1..40
+                     /label="UNS1"
+                     /ApEinfo_revcolor="#85dae9"
+                     /ApEinfo_fwdcolor="#85dae9"
+     primer          33..77
+                     /label="CD_NbVHHE_C_F"
+                     /note="sequence: ctcgtctcGCTCTTCTTCCAATGCAGGTTCAGCTGGTGGAAACCG"
+                     /ApEinfo_revcolor="#9eafd2"
+                     /ApEinfo_fwdcolor="#9eafd2"
+     misc_feature    41..47
+                     /label="Recognition Site SapI"
+                     /ApEinfo_revcolor="#f8d3a9"
+                     /ApEinfo_fwdcolor="#f8d3a9"
+     misc_feature    48..48
+                     /label="inT"
+                     /ApEinfo_revcolor="#b1ff67"
+                     /ApEinfo_fwdcolor="#b1ff67"
+     misc_feature    49..51
+                     /label="TCC"
+                     /ApEinfo_revcolor="#f58a5e"
+                     /ApEinfo_fwdcolor="#f58a5e"
+     Grammar         52..55
+                     /label="C"
+                     /ApEinfo_revcolor="#faac61"
+                     /ApEinfo_fwdcolor="#faac61"
+     CDS             53..55
+                     /label="C_grammar"
+                     /ApEinfo_revcolor="#faac61"
+                     /ApEinfo_fwdcolor="#faac61"
+                     /translation="M"
+     misc_feature    56..493
+                     /label="VHH E"
+                     /ApEinfo_revcolor="#0080ff"
+                     /ApEinfo_fwdcolor="#0080ff"
+                     /locus_tag="VHH E"
+                     /label="VHH E"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}width 5 offset 0"
+     CDS             56..493
+                     /label="Nb VHHE"
+                     /ApEinfo_revcolor="#84b0dc"
+                     /ApEinfo_fwdcolor="#84b0dc"
+                     /translation="QVQLVETGGGFVQPGGSLRLSCAASGVTLDYYAIGWFRQAPGKEREGVSCIGSSDGRTYYSDSVKGRFTISRDNAKNTVYLQMNSLKPEDTAVYYCALTVGTYYSGNYHYTCSDDMDYWGKGTQVTVSSGSGLNDIFEAQKIEWHE"
+     primer          complement(467..519)
+                     /label="CD_NbVHHE_D_R"
+                     /note="sequence: gtatcctggGCTCTTCatcgACCTCCTTCATGCCACTCAATTTTCTGGGCTTC"
+                     /ApEinfo_revcolor="#faac61"
+                     /ApEinfo_fwdcolor="#faac61"
+     misc_feature    491..493
+                     /label="delTAA"
+                     /ApEinfo_revcolor="#faac61"
+                     /ApEinfo_fwdcolor="#faac61"
+     CDS             494..495
+                     /label="inGG"
+                     /ApEinfo_revcolor="#f8d3a9"
+                     /ApEinfo_fwdcolor="#f8d3a9"
+                     /translation=""
+     CDS             494..499
+                     /label="D_grammar"
+                     /ApEinfo_revcolor="#f8d3a9"
+                     /ApEinfo_fwdcolor="#f8d3a9"
+                     /translation="GG"
+     Grammar         496..499
+                     /label="D"
+                     /ApEinfo_revcolor="#f58a5e"
+                     /ApEinfo_fwdcolor="#f58a5e"
+     misc_feature    500..502
+                     /label="CGA"
+                     /ApEinfo_revcolor="#f58a5e"
+                     /ApEinfo_fwdcolor="#f58a5e"
+     misc_feature    503..503
+                     /label="inT"
+                     /ApEinfo_revcolor="#b1ff67"
+                     /ApEinfo_fwdcolor="#b1ff67"
+     misc_feature    504..510
+                     /label="Recognition Site SapI"
+                     /ApEinfo_revcolor="#f8d3a9"
+                     /ApEinfo_fwdcolor="#f8d3a9"
+     misc_feature    511..550
+                     /label="UNSX"
+                     /ApEinfo_revcolor="#9eafd2"
+                     /ApEinfo_fwdcolor="#9eafd2"
+ORIGIN
+        1 cattactcgc atccattctc aggctgtctc gtctcgtctc GCTCTTCTTC CAATGCAGGT
+       61 TCAGCTGGTG GAAACCGGCG GTGGCTTTGT TCAGCCGGGT GGTAGTCTGC GTCTGAGCTG
+      121 TGCAGCAAGC GGCGTGACCC TGGATTATTA TGCCATTGGC TGGTTTCGCC AGGCCCCGGG
+      181 TAAAGAACGT GAAGGTGTGA GCTGCATTGG TAGCAGCGAT GGTCGTACCT ATTATAGTGA
+      241 TAGTGTTAAA GGCCGCTTTA CCATTAGCCG TGATAATGCC AAAAATACCG TGTATCTGCA
+      301 GATGAATAGC CTGAAACCGG AAGATACCGC AGTGTATTAT TGCGCACTGA CCGTTGGTAC
+      361 CTATTATTCA GGCAATTATC ATTATACCTG CAGCGATGAT ATGGATTATT GGGGTAAAGG
+      421 CACCCAGGTT ACCGTTAGCA GTGGCAGCGG CCTGAATGAT ATTTTTGAAG CCCAGAAAAT
+      481 TGAGTGGCAT GAAGGAGGTc gatGAAGAGC ccaggataca tagattacca caactccgag
+      541 cccttccacc
+//
