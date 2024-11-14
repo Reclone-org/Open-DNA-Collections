@@ -1,0 +1,78 @@
+LOCUS       T3C_Linker7              132 bp ds-DNA     circular     16-AUG-2024
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     misc_feature    1..40
+                     /label="UNS1"
+                     /ApEinfo_revcolor="#85dae9"
+                     /ApEinfo_fwdcolor="#85dae9"
+     misc_feature    41..47
+                     /label="Recognition Site SapI"
+                     /ApEinfo_revcolor="#f8d3a9"
+                     /ApEinfo_fwdcolor="#f8d3a9"
+     misc_feature    48..48
+                     /label="inT"
+                     /ApEinfo_revcolor="#b1ff67"
+                     /ApEinfo_fwdcolor="#b1ff67"
+     misc_feature    49..51
+                     /label="TCC"
+                     /ApEinfo_revcolor="#f58a5e"
+                     /ApEinfo_fwdcolor="#f58a5e"
+     CDS             52..54
+                     /label="T3grammar"
+                     /ApEinfo_revcolor="#84b0dc"
+                     /ApEinfo_fwdcolor="#84b0dc"
+                     /translation="S"
+     Grammar         52..55
+                     /label="T3"
+                     /ApEinfo_revcolor="#85dae9"
+                     /ApEinfo_fwdcolor="#85dae9"
+     CDS             55..57
+                     /ApEinfo_revcolor="#ff9ccd"
+                     /ApEinfo_fwdcolor="#ff9ccd"
+                     /translation="S"
+     misc_feature    56..57
+                     /label="inGC"
+                     /ApEinfo_revcolor="#85dae9"
+                     /ApEinfo_fwdcolor="#85dae9"
+     misc_feature    58..75
+                     /label="Linker7"
+                     /ApEinfo_revcolor="#0080ff"
+                     /ApEinfo_fwdcolor="#0080ff"
+                     /locus_tag="Linker7"
+                     /label="Linker7"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}width 5 offset 0"
+     CDS             58..75
+                     /label="Linker 7"
+                     /ApEinfo_revcolor="#84b0dc"
+                     /ApEinfo_fwdcolor="#84b0dc"
+                     /translation="GGSGSS"
+     CDS             76..81
+                     /label="Cgrammar"
+                     /ApEinfo_revcolor="#faac61"
+                     /ApEinfo_fwdcolor="#faac61"
+                     /translation="GM"
+     Grammar         78..81
+                     /label="C"
+                     /ApEinfo_revcolor="#faac61"
+                     /ApEinfo_fwdcolor="#faac61"
+     misc_feature    82..84
+                     /label="CGA"
+                     /ApEinfo_revcolor="#f58a5e"
+                     /ApEinfo_fwdcolor="#f58a5e"
+     misc_feature    85..85
+                     /label="inT"
+                     /ApEinfo_revcolor="#b1ff67"
+                     /ApEinfo_fwdcolor="#b1ff67"
+     misc_feature    86..92
+                     /label="Recognition Site SapI"
+                     /ApEinfo_revcolor="#f8d3a9"
+                     /ApEinfo_fwdcolor="#f8d3a9"
+     misc_feature    93..132
+                     /label="UNSX"
+                     /ApEinfo_revcolor="#9eafd2"
+                     /ApEinfo_fwdcolor="#9eafd2"
+ORIGIN
+        1 cattactcgc atccattctc aggctgtctc gtctcgtctc GCTCTTCTTC CTCCAgcggt
+       61 ggcagtggga gtagcggAAT GcgatGAAGA GCccaggata catagattac cacaactccg
+      121 agcccttcca cc
+//
