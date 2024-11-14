@@ -1,0 +1,84 @@
+LOCUS       CD_NbVHHV                475 bp ds-DNA     circular     02-SEP-2024
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     misc_feature    1..40
+                     /label="UNS1"
+                     /ApEinfo_revcolor="#85dae9"
+                     /ApEinfo_fwdcolor="#85dae9"
+     primer          33..85
+                     /label="CD_NbVHHV_C_F"
+                     /note="sequence: ctcgtctcGCTCTTCTTCCAatgCAGGTCCAGTTAGTTGAAACAGGTGGCGGG"
+                     /ApEinfo_revcolor="#c6c9d1"
+                     /ApEinfo_fwdcolor="#c6c9d1"
+     misc_feature    41..47
+                     /label="Recognition Site SapI"
+                     /ApEinfo_revcolor="#f8d3a9"
+                     /ApEinfo_fwdcolor="#f8d3a9"
+     misc_feature    48..48
+                     /label="inT"
+                     /ApEinfo_revcolor="#b1ff67"
+                     /ApEinfo_fwdcolor="#b1ff67"
+     misc_feature    49..51
+                     /label="TCC"
+                     /ApEinfo_revcolor="#f58a5e"
+                     /ApEinfo_fwdcolor="#f58a5e"
+     Grammar         52..52
+                     /label="C"
+                     /ApEinfo_revcolor="#faac61"
+                     /ApEinfo_fwdcolor="#faac61"
+     misc_feature    53..418
+                     /label="VHH V"
+                     /ApEinfo_revcolor="#0080ff"
+                     /ApEinfo_fwdcolor="#0080ff"
+                     /locus_tag="VHH V"
+                     /label="VHH V"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}width 5 offset 0"
+     CDS             53..418
+                     /label="Nb VHHV"
+                     /ApEinfo_revcolor="#84b0dc"
+                     /ApEinfo_fwdcolor="#84b0dc"
+                     /translation="MQVQLVETGGGLVQPGGSLRLSCAASGFTFSSYAMGWARQVPGKGLEWVSYIYSDGSTEYQDSVKGRFTISRDNAKSTVYLQMNSLKPEDTAVYYCATEGSLGGWGRDFGSWGQGTQVTVSS"
+     primer          complement(392..444)
+                     /label="CD_NbVHHV_D_R"
+                     /note="sequence: gtatcctggGCTCTTCatcgACCTccGCTAGAGACTGTCACCTGTGTACCTTG"
+                     /ApEinfo_revcolor="#f58a5e"
+                     /ApEinfo_fwdcolor="#f58a5e"
+     misc_feature    419..420
+                     /label="inGG"
+                     /ApEinfo_revcolor="#ff9ccd"
+                     /ApEinfo_fwdcolor="#ff9ccd"
+     CDS             419..424
+                     /label="Dgrammar"
+                     /ApEinfo_revcolor="#faac61"
+                     /ApEinfo_fwdcolor="#faac61"
+                     /translation="GG"
+     Grammar         421..424
+                     /label="D"
+                     /ApEinfo_revcolor="#f58a5e"
+                     /ApEinfo_fwdcolor="#f58a5e"
+     misc_feature    425..427
+                     /label="CGA"
+                     /ApEinfo_revcolor="#f58a5e"
+                     /ApEinfo_fwdcolor="#f58a5e"
+     misc_feature    428..428
+                     /label="inT"
+                     /ApEinfo_revcolor="#b1ff67"
+                     /ApEinfo_fwdcolor="#b1ff67"
+     misc_feature    429..435
+                     /label="Recognition Site SapI"
+                     /ApEinfo_revcolor="#f8d3a9"
+                     /ApEinfo_fwdcolor="#f8d3a9"
+     misc_feature    436..475
+                     /label="UNSX"
+                     /ApEinfo_revcolor="#9eafd2"
+                     /ApEinfo_fwdcolor="#9eafd2"
+ORIGIN
+        1 cattactcgc atccattctc aggctgtctc gtctcgtctc GCTCTTCTTC CAatgCAGGT
+       61 CCAGTTAGTT GAAACAGGTG GCGGGTTAGT CCAACCTGGC GGTTCCTTAC GGTTATCGTG
+      121 CGCAGCTTCG GGTTTTACAT TCTCTTCATA CGCTATGGGC TGGGCCCGTC AGGTCCCTGG
+      181 CAAAGGTTTG GAATGGGTTT CATACATCTA TAGTGACGGT TCTACAGAAT ATCAAGATTC
+      241 AGTCAAGGGC CGGTTCACTA TCTCACGCGA TAATGCCAAG TCAACGGTGT ACCTTCAGAT
+      301 GAACAGCCTT AAACCGGAAG ACACGGCCGT ATATTATTGT GCGACTGAAG GTTCTCTCGG
+      361 TGGTTGGGGG CGTGATTTTG GCTCTTGGGG GCAAGGTACA CAGGTGACAG TCTCTAGCgg
+      421 AGGTcgatGA AGAGCccagg atacatagat taccacaact ccgagccctt ccacc
+//

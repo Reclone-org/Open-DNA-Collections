@@ -1,0 +1,110 @@
+LOCUS       CD_eGFP                  826 bp ds-DNA     circular     02-SEP-2024
+DEFINITION  .
+KEYWORDS    "Resistance" "Ori"
+FEATURES             Location/Qualifiers
+     misc_feature    1..40
+                     /label="UNS1"
+                     /ApEinfo_revcolor="#85dae9"
+                     /ApEinfo_fwdcolor="#85dae9"
+     primer          35..84
+                     /label="CD_eGFP_C_F"
+                     /note="sequence: tctcgtctcAGGTCTCCAATGGCAAGCAAAGGCGAAGAACTCTTCACTGG"
+                     /ApEinfo_revcolor="#f58a5e"
+                     /ApEinfo_fwdcolor="#f58a5e"
+     misc_feature    41..47
+                     /label="Recognition Site SapI"
+                     /ApEinfo_revcolor="#f8d3a9"
+                     /ApEinfo_fwdcolor="#f8d3a9"
+     misc_feature    48..48
+                     /label="inT"
+                     /ApEinfo_revcolor="#b1ff67"
+                     /ApEinfo_fwdcolor="#b1ff67"
+     misc_feature    49..51
+                     /label="TCC"
+                     /ApEinfo_revcolor="#f58a5e"
+                     /ApEinfo_fwdcolor="#f58a5e"
+     Grammar         52..52
+                     /label="C"
+                     /ApEinfo_revcolor="#faac61"
+                     /ApEinfo_fwdcolor="#faac61"
+     misc_feature    53..55
+                     /label="eGFP_brick"
+                     /ApEinfo_revcolor="#b1ff67"
+                     /ApEinfo_fwdcolor="#b1ff67"
+                     /locus_tag="eGFP_brick"
+                     /label="eGFP_brick"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}width 5 offset 0"
+     CDS             53..55
+                     /label="ATG"
+                     /ApEinfo_revcolor="#84b0dc"
+                     /ApEinfo_fwdcolor="#84b0dc"
+                     /translation="M"
+     misc_feature    56..84
+                     /label="inlcuirF"
+                     /ApEinfo_revcolor="#9eafd2"
+                     /ApEinfo_fwdcolor="#9eafd2"
+     misc_feature    56..769
+                     /label="eGFP_brick"
+                     /ApEinfo_revcolor="#b1ff67"
+                     /ApEinfo_fwdcolor="#b1ff67"
+                     /locus_tag="eGFP_brick(1)"
+                     /label="eGFP_brick(1)"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}width 5 offset 0"
+     CDS             56..769
+                     /label="eGFP"
+                     /ApEinfo_revcolor="#b1ff67"
+                     /ApEinfo_fwdcolor="#b1ff67"
+                     /translation="ASKGEELFTGVVPILVELDGDVNGHKFSVSGEGEGDATYGKLTLKFICTTGKLPVPWPTLVTTLCYGVQCFSRYPDHMKRHDFFKSAMPEGYVQERTIFFKDDGNYKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNYNSHNVYIMADKQKNGIKVNFKTRHNIEDGSVQLADHYQQNTPIGDGPVLLPDNHYLSTQSALSKDPNEKRDHMVLLEFVTAAGITHGMDELYN"
+     misc_feature    737..769
+                     /label="incluirR"
+                     /ApEinfo_revcolor="#d59687"
+                     /ApEinfo_fwdcolor="#d59687"
+     primer          complement(737..792)
+                     /label="CD_eGFP_D_R"
+                     /note="sequence: gtatcctggTGGTCtcgACCTCCATTGTACAGTTCATCCATGCCATGTGTAATCCC"
+                     /ApEinfo_revcolor="#f8d3a9"
+                     /ApEinfo_fwdcolor="#f8d3a9"
+     misc_feature    770..771
+                     /label="inGG"
+                     /ApEinfo_revcolor="#faac61"
+                     /ApEinfo_fwdcolor="#faac61"
+     CDS             770..775
+                     /ApEinfo_revcolor="#84b0dc"
+                     /ApEinfo_fwdcolor="#84b0dc"
+                     /translation="GG"
+     Grammar         772..775
+                     /label="D"
+                     /ApEinfo_revcolor="#f58a5e"
+                     /ApEinfo_fwdcolor="#f58a5e"
+     misc_feature    776..778
+                     /label="CGA"
+                     /ApEinfo_revcolor="#f58a5e"
+                     /ApEinfo_fwdcolor="#f58a5e"
+     misc_feature    779..779
+                     /label="inT"
+                     /ApEinfo_revcolor="#b1ff67"
+                     /ApEinfo_fwdcolor="#b1ff67"
+     misc_feature    780..786
+                     /label="Recognition Site SapI"
+                     /ApEinfo_revcolor="#f8d3a9"
+                     /ApEinfo_fwdcolor="#f8d3a9"
+     misc_feature    787..826
+                     /label="UNSX"
+                     /ApEinfo_revcolor="#9eafd2"
+                     /ApEinfo_fwdcolor="#9eafd2"
+ORIGIN
+        1 cattactcgc atccattctc aggctgtctc gtctcgtctc GCTCTTCTTC CAATGGCTAG
+       61 CAAAGGAGAA GAACTCTTCA CTGGAGTTGT CCCAATTCTT GTTGAATTAG ATGGTGATGT
+      121 TAACGGCCAC AAGTTCTCTG TCAGTGGAGA GGGTGAAGGT GATGCAACAT ACGGAAAACT
+      181 TACCCTGAAG TTCATCTGCA CTACTGGCAA ACTGCCTGTT CCATGGCCAA CCCTGGTCAC
+      241 TACTCTGTGC TATGGTGTTC AATGCTTTTC AAGATACCCG GATCATATGA AACGGCATGA
+      301 CTTTTTCAAG AGTGCCATGC CCGAAGGTTA TGTACAGGAA AGGACCATCT TCTTCAAAGA
+      361 TGACGGCAAC TACAAGACAC GTGCTGAAGT CAAGTTTGAA GGTGATACCC TTGTTAATAG
+      421 AATCGAGTTA AAAGGTATTG ACTTCAAGGA AGATGGCAAC ATTCTGGGAC ACAAATTGGA
+      481 ATACAACTAT AACTCACACA ATGTATACAT CATGGCAGAC AAACAAAAGA ATGGAATCAA
+      541 AGTGAACTTC AAGACCCGCC ACAACATTGA AGATGGAAGC GTTCAACTAG CAGACCATTA
+      601 TCAACAAAAT ACTCCAATTG GCGATGGCCC TGTCCTTTTA CCAGACAACC ATTACCTGTC
+      661 CACACAATCT GCCCTTTCGA AAGATCCCAA CGAAAAGAGA GACCACATGG TCCTTCTTGA
+      721 GTTTGTAACA GCTGCTGGGA TTACACATGG CATGGATGAA CTGTACAATG GAGGTcgatG
+      781 AAGAGCccag gatacataga ttaccacaac tccgagccct tccacc
+//

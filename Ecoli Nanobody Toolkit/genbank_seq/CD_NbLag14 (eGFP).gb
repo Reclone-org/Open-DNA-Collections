@@ -1,0 +1,90 @@
+LOCUS       CD_NbLag14_(eGFP)        487 bp ds-DNA     circular     24-SEP-2024
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     misc_feature    1..40
+                     /label="UNS1"
+                     /ApEinfo_revcolor="#85dae9"
+                     /ApEinfo_fwdcolor="#85dae9"
+     primer          36..81
+                     /label="CD_NbLag14_C_F"
+                     /note="sequence: gtctcGCTCTTCTTCCAATGGCTCAAGTGCAGCTTGTCGAAAGCGG"
+                     /ApEinfo_revcolor="#ff9ccd"
+                     /ApEinfo_fwdcolor="#ff9ccd"
+     misc_feature    41..47
+                     /label="Recognition Site SapI"
+                     /ApEinfo_revcolor="#f8d3a9"
+                     /ApEinfo_fwdcolor="#f8d3a9"
+     misc_feature    48..48
+                     /label="inT"
+                     /ApEinfo_revcolor="#b1ff67"
+                     /ApEinfo_fwdcolor="#b1ff67"
+     misc_feature    49..51
+                     /label="TCC"
+                     /ApEinfo_revcolor="#f58a5e"
+                     /ApEinfo_fwdcolor="#f58a5e"
+     Grammar         52..55
+                     /label="C"
+                     /ApEinfo_revcolor="#faac61"
+                     /ApEinfo_fwdcolor="#faac61"
+     CDS             53..55
+                     /label="Cgrammar"
+                     /ApEinfo_revcolor="#ffef86"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /translation="M"
+     misc_feature    56..430
+                     /label="eGFP LaG14"
+                     /ApEinfo_revcolor="#0080ff"
+                     /ApEinfo_fwdcolor="#0080ff"
+                     /locus_tag="eGFP LaG14"
+                     /label="eGFP LaG14"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}width 5 offset 0"
+     CDS             56..430
+                     /label="Nb LaG14"
+                     /ApEinfo_revcolor="#84b0dc"
+                     /ApEinfo_fwdcolor="#84b0dc"
+                     /translation="AQVQLVESGGGLVQAGGSLRLSCAASGRTYSISAMGWFRQAPGKEREFVAGISRSGGTTYYADPVKGRFTISRDNAKNTVYLQMNSLKPEDTAVYYCAARARGWTTFPAREIEYDYWGQGTQVTV"
+     primer          complement(403..456)
+                     /label="CD_NbLag14_D_R"
+                     /note="sequence: gtatcctggGCTCTTCatcgACCTCCGACGGTTACTTGTGTACCTTGCCCCCAG"
+                     /ApEinfo_revcolor="#ff9ccd"
+                     /ApEinfo_fwdcolor="#ff9ccd"
+     misc_feature    431..432
+                     /label="inGG"
+                     /ApEinfo_revcolor="#c7b0e3"
+                     /ApEinfo_fwdcolor="#c7b0e3"
+     CDS             431..436
+                     /label="Dgrammar"
+                     /ApEinfo_revcolor="#faac61"
+                     /ApEinfo_fwdcolor="#faac61"
+                     /translation="GG"
+     Grammar         433..436
+                     /label="D"
+                     /ApEinfo_revcolor="#f58a5e"
+                     /ApEinfo_fwdcolor="#f58a5e"
+     misc_feature    437..439
+                     /label="CGA"
+                     /ApEinfo_revcolor="#f58a5e"
+                     /ApEinfo_fwdcolor="#f58a5e"
+     misc_feature    440..440
+                     /label="inT"
+                     /ApEinfo_revcolor="#b1ff67"
+                     /ApEinfo_fwdcolor="#b1ff67"
+     misc_feature    441..447
+                     /label="Recognition Site SapI"
+                     /ApEinfo_revcolor="#f8d3a9"
+                     /ApEinfo_fwdcolor="#f8d3a9"
+     misc_feature    448..487
+                     /label="UNSX"
+                     /ApEinfo_revcolor="#9eafd2"
+                     /ApEinfo_fwdcolor="#9eafd2"
+ORIGIN
+        1 cattactcgc atccattctc aggctgtctc gtctcgtctc GCTCTTCTTC CAATGGCTCA
+       61 AGTGCAGCTT GTCGAAAGCG GTGGTGGCCT TGTCCAAGCT GGTGGTAGTC TGCGGCTTTC
+      121 TTGTGCGGCC TCAGGTCGTA CTTATAGCAT CAGTGCTATG GGCTGGTTTC GCCAGGCGCC
+      181 TGGCAAGGAA CGCGAATTCG TTGCTGGCAT CAGCCGGTCA GGCGGCACCA CATATTATGC
+      241 TGACCCGGTG AAGGGTCGGT TCACTATTAG CCGTGACAAC GCGAAAAACA CTGTGTATTT
+      301 ACAGATGAAT TCTCTCAAGC CTGAGGATAC CGCAGTATAT TATTGCGCGG CACGGGCTCG
+      361 TGGCTGGACT ACATTTCCAG CTCGTGAGAT TGAGTACGAC TACTGGGGGC AAGGTACACA
+      421 AGTAACCGTC GGAGGTcgat GAAGAGCcca ggatacatag attaccacaa ctccgagccc
+      481 ttccacc
+//
