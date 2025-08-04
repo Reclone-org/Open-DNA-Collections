@@ -577,12 +577,12 @@ def show_search_page(db: DNACollectionDatabase):
                 st.dataframe(page_results, use_container_width=True)
             else:
                 # Display key columns including platemap info
-                display_cols = ['BBF ID', 'ODC ID', 'Name', 'Collection', 'Well_Location', 'Bacterial_Resistance', 'Growth_Strain']
+                display_cols = ['BBF ID', 'ODC ID', 'Name', 'Collection', 'Platemap_Version', 'Well_Location', 'Bacterial_Resistance', 'Growth_Strain']
                 available_cols = [col for col in display_cols if col in page_results.columns]
                 
                 # Replace None values with "No info" for better display
                 display_results = page_results[available_cols].copy()
-                for col in ['Well_Location', 'Bacterial_Resistance', 'Growth_Strain']:
+                for col in ['Well_Location', 'Bacterial_Resistance', 'Growth_Strain', 'Platemap_Version']:
                     if col in display_results.columns:
                         display_results[col] = display_results[col].fillna('No info')
                 
