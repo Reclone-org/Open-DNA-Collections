@@ -15,7 +15,7 @@ Here you can find the genbank files and metadata for the plasmids in different c
 
 ## Interactive Database
 
-🧬 **[Launch the Interactive Database](https://your-app-name.streamlit.app)** (deployed on Streamlit Community Cloud)
+🧬 **[Launch the Interactive Database](https://opendnacollections.streamlit.app/)** (deployed on Streamlit Community Cloud)
 
 The interactive database provides:
 - **Search & Browse**: Find DNA parts across all collections
