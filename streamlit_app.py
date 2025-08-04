@@ -538,7 +538,7 @@ def show_search_page(db: DNACollectionDatabase):
         if well_pattern:
             platemap_filters['well_pattern'] = well_pattern
         
-        results = db.search_parts(search_query, selected_collection, platemap_filters)
+        results = db.search_parts(search_query, collection=selected_collection, platemap_filters=platemap_filters)
         
         if not results.empty:
             st.markdown(f"### Found {len(results)} results")
