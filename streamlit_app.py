@@ -93,6 +93,8 @@ class DNACollectionDatabase:
             if main_csv_path.exists():
                 self.data['main'] = pd.read_csv(main_csv_path)
                 logger.info(f"Loaded main CSV with {len(self.data['main'])} records")
+            else:
+                logger.warning(f"Main CSV file not found at {main_csv_path}")
             
             # Load collection-specific CSVs
             self._load_collection_csvs()
@@ -105,6 +107,9 @@ class DNACollectionDatabase:
             
         except Exception as e:
             logger.error(f"Error loading data: {e}")
+            # Initialize empty platemap dict if there's an error
+            if not hasattr(self, 'platemaps'):
+                self.platemaps = {}
             st.error(f"Error loading data: {e}")
     
     def _load_collection_csvs(self):
@@ -235,14 +240,18 @@ class DNACollectionDatabase:
     
     def _enrich_with_platemap_info(self, df: pd.DataFrame) -> pd.DataFrame:
         """Add platemap information to the dataframe."""
-        # Add new columns for platemap info
+        # Add new columns for platemap info with default None values
         df['Well_Location'] = None
         df['Bacterial_Resistance'] = None
         df['Growth_Strain'] = None
         df['Growth_Conditions'] = None
         df['Platemap_Version'] = None
         
-        for _, row in df.iterrows():
+        # Only proceed if platemaps are loaded
+        if not hasattr(self, 'platemaps') or not self.platemaps:
+            return df
+        
+        for idx, row in df.iterrows():
             odc_id = row.get('ODC ID')
             bbf_id = row.get('BBF ID')
             collection = row.get('Collection')
@@ -251,26 +260,42 @@ class DNACollectionDatabase:
             platemap_info = self._find_in_platemaps(odc_id, bbf_id, collection)
             
             if platemap_info:
-                df.loc[df.index[_], 'Well_Location'] = platemap_info.get('Well Location')
-                df.loc[df.index[_], 'Bacterial_Resistance'] = platemap_info.get('Bacterial Resistance')
-                df.loc[df.index[_], 'Growth_Strain'] = platemap_info.get('Growth Strain')
-                df.loc[df.index[_], 'Growth_Conditions'] = platemap_info.get('Growth Conditions')
-                df.loc[df.index[_], 'Platemap_Version'] = platemap_info.get('Platemap_Version')
+                # Map the actual platemap columns to our standardized columns
+                df.loc[idx, 'Well_Location'] = platemap_info.get('Well Location')  # Note: space in column name
+                df.loc[idx, 'Bacterial_Resistance'] = platemap_info.get('Bacterial Resistance')
+                df.loc[idx, 'Growth_Strain'] = platemap_info.get('Growth Strain')
+                df.loc[idx, 'Growth_Conditions'] = platemap_info.get('Growth Conditions')
+                df.loc[idx, 'Platemap_Version'] = platemap_info.get('Platemap_Version')
+            # If no platemap info found, the columns remain None (which is already set above)
         
         return df
     
     def _find_in_platemaps(self, odc_id: str, bbf_id: str, collection: str) -> Optional[Dict]:
         """Find matching platemap entry for a given part."""
+        # Return None if platemaps not loaded
+        if not hasattr(self, 'platemaps') or not self.platemaps:
+            return None
+            
         for platemap_key, platemap_data in self.platemaps.items():
             df = platemap_data['data']
             
-            # Try to match by ODC ID first, then BBF ID
-            matches = []
-            if pd.notna(odc_id):
-                matches = df[df['ODC ID'].astype(str) == str(odc_id)]
+            # Check what ID columns are available in this platemap
+            available_columns = df.columns.tolist()
+            matches = pd.DataFrame()  # Initialize empty DataFrame
             
-            if matches.empty and pd.notna(bbf_id):
-                matches = df[df['BBF ID'].astype(str) == str(bbf_id)]
+            # Try to match by ODC ID first
+            if pd.notna(odc_id) and 'ODC ID' in available_columns:
+                try:
+                    matches = df[df['ODC ID'].astype(str).str.strip() == str(odc_id).strip()]
+                except Exception:
+                    pass  # Continue to try BBF ID
+            
+            # If no match found, try BBF ID
+            if matches.empty and pd.notna(bbf_id) and 'BBF ID' in available_columns:
+                try:
+                    matches = df[df['BBF ID'].astype(str).str.strip() == str(bbf_id).strip()]
+                except Exception:
+                    pass  # No match found
             
             if not matches.empty:
                 match_row = matches.iloc[0].to_dict()
@@ -476,9 +501,11 @@ def show_search_page(db: DNACollectionDatabase):
         with col1:
             # Get unique resistance types from platemaps
             resistance_types = ["All"]
-            for platemap_data in db.platemaps.values():
-                if 'Bacterial Resistance' in platemap_data['data'].columns:
-                    resistance_types.extend(platemap_data['data']['Bacterial Resistance'].dropna().unique())
+            if hasattr(db, 'platemaps') and db.platemaps:
+                for platemap_data in db.platemaps.values():
+                    df = platemap_data['data']
+                    if 'Bacterial Resistance' in df.columns:
+                        resistance_types.extend(df['Bacterial Resistance'].dropna().unique())
             resistance_types = sorted(list(set(resistance_types)))
             
             selected_resistance = st.selectbox("Bacterial Resistance:", resistance_types)
@@ -486,9 +513,11 @@ def show_search_page(db: DNACollectionDatabase):
         with col2:
             # Get unique growth strains
             growth_strains = ["All"]
-            for platemap_data in db.platemaps.values():
-                if 'Growth Strain' in platemap_data['data'].columns:
-                    growth_strains.extend(platemap_data['data']['Growth Strain'].dropna().unique())
+            if hasattr(db, 'platemaps') and db.platemaps:
+                for platemap_data in db.platemaps.values():
+                    df = platemap_data['data']
+                    if 'Growth Strain' in df.columns:
+                        growth_strains.extend(df['Growth Strain'].dropna().unique())
             growth_strains = sorted(list(set(growth_strains)))
             
             selected_strain = st.selectbox("Growth Strain:", growth_strains)
@@ -550,7 +579,14 @@ def show_search_page(db: DNACollectionDatabase):
                 # Display key columns including platemap info
                 display_cols = ['BBF ID', 'ODC ID', 'Name', 'Collection', 'Well_Location', 'Bacterial_Resistance', 'Growth_Strain']
                 available_cols = [col for col in display_cols if col in page_results.columns]
-                st.dataframe(page_results[available_cols], use_container_width=True)
+                
+                # Replace None values with "No info" for better display
+                display_results = page_results[available_cols].copy()
+                for col in ['Well_Location', 'Bacterial_Resistance', 'Growth_Strain']:
+                    if col in display_results.columns:
+                        display_results[col] = display_results[col].fillna('No info')
+                
+                st.dataframe(display_results, use_container_width=True)
             
             # Download option
             st.markdown(create_download_link(results, "search_results.csv"), unsafe_allow_html=True)
@@ -572,17 +608,34 @@ def show_search_page(db: DNACollectionDatabase):
     # Platemap Overview
     st.markdown("## 📋 Available Platemaps")
     
-    if db.platemaps:
+    if hasattr(db, 'platemaps') and db.platemaps:
         platemap_summary = []
         for key, platemap_data in db.platemaps.items():
             df = platemap_data['data']
+            
+            # Count filled wells based on available name columns
+            filled_wells = 0
+            if 'Name' in df.columns:
+                filled_wells = df['Name'].notna().sum()
+            elif 'Gene or Insert Name' in df.columns:
+                filled_wells = df['Gene or Insert Name'].notna().sum()
+            
+            # Count unique resistances and strains
+            unique_resistances = 0
+            if 'Bacterial Resistance' in df.columns:
+                unique_resistances = df['Bacterial Resistance'].nunique()
+            
+            unique_strains = 0
+            if 'Growth Strain' in df.columns:
+                unique_strains = df['Growth Strain'].nunique()
+            
             platemap_summary.append({
                 'Toolkit': platemap_data['toolkit'],
                 'Version': platemap_data['version'],
                 'Total Wells': len(df),
-                'Filled Wells': df['Name'].notna().sum(),
-                'Unique Resistances': df['Bacterial Resistance'].nunique() if 'Bacterial Resistance' in df.columns else 0,
-                'Unique Strains': df['Growth Strain'].nunique() if 'Growth Strain' in df.columns else 0
+                'Filled Wells': filled_wells,
+                'Unique Resistances': unique_resistances,
+                'Unique Strains': unique_strains
             })
         
         platemap_summary_df = pd.DataFrame(platemap_summary)
