@@ -82,6 +82,7 @@ class DNACollectionDatabase:
         self.base_path = Path(base_path)
         self.data = {}
         self.genbank_files = {}
+        self.platemaps = {}
         self._load_all_data()
     
     def _load_all_data(self):
@@ -95,6 +96,9 @@ class DNACollectionDatabase:
             
             # Load collection-specific CSVs
             self._load_collection_csvs()
+            
+            # Load platemap files
+            self._load_platemaps()
             
             # Load GenBank files
             self._load_genbank_files()
@@ -120,6 +124,33 @@ class DNACollectionDatabase:
                     logger.info(f"Loaded {collection_name} with {len(self.data[collection_name])} records")
                 except Exception as e:
                     logger.warning(f"Could not load {csv_file}: {e}")
+    
+    def _load_platemaps(self):
+        """Load platemap CSV files from all toolkits."""
+        platemap_pattern = "*/Platemaps/*.csv"
+        platemap_files = glob.glob(str(self.base_path / platemap_pattern))
+        
+        for platemap_file in platemap_files:
+            try:
+                # Extract toolkit name from path
+                toolkit_name = Path(platemap_file).parent.parent.name
+                platemap_version = Path(platemap_file).stem
+                
+                df = pd.read_csv(platemap_file)
+                
+                # Store with composite key
+                key = f"{toolkit_name}_{platemap_version}"
+                self.platemaps[key] = {
+                    'data': df,
+                    'toolkit': toolkit_name,
+                    'version': platemap_version,
+                    'file_path': platemap_file
+                }
+                
+                logger.info(f"Loaded platemap {key} with {len(df)} wells")
+                
+            except Exception as e:
+                logger.warning(f"Could not load platemap {platemap_file}: {e}")
     
     def _load_genbank_files(self):
         """Load GenBank files."""
@@ -172,7 +203,7 @@ class DNACollectionDatabase:
         
         return summary
     
-    def search_parts(self, query: str, collection: Optional[str] = None) -> pd.DataFrame:
+    def search_parts(self, query: str, collection: Optional[str] = None, platemap_filters: Optional[Dict] = None) -> pd.DataFrame:
         """Search for parts across all collections."""
         results = []
         
@@ -191,9 +222,78 @@ class DNACollectionDatabase:
                 )
                 df = df[mask]
             
+            # Enrich with platemap information
+            df = self._enrich_with_platemap_info(df)
+            
+            # Apply platemap filters
+            if platemap_filters:
+                df = self._apply_platemap_filters(df, platemap_filters)
+            
             results.append(df)
         
         return pd.concat(results, ignore_index=True) if results else pd.DataFrame()
+    
+    def _enrich_with_platemap_info(self, df: pd.DataFrame) -> pd.DataFrame:
+        """Add platemap information to the dataframe."""
+        # Add new columns for platemap info
+        df['Well_Location'] = None
+        df['Bacterial_Resistance'] = None
+        df['Growth_Strain'] = None
+        df['Growth_Conditions'] = None
+        df['Platemap_Version'] = None
+        
+        for _, row in df.iterrows():
+            odc_id = row.get('ODC ID')
+            bbf_id = row.get('BBF ID')
+            collection = row.get('Collection')
+            
+            # Search through platemaps for matching IDs
+            platemap_info = self._find_in_platemaps(odc_id, bbf_id, collection)
+            
+            if platemap_info:
+                df.loc[df.index[_], 'Well_Location'] = platemap_info.get('Well Location')
+                df.loc[df.index[_], 'Bacterial_Resistance'] = platemap_info.get('Bacterial Resistance')
+                df.loc[df.index[_], 'Growth_Strain'] = platemap_info.get('Growth Strain')
+                df.loc[df.index[_], 'Growth_Conditions'] = platemap_info.get('Growth Conditions')
+                df.loc[df.index[_], 'Platemap_Version'] = platemap_info.get('Platemap_Version')
+        
+        return df
+    
+    def _find_in_platemaps(self, odc_id: str, bbf_id: str, collection: str) -> Optional[Dict]:
+        """Find matching platemap entry for a given part."""
+        for platemap_key, platemap_data in self.platemaps.items():
+            df = platemap_data['data']
+            
+            # Try to match by ODC ID first, then BBF ID
+            matches = []
+            if pd.notna(odc_id):
+                matches = df[df['ODC ID'].astype(str) == str(odc_id)]
+            
+            if matches.empty and pd.notna(bbf_id):
+                matches = df[df['BBF ID'].astype(str) == str(bbf_id)]
+            
+            if not matches.empty:
+                match_row = matches.iloc[0].to_dict()
+                match_row['Platemap_Version'] = platemap_key
+                return match_row
+        
+        return None
+    
+    def _apply_platemap_filters(self, df: pd.DataFrame, filters: Dict) -> pd.DataFrame:
+        """Apply platemap-based filters to the dataframe."""
+        filtered_df = df.copy()
+        
+        if 'resistance' in filters:
+            filtered_df = filtered_df[filtered_df['Bacterial_Resistance'].str.contains(filters['resistance'], case=False, na=False)]
+        
+        if 'strain' in filters:
+            filtered_df = filtered_df[filtered_df['Growth_Strain'].str.contains(filters['strain'], case=False, na=False)]
+        
+        if 'well_pattern' in filters:
+            pattern = filters['well_pattern'].replace('*', '.*')  # Convert to regex
+            filtered_df = filtered_df[filtered_df['Well_Location'].str.match(pattern, case=False, na=False)]
+        
+        return filtered_df
     
     def get_part_details(self, part_id: str) -> Dict:
         """Get detailed information about a specific part."""
@@ -369,12 +469,64 @@ def show_search_page(db: DNACollectionDatabase):
         
         selected_collection = st.selectbox("Filter by Collection:", collections)
     
+    # Additional platemap filters
+    with st.expander("🧬 Advanced Platemap Filters"):
+        col1, col2, col3 = st.columns(3)
+        
+        with col1:
+            # Get unique resistance types from platemaps
+            resistance_types = ["All"]
+            for platemap_data in db.platemaps.values():
+                if 'Bacterial Resistance' in platemap_data['data'].columns:
+                    resistance_types.extend(platemap_data['data']['Bacterial Resistance'].dropna().unique())
+            resistance_types = sorted(list(set(resistance_types)))
+            
+            selected_resistance = st.selectbox("Bacterial Resistance:", resistance_types)
+        
+        with col2:
+            # Get unique growth strains
+            growth_strains = ["All"]
+            for platemap_data in db.platemaps.values():
+                if 'Growth Strain' in platemap_data['data'].columns:
+                    growth_strains.extend(platemap_data['data']['Growth Strain'].dropna().unique())
+            growth_strains = sorted(list(set(growth_strains)))
+            
+            selected_strain = st.selectbox("Growth Strain:", growth_strains)
+        
+        with col3:
+            # Well location range
+            well_pattern = st.text_input("Well Location Pattern:", placeholder="e.g., A1, A*, *1")
+    
+    
     # Search results
     if st.button("Search") or search_query:
-        results = db.search_parts(search_query, selected_collection)
+        # Prepare filter parameters
+        platemap_filters = {}
+        if selected_resistance != "All":
+            platemap_filters['resistance'] = selected_resistance
+        if selected_strain != "All":
+            platemap_filters['strain'] = selected_strain
+        if well_pattern:
+            platemap_filters['well_pattern'] = well_pattern
+        
+        results = db.search_parts(search_query, selected_collection, platemap_filters)
         
         if not results.empty:
             st.markdown(f"### Found {len(results)} results")
+            
+            # Results summary with platemap info
+            col1, col2, col3, col4 = st.columns(4)
+            with col1:
+                st.metric("Total Results", len(results))
+            with col2:
+                with_platemap = results['Well_Location'].notna().sum()
+                st.metric("With Platemap Info", with_platemap)
+            with col3:
+                unique_resistances = results['Bacterial_Resistance'].nunique()
+                st.metric("Resistance Types", unique_resistances)
+            with col4:
+                unique_strains = results['Growth_Strain'].nunique()
+                st.metric("Growth Strains", unique_strains)
             
             # Display options
             col1, col2 = st.columns([1, 1])
@@ -395,8 +547,8 @@ def show_search_page(db: DNACollectionDatabase):
             if show_full_table:
                 st.dataframe(page_results, use_container_width=True)
             else:
-                # Display key columns only
-                display_cols = ['BBF ID', 'ODC ID', 'Name', 'Collection']
+                # Display key columns including platemap info
+                display_cols = ['BBF ID', 'ODC ID', 'Name', 'Collection', 'Well_Location', 'Bacterial_Resistance', 'Growth_Strain']
                 available_cols = [col for col in display_cols if col in page_results.columns]
                 st.dataframe(page_results[available_cols], use_container_width=True)
             
@@ -416,6 +568,46 @@ def show_search_page(db: DNACollectionDatabase):
             with st.expander(f"{collection} ({count} parts)"):
                 collection_data = db.data['main'][db.data['main']['Collection'] == collection]
                 st.dataframe(collection_data[['BBF ID', 'ODC ID', 'Name']], use_container_width=True)
+    
+    # Platemap Overview
+    st.markdown("## 📋 Available Platemaps")
+    
+    if db.platemaps:
+        platemap_summary = []
+        for key, platemap_data in db.platemaps.items():
+            df = platemap_data['data']
+            platemap_summary.append({
+                'Toolkit': platemap_data['toolkit'],
+                'Version': platemap_data['version'],
+                'Total Wells': len(df),
+                'Filled Wells': df['Name'].notna().sum(),
+                'Unique Resistances': df['Bacterial Resistance'].nunique() if 'Bacterial Resistance' in df.columns else 0,
+                'Unique Strains': df['Growth Strain'].nunique() if 'Growth Strain' in df.columns else 0
+            })
+        
+        platemap_summary_df = pd.DataFrame(platemap_summary)
+        st.dataframe(platemap_summary_df, use_container_width=True)
+        
+        # Detailed platemap viewer
+        with st.expander("🔬 Detailed Platemap Viewer"):
+            if platemap_summary:
+                selected_platemap = st.selectbox(
+                    "Select Platemap:", 
+                    list(db.platemaps.keys()),
+                    format_func=lambda x: f"{db.platemaps[x]['toolkit']} - {db.platemaps[x]['version']}"
+                )
+                
+                if selected_platemap:
+                    platemap_data = db.platemaps[selected_platemap]['data']
+                    st.dataframe(platemap_data, use_container_width=True)
+                    
+                    # Download option for platemap
+                    st.markdown(
+                        create_download_link(platemap_data, f"{selected_platemap}_platemap.csv"),
+                        unsafe_allow_html=True
+                    )
+    else:
+        st.info("No platemap files found. Platemaps contain detailed information about physical plate layouts, bacterial resistances, and growth conditions.")
 
 def show_analytics_page(db: DNACollectionDatabase):
     """Display analytics and visualizations."""
