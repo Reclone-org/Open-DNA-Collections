@@ -1,4 +1,3 @@
-io
 streamlit
 pandas
 plotly
