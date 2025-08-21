@@ -11,7 +11,7 @@ Here you can find the genbank files and metadata for the plasmids in different c
 - Open Yeast Collection
 - Open Plasmids
 - E.coli Protein Expression Toolkit
-- Molecular Diagnostics Toolkit
+- Research in Diagnostics Toolkit (formerly Molecular Diagnostics Toolkit, and Research in Diagnostics Collection; branch for RiDT is retained as MDT for now, but description is referred to as RiDT).
 
 ## Sheets Backend
 
