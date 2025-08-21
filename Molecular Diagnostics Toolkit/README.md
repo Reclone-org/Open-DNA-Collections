@@ -1,4 +1,16 @@
-# Molecular Diagnostics Toolkit
+# Research in Diagnostics Toolkit
+
+## Collection name historical information
+This collection was formerly known as "Molecular Diagnostics Toolkit" (MDT), when this ready-to-express series of plasmids was distributed by FreeGenes, and it was in a mix of both the pOpen_v3 (aka pBuild) cloning plasmid backbone, and pOpen_v4 (aka pInducible) expression plasmid. 
+
+When OBL/Reclone Community took stewardship of the collections (following the FreeGenes hiatus), the majority of the MDT parts (where possible) were subcloned into the [pTI](https://drive.google.com/file/d/14SbQYKgMBwG_mk9T-Ylxkf7d4PmtY8g9/view?usp=sharing) expression plasmid backbone, and the collection was renamed to "Research in Diagnostics Collection" (RiDC); see [version 1.1 OBL early 2024 Distribution (Plate 1)](https://github.com/Reclone-org/Open-DNA-Collections/blob/main/Molecular%20Diagnostics%20Toolkit/Platemaps/MDT-v1_1.csv). 
+
+RiDC was subsequently renamed to "Research in Diagnostics Toolkit" (RiDT), but should be exactly the same as RiDC. In some older documentation, you may see the RiDC term used, but this can be treated as RiDT. 
+There is a version 1.2 plate for RiDT in circulation, which again should be as version 1.1 with the exception that the pTI expression vectors (pTI, pTIR, pTIeR) have been added to column three (in wells A3, B3, C3 respectively). A new platemap should be uploaded in due course. 
+
+Please feel free to [raise an issue](https://github.com/Reclone-org/Open-DNA-Collections/issues) here on our GitHub repo if you see any other discrepancies and/or post in the [Reclone Forum](https://forum.reclone.org/t/pti-plasmid-backbone/797/24) if you have any questions! Thank you!
+
+## Description
 
 Enzymes are the heart of each and every diagnostic test. Enzymes are the means by which we can track, study and defeat old and new infectious diseases.
 However, enzymes are globally distributed from centralized foundries and often require a cold chain to maintain function, restricting access.
