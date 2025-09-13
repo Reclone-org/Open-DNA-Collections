@@ -13,6 +13,25 @@ Here you can find the genbank files and metadata for the plasmids in different c
 - E.coli Protein Expression Toolkit
 - Research in Diagnostics Toolkit (formerly Molecular Diagnostics Toolkit, and Research in Diagnostics Collection; branch for RiDT is retained as MDT for now, but description is referred to as RiDT).
 
+## Interactive Database
+
+🧬 **[Launch the Interactive Database](https://opendnacollections.streamlit.app/)** (deployed on Streamlit Community Cloud)
+
+The interactive database provides:
+- **Search & Browse**: Find DNA parts across all collections
+- **Analytics**: Visualize collection statistics and sequence properties
+- **Part Details**: View detailed information including sequences
+- **Data Export**: Download data in various formats
+
+### Local Development
+
+To run the database locally:
+
+```bash
+pip install -r requirements.txt
+streamlit run streamlit_app.py
+```
+
 ## Sheets Backend
 
 The backend database for Freegenes lives here: https://docs.google.com/spreadsheets/d/1LZCXzBtgey9xv5OH7YGYgp8UMJ27Eyj1aF9IhAW6M6o/edit?pli=1#gid=954552604
