@@ -1,6 +1,6 @@
 # Open Reporters Collection
 
-The Open Reporter Collection includes 32 commonly used reporter genes used in all kinds of biology labs for a variety of techniques including measuring gene expression,
+The Open Reporter Collection includes 30 commonly used reporter genes used in all kinds of biology labs for a variety of techniques including measuring gene expression,
 diagnostics, verifying successful transformations and more. The collection includes chromoproteins (which produce a colour that is visible to the naked eye), fluorescent
 proteins (that require excitation by a certain wavelength of light and emit another wavelength), luciferases (which emit bioluminscence) and other enzymes that enable
 colorimetric detection of a substrate by changing its color, for example horseradish peroxidase which classically turns a chemical substrate bright pink in very common
