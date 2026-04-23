@@ -22,7 +22,6 @@ logger = logging.getLogger(__name__)
 
 st.set_page_config(
     page_title="Open DNA Collections Database",
-    page_icon="🧬",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -47,11 +46,16 @@ st.markdown(
         white-space: pre-wrap;
     }
     .freshness-card {
-        background: #eef6fb;
-        border: 1px solid #cde6f5;
+        background: #f1f5f9;
+        border: 1px solid #cbd5e1;
+        color: #0f172a !important;
         border-radius: 8px;
         padding: 12px;
         margin-bottom: 12px;
+        line-height: 1.5;
+    }
+    .freshness-card * {
+        color: #0f172a !important;
     }
 </style>
 """,
@@ -164,7 +168,7 @@ with upstream-synced platemap metadata and BLAST support.
 
 
 def show_search_page(service: DNACollectionDataService) -> None:
-    st.markdown("## 🔍 Search & Browse Collections")
+    st.markdown("## Search & Browse Collections")
 
     col1, col2 = st.columns([2, 1])
     with col1:
@@ -179,7 +183,7 @@ def show_search_page(service: DNACollectionDataService) -> None:
             collections.extend(sorted(service.main_df["Collection"].dropna().unique()))
         selected_collection = st.selectbox("Filter by Collection:", collections)
 
-    with st.expander("🧬 Advanced Platemap Filters"):
+    with st.expander("Advanced Platemap Filters"):
         pmap_df = service.platemaps_df
         c1, c2, c3 = st.columns(3)
 
@@ -263,7 +267,7 @@ def show_search_page(service: DNACollectionDataService) -> None:
 
         st.markdown(create_download_link(results, "search_results.csv"), unsafe_allow_html=True)
 
-    st.markdown("## 📋 Available Platemaps")
+    st.markdown("## Available Platemaps")
     platemap_summary_df = service.get_platemap_summary()
 
     if platemap_summary_df.empty:
@@ -283,7 +287,7 @@ def show_search_page(service: DNACollectionDataService) -> None:
 
 
 def show_analytics_page(service: DNACollectionDataService) -> None:
-    st.markdown("## 📊 Analytics Dashboard")
+    st.markdown("## Analytics Dashboard")
 
     df = service.main_df
     if df.empty:
@@ -360,7 +364,7 @@ def show_analytics_page(service: DNACollectionDataService) -> None:
 
 
 def show_part_details_page(service: DNACollectionDataService) -> None:
-    st.markdown("## 📋 Part Details")
+    st.markdown("## Part Details")
 
     part_id = st.text_input(
         "Enter Part ID (BBF ID or ODC ID):",
@@ -435,7 +439,7 @@ def show_part_details_page(service: DNACollectionDataService) -> None:
 
 
 def show_data_management_page(service: DNACollectionDataService) -> None:
-    st.markdown("## 📁 Data Management")
+    st.markdown("## Data Management")
 
     diagnostics = service.get_diagnostics()
 
@@ -484,7 +488,7 @@ def show_data_management_page(service: DNACollectionDataService) -> None:
 
 
 def show_blast_page(service: DNACollectionDataService) -> None:
-    st.markdown("## 🧪 BLAST Search")
+    st.markdown("## BLAST Search")
     st.markdown(
         """
 Run sequence similarity search against local Open DNA collection sequences.
@@ -607,7 +611,7 @@ Optional NCBI fallback can be used when local BLAST has no hits.
 
 
 def main() -> None:
-    st.markdown('<h1 class="main-header">🧬 Open DNA Collections Database</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="main-header">Open DNA Collections Database</h1>', unsafe_allow_html=True)
     st.markdown("### Streamlit cache-first browser for Reclone Open DNA Collections")
 
     try:
@@ -618,15 +622,15 @@ def main() -> None:
 
     st.sidebar.title("Navigation")
     if "current_page" not in st.session_state:
-        st.session_state.current_page = "🏠 Home"
+        st.session_state.current_page = "Home"
 
     pages = [
-        "🏠 Home",
-        "🔍 Search & Browse",
-        "📊 Analytics",
-        "📋 Part Details",
-        "🧪 BLAST Search",
-        "📁 Data Management",
+        "Home",
+        "Search & Browse",
+        "Analytics",
+        "Part Details",
+        "BLAST Search",
+        "Data Management",
     ]
 
     for page_name in pages:
@@ -639,17 +643,17 @@ def main() -> None:
             st.rerun()
 
     page = st.session_state.current_page
-    if page == "🏠 Home":
+    if page == "Home":
         show_home_page(service)
-    elif page == "🔍 Search & Browse":
+    elif page == "Search & Browse":
         show_search_page(service)
-    elif page == "📊 Analytics":
+    elif page == "Analytics":
         show_analytics_page(service)
-    elif page == "📋 Part Details":
+    elif page == "Part Details":
         show_part_details_page(service)
-    elif page == "🧪 BLAST Search":
+    elif page == "BLAST Search":
         show_blast_page(service)
-    elif page == "📁 Data Management":
+    elif page == "Data Management":
         show_data_management_page(service)
 
 
