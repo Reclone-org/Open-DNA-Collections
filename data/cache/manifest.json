@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0.0",
+  "source_repo": "Reclone-org/Open-DNA-Collections",
+  "source_branch": "main",
+  "source_commit": "7b8cc835777f37c91b15146f135514949054a837",
+  "generated_at": "2026-04-23T16:20:57.768088+00:00",
+  "files": [
+    {
+      "path": "data/cache/main.parquet",
+      "size_bytes": 15996,
+      "sha256": "24b714e3821f623b91ddcac9a67d7dfd766d6c7c783a8f4084f9114f75ece2b0"
+    },
+    {
+      "path": "data/cache/platemaps.parquet",
+      "size_bytes": 22387,
+      "sha256": "418d3fef286867249e923b0ebd7b8045a14fb279854c6eb73336b80b1528463f"
+    },
+    {
+      "path": "data/cache/platemap_lookup_odc.parquet",
+      "size_bytes": 8708,
+      "sha256": "729cdaf7ff30cadb32d0b8ea917e53643ba26c1051d799f51cecc39997e91273"
+    },
+    {
+      "path": "data/cache/platemap_lookup_bbf.parquet",
+      "size_bytes": 9109,
+      "sha256": "221fce7a1b768c27b6f8334c3e14f4421f615724895641d4fbf4208b1e1992e7"
+    },
+    {
+      "path": "data/cache/genbank_index.parquet",
+      "size_bytes": 73295,
+      "sha256": "abd0d59b518c16e1d062385071c34eaada360939a5ac4edb4941a32c98cdf520"
+    },
+    {
+      "path": "data/cache/blast_local_sequences.fasta",
+      "size_bytes": 7826825,
+      "sha256": "86ee3da0cab4924cac0d9ce51d31d03420147b21b002facae65dc9eaa70d23a7"
+    }
+  ],
+  "counts": {
+    "main_rows": 337,
+    "platemap_rows": 770,
+    "platemap_lookup_odc": 329,
+    "platemap_lookup_bbf": 336,
+    "genbank_rows": 2387
+  }
+}

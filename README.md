@@ -29,7 +29,22 @@ To run the database locally:
 
 ```bash
 pip install -r requirements.txt
+python scripts/sync_upstream_data.py --base-dir . --source local
 streamlit run streamlit_app.py
+```
+
+### Cache Sync and Upstream Source
+
+The app now loads data from cache artifacts in `data/cache/` for faster startup/search.
+
+- Upstream sync source: `Reclone-org/Open-DNA-Collections` on `main`
+- Sync script: `scripts/sync_upstream_data.py`
+- Scheduled workflow: `.github/workflows/sync_upstream_cache.yml`
+
+Run an upstream sync locally:
+
+```bash
+python scripts/sync_upstream_data.py --base-dir . --source upstream --repo Reclone-org/Open-DNA-Collections --branch main
 ```
 
 ## Sheets Backend
