@@ -6,6 +6,7 @@ from __future__ import annotations
 import base64
 import json
 import logging
+import re
 import time
 from pathlib import Path
 from typing import Dict, Optional
@@ -15,6 +16,7 @@ import plotly.express as px
 import streamlit as st
 
 from services import BlastService, DNACollectionDataService
+from services.data_processing import normalize_id
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -37,6 +39,7 @@ st.markdown(
     }
     .sequence-box {
         background-color: #f8f9fa;
+        color: #0f172a !important;
         padding: 1rem;
         border-radius: 0.5rem;
         font-family: 'Courier New', monospace;
@@ -44,6 +47,9 @@ st.markdown(
         word-break: break-all;
         border: 1px solid #dee2e6;
         white-space: pre-wrap;
+    }
+    .sequence-box * {
+        color: #0f172a !important;
     }
     .freshness-card {
         background: #f1f5f9;
@@ -99,6 +105,41 @@ def format_sequence(sequence: str, line_length: int = 80) -> str:
         line = sequence[i : i + line_length]
         lines.append(f"{i + 1:>8}: {line}")
     return "\n".join(lines)
+
+
+def extract_collection_part_id(subject_id: object) -> Optional[str]:
+    if subject_id is None:
+        return None
+    text = str(subject_id).strip()
+    if not text:
+        return None
+
+    for pattern in (r"ODC[_-]?\d+", r"BBF10K[_-]?\d+"):
+        match = re.search(pattern, text, flags=re.IGNORECASE)
+        if match:
+            return normalize_id(match.group(0))
+
+    return normalize_id(text)
+
+
+def build_part_metadata_lookup(main_df: pd.DataFrame) -> Dict[str, Dict[str, str]]:
+    lookup: Dict[str, Dict[str, str]] = {}
+    if main_df.empty:
+        return lookup
+
+    for _, row in main_df.iterrows():
+        row_meta = {
+            "Part Name": row.get("Name"),
+            "Collection": row.get("Collection"),
+            "ODC ID": row.get("ODC ID"),
+            "BBF ID": row.get("BBF ID"),
+        }
+        for key_col in ("ODC_ID_NORM", "BBF_ID_NORM"):
+            key = row.get(key_col)
+            if pd.notna(key) and key and key not in lookup:
+                lookup[str(key)] = row_meta
+
+    return lookup
 
 
 def show_data_freshness(service: DNACollectionDataService) -> None:
@@ -276,7 +317,7 @@ def show_search_page(service: DNACollectionDataService) -> None:
 
     st.dataframe(platemap_summary_df, use_container_width=True)
 
-    with st.expander("🔬 Detailed Platemap Viewer"):
+    with st.expander("Detailed Platemap Viewer"):
         keys = platemap_summary_df["Platemap_Key"].tolist()
         selected_key = st.selectbox("Select Platemap:", keys)
         if selected_key:
@@ -587,6 +628,42 @@ Optional NCBI fallback can be used when local BLAST has no hits.
         hits = result.get("hits", [])
         if hits:
             hits_df = pd.DataFrame(hits)
+            part_lookup = build_part_metadata_lookup(service.main_df)
+
+            hits_df["Matched Part ID"] = hits_df["subject_id"].apply(extract_collection_part_id)
+            hits_df["Part Name"] = hits_df["Matched Part ID"].map(
+                lambda key: part_lookup.get(key, {}).get("Part Name")
+            )
+            hits_df["Collection"] = hits_df["Matched Part ID"].map(
+                lambda key: part_lookup.get(key, {}).get("Collection")
+            )
+            hits_df["ODC ID"] = hits_df["Matched Part ID"].map(
+                lambda key: part_lookup.get(key, {}).get("ODC ID")
+            )
+            hits_df["BBF ID"] = hits_df["Matched Part ID"].map(
+                lambda key: part_lookup.get(key, {}).get("BBF ID")
+            )
+
+            preferred_order = [
+                "subject_id",
+                "Part Name",
+                "Collection",
+                "Matched Part ID",
+                "ODC ID",
+                "BBF ID",
+                "identity",
+                "alignment_length",
+                "evalue",
+                "bitscore",
+                "qcov",
+                "sstart",
+                "send",
+            ]
+            ordered_cols = [c for c in preferred_order if c in hits_df.columns] + [
+                c for c in hits_df.columns if c not in preferred_order
+            ]
+            hits_df = hits_df[ordered_cols]
+
             st.dataframe(hits_df, use_container_width=True)
             st.download_button(
                 "Download Hits (CSV)",
