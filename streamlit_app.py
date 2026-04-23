@@ -107,39 +107,119 @@ def format_sequence(sequence: str, line_length: int = 80) -> str:
     return "\n".join(lines)
 
 
-def extract_collection_part_id(subject_id: object) -> Optional[str]:
+def extract_subject_candidates(subject_id: object) -> list[str]:
     if subject_id is None:
-        return None
+        return []
+
     text = str(subject_id).strip()
     if not text:
-        return None
+        return []
+
+    candidates: list[str] = []
+
+    def _add(value: object) -> None:
+        if value is None:
+            return
+        val = str(value).strip()
+        if val and val not in candidates:
+            candidates.append(val)
+
+    _add(text)
+    _add(text.upper())
+
+    for token in re.split(r"[|,\s;]+", text):
+        token = token.strip()
+        if token:
+            _add(token)
+            _add(token.upper())
 
     for pattern in (r"ODC[_-]?\d+", r"BBF10K[_-]?\d+"):
-        match = re.search(pattern, text, flags=re.IGNORECASE)
-        if match:
-            return normalize_id(match.group(0))
+        for match in re.finditer(pattern, text, flags=re.IGNORECASE):
+            _add(match.group(0))
 
-    return normalize_id(text)
+    for raw in list(candidates):
+        norm = normalize_id(raw)
+        if norm:
+            _add(norm)
+            _add(norm.upper())
+            _add(f"lcl|{norm}")
+
+    return candidates
 
 
-def build_part_metadata_lookup(main_df: pd.DataFrame) -> Dict[str, Dict[str, str]]:
+def build_part_metadata_lookup(
+    main_df: pd.DataFrame, genbank_index_df: pd.DataFrame
+) -> Dict[str, Dict[str, str]]:
     lookup: Dict[str, Dict[str, str]] = {}
-    if main_df.empty:
-        return lookup
+    by_norm: Dict[str, Dict[str, str]] = {}
 
-    for _, row in main_df.iterrows():
-        row_meta = {
-            "Part Name": row.get("Name"),
-            "Collection": row.get("Collection"),
-            "ODC ID": row.get("ODC ID"),
-            "BBF ID": row.get("BBF ID"),
-        }
-        for key_col in ("ODC_ID_NORM", "BBF_ID_NORM"):
-            key = row.get(key_col)
-            if pd.notna(key) and key and key not in lookup:
-                lookup[str(key)] = row_meta
+    def add_key(key: object, meta: Dict[str, str]) -> None:
+        if key is None:
+            return
+        value = str(key).strip()
+        if not value:
+            return
+        if value not in lookup:
+            lookup[value] = meta
+        upper = value.upper()
+        if upper not in lookup:
+            lookup[upper] = meta
+
+    if not main_df.empty:
+        for _, row in main_df.iterrows():
+            row_meta = {
+                "Part Name": row.get("Name"),
+                "Collection": row.get("Collection"),
+                "ODC ID": row.get("ODC ID"),
+                "BBF ID": row.get("BBF ID"),
+            }
+
+            odc_norm = row.get("ODC_ID_NORM")
+            bbf_norm = row.get("BBF_ID_NORM")
+
+            if pd.notna(odc_norm) and odc_norm:
+                by_norm[str(odc_norm)] = row_meta
+            if pd.notna(bbf_norm) and bbf_norm:
+                by_norm[str(bbf_norm)] = row_meta
+
+            add_key(row.get("ODC ID"), row_meta)
+            add_key(row.get("BBF ID"), row_meta)
+            add_key(odc_norm, row_meta)
+            add_key(bbf_norm, row_meta)
+
+    if not genbank_index_df.empty:
+        for _, row in genbank_index_df.iterrows():
+            part_norm = normalize_id(row.get("part_id"))
+            record_norm = normalize_id(row.get("record_id"))
+            base_meta = by_norm.get(str(part_norm)) or by_norm.get(str(record_norm))
+
+            row_meta = base_meta or {
+                "Part Name": row.get("description") or row.get("record_id") or row.get("part_id"),
+                "Collection": None,
+                "ODC ID": part_norm if str(part_norm).startswith("ODC_") else None,
+                "BBF ID": part_norm if str(part_norm).startswith("BBF10K_") else None,
+            }
+
+            add_key(row.get("part_id"), row_meta)
+            add_key(row.get("record_id"), row_meta)
+            add_key(part_norm, row_meta)
+            add_key(record_norm, row_meta)
+            if part_norm:
+                add_key(f"lcl|{part_norm}", row_meta)
+            if record_norm:
+                add_key(f"lcl|{record_norm}", row_meta)
 
     return lookup
+
+
+def resolve_subject_metadata(
+    subject_id: object, lookup: Dict[str, Dict[str, str]]
+) -> tuple[Optional[str], Dict[str, str]]:
+    for candidate in extract_subject_candidates(subject_id):
+        meta = lookup.get(candidate)
+        if meta:
+            return candidate, meta
+    return None, {}
 
 
 def show_data_freshness(service: DNACollectionDataService) -> None:
@@ -628,27 +708,20 @@ Optional NCBI fallback can be used when local BLAST has no hits.
         hits = result.get("hits", [])
         if hits:
             hits_df = pd.DataFrame(hits)
-            part_lookup = build_part_metadata_lookup(service.main_df)
+            part_lookup = build_part_metadata_lookup(service.main_df, service.genbank_index_df)
+            resolved = hits_df["subject_id"].apply(lambda sid: resolve_subject_metadata(sid, part_lookup))
 
-            hits_df["Matched Part ID"] = hits_df["subject_id"].apply(extract_collection_part_id)
-            hits_df["Part Name"] = hits_df["Matched Part ID"].map(
-                lambda key: part_lookup.get(key, {}).get("Part Name")
-            )
-            hits_df["Collection"] = hits_df["Matched Part ID"].map(
-                lambda key: part_lookup.get(key, {}).get("Collection")
-            )
-            hits_df["ODC ID"] = hits_df["Matched Part ID"].map(
-                lambda key: part_lookup.get(key, {}).get("ODC ID")
-            )
-            hits_df["BBF ID"] = hits_df["Matched Part ID"].map(
-                lambda key: part_lookup.get(key, {}).get("BBF ID")
-            )
+            hits_df["Matched Key"] = resolved.apply(lambda item: item[0])
+            hits_df["Part Name"] = resolved.apply(lambda item: item[1].get("Part Name"))
+            hits_df["Collection"] = resolved.apply(lambda item: item[1].get("Collection"))
+            hits_df["ODC ID"] = resolved.apply(lambda item: item[1].get("ODC ID"))
+            hits_df["BBF ID"] = resolved.apply(lambda item: item[1].get("BBF ID"))
 
             preferred_order = [
                 "subject_id",
                 "Part Name",
                 "Collection",
-                "Matched Part ID",
+                "Matched Key",
                 "ODC ID",
                 "BBF ID",
                 "identity",
