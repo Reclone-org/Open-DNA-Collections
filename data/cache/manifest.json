@@ -2,8 +2,8 @@
   "schema_version": "1.0.0",
   "source_repo": "Reclone-org/Open-DNA-Collections",
   "source_branch": "main",
-  "source_commit": "8b4237b008ad03aa5ecf2bef56c4f2df56bb2b1c",
-  "generated_at": "2026-10-12T11:56:12.823829+00:00",
+  "source_commit": "5105897bf138d8aa1d5b63e2c4eaa82b5f51557f",
+  "generated_at": "2026-10-13T11:45:23.435799+00:00",
   "files": [
     {
       "path": "data/cache/main.parquet",
